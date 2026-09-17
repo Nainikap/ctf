@@ -30,6 +30,7 @@ export default function UserScreen({ onRequestCoordinator }) {
   const [result, setResult] = useState(null);
   const [isExpired, setIsExpired] = useState(false);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
+  const [isUnlocking, setIsUnlocking] = useState(false);
 
   useEffect(() => {
     const active = getActiveSession();
@@ -61,7 +62,7 @@ export default function UserScreen({ onRequestCoordinator }) {
     }
   };
 
-  const handleUnlock = (e) => {
+  const handleUnlock = async (e) => {
     e.preventDefault();
     setErrorMessage('');
     const code = otpInput.trim();
@@ -70,32 +71,39 @@ export default function UserScreen({ onRequestCoordinator }) {
       return;
     }
 
-    const res = unlockQuestionsWithOTP(code);
-    if (!res.success) {
-      setErrorMessage(res.error);
-      return;
-    }
-
-    setSession(res.data);
-    setIsExpired(false);
-    setResult(null);
-
-    const savedAnswers = localStorage.getItem(`ctf_answers_${res.data.code}`);
-    if (savedAnswers) {
-      try {
-        setAnswers(JSON.parse(savedAnswers));
-      } catch (e) {
-        console.error(e);
+    setIsUnlocking(true);
+    try {
+      const res = await unlockQuestionsWithOTP(code);
+      if (!res.success) {
+        setErrorMessage(res.error);
+        return;
       }
-    } else {
-      setAnswers({});
+
+      setSession(res.data);
+      setIsExpired(false);
+      setResult(null);
+
+      const savedAnswers = localStorage.getItem(`ctf_answers_${res.data.code}`);
+      if (savedAnswers) {
+        try {
+          setAnswers(JSON.parse(savedAnswers));
+        } catch (e) {
+          console.error(e);
+        }
+      } else {
+        setAnswers({});
+      }
+    } catch (err) {
+      setErrorMessage('Failed to connect to assessment server. Please check connection.');
+    } finally {
+      setIsUnlocking(false);
     }
   };
 
-  const handleExpire = () => {
+  const handleExpire = async () => {
     if (session && !result) {
-      markOTPExpired(session.code);
-      const subRes = submitAssessment(session.code, answers);
+      await markOTPExpired(session.code);
+      const subRes = await submitAssessment(session.code, answers);
       setIsExpired(true);
       if (subRes.success) {
         setResult(subRes);
@@ -103,16 +111,19 @@ export default function UserScreen({ onRequestCoordinator }) {
     }
   };
 
-  const handleConfirmSubmit = () => {
+  const handleConfirmSubmit = async () => {
     setShowConfirmModal(false);
     setIsSubmitting(true);
-    if (session) {
-      const subRes = submitAssessment(session.code, answers);
-      if (subRes.success) {
-        setResult(subRes);
+    try {
+      if (session) {
+        const subRes = await submitAssessment(session.code, answers);
+        if (subRes.success) {
+          setResult(subRes);
+        }
       }
+    } finally {
+      setIsSubmitting(false);
     }
-    setIsSubmitting(false);
   };
 
   const handleBackToEntry = () => {
@@ -576,9 +587,10 @@ export default function UserScreen({ onRequestCoordinator }) {
 
             <button
               type="submit"
-              className="w-full py-3 rounded-lg bg-red-600 hover:bg-red-700 text-white font-bold text-base shadow flex items-center justify-center gap-2"
+              disabled={isUnlocking}
+              className="w-full py-3 rounded-lg bg-red-600 hover:bg-red-700 text-white font-bold text-base shadow flex items-center justify-center gap-2 disabled:opacity-75"
             >
-              <span>Unlock 5 Questions</span>
+              <span>{isUnlocking ? 'Verifying OTP...' : 'Unlock 5 Questions'}</span>
               <ArrowRight className="w-5 h-5" />
             </button>
           </form>

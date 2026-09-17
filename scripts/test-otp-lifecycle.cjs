@@ -1,118 +1,154 @@
 const fs = require('fs');
 const path = require('path');
+const { handleApiRequest, loadState, saveState } = require('../server/apiHandler.cjs');
 
-// Mock localStorage for node environment
-const storage = {};
-global.localStorage = {
-  getItem: (k) => (storage[k] !== undefined ? storage[k] : null),
-  setItem: (k, v) => { storage[k] = String(v); },
-  removeItem: (k) => { delete storage[k]; },
-  clear: () => { Object.keys(storage).forEach(k => delete storage[k]); }
-};
-global.window = {
-  dispatchEvent: () => {}
-};
-global.Event = function(type) { return { type }; };
+// Mock request / response helper for API tests
+function mockRequest(method, url, body = null) {
+  return new Promise((resolve) => {
+    const { EventEmitter } = require('events');
+    const req = new EventEmitter();
+    req.method = method;
+    req.url = url;
+    req.headers = { host: 'localhost:3000' };
 
-// Import question bank
-const questionBank = require('../src/data/questions.json');
+    const res = {
+      statusCode: 200,
+      headers: {},
+      body: '',
+      writeHead(code, headers) {
+        this.statusCode = code;
+        this.headers = headers || {};
+      },
+      end(data) {
+        if (data) this.body += data;
+        let parsed = null;
+        try {
+          parsed = JSON.parse(this.body);
+        } catch (e) {
+          parsed = this.body;
+        }
+        resolve({ statusCode: this.statusCode, headers: this.headers, data: parsed });
+      }
+    };
 
-// Replicate or require service logic
-function pickRandomItems(array, count) {
-  const cloned = [...array];
-  const picked = [];
-  for (let i = 0; i < count && cloned.length > 0; i++) {
-    const randIdx = Math.floor(Math.random() * cloned.length);
-    picked.push(cloned.splice(randIdx, 1)[0]);
+    setImmediate(async () => {
+      await handleApiRequest(req, res);
+    });
+
+    if (body) {
+      setImmediate(() => {
+        req.emit('data', JSON.stringify(body));
+        req.emit('end');
+      });
+    } else {
+      setImmediate(() => {
+        req.emit('end');
+      });
+    }
+  });
+}
+
+async function runTests() {
+  console.log('=== TEST 1: Question Pool Verification ===');
+  const questionBank = require('../src/data/questions.json');
+  console.log('Total Easy in Bank:', questionBank.easy.length);
+  console.log('Total Medium in Bank:', questionBank.medium.length);
+  console.log('Total Hard in Bank:', questionBank.hard.length);
+  if (questionBank.easy.length !== 150 || questionBank.medium.length !== 150 || questionBank.hard.length !== 50) {
+    throw new Error('Question bank counts do not match expected 150/150/50');
   }
-  return picked;
-}
+  console.log('PASS: Question bank counts are exactly 150 Easy, 150 Medium, 50 Hard.');
 
-function generateRandomQuestionSet() {
-  const easy = pickRandomItems(questionBank.easy, 2);
-  const medium = pickRandomItems(questionBank.medium, 2);
-  const hard = pickRandomItems(questionBank.hard, 1);
-  return [
-    ...easy.map(q => ({ ...q, tierOrder: 1 })),
-    ...medium.map(q => ({ ...q, tierOrder: 2 })),
-    ...hard.map(q => ({ ...q, tierOrder: 3 }))
-  ];
-}
+  console.log('\n=== TEST 2: Network Info & Diagnostics ===');
+  const netRes = await mockRequest('GET', '/api/network-info');
+  console.log('Local URL:', netRes.data.localUrl);
+  console.log('Available Network Interfaces:', netRes.data.networkUrls.length);
+  if (!netRes.data.localUrl) throw new Error('Missing network info');
+  console.log('PASS: Network info endpoint works.');
 
-console.log('=== TEST 1: Question Pool Verification ===');
-console.log('Total Easy in Bank:', questionBank.easy.length);
-console.log('Total Medium in Bank:', questionBank.medium.length);
-console.log('Total Hard in Bank:', questionBank.hard.length);
-if (questionBank.easy.length !== 150 || questionBank.medium.length !== 150 || questionBank.hard.length !== 50) {
-  throw new Error('Question bank counts do not match expected 150/150/50');
-}
-console.log('PASS: Question bank counts are exactly 150 Easy, 150 Medium, 50 Hard.');
+  console.log('\n=== TEST 3: Cross-Device OTP Synchronization Simulation ===');
+  
+  // Step 3a: Device 1 (Coordinator phone) generates an OTP
+  console.log('Step 3a: Phone 1 (Coordinator) generates OTP for "Mobile Candidate 1"');
+  const genRes = await mockRequest('POST', '/api/otps', {
+    candidateName: 'Mobile Candidate 1',
+    durationMinutes: 20
+  });
 
-console.log('\n=== TEST 2: 5 Random Questions Structure ===');
-for (let run = 1; run <= 10; run++) {
-  const qs = generateRandomQuestionSet();
-  if (qs.length !== 5) throw new Error('Expected exactly 5 questions');
-  const easyCount = qs.filter(q => q.difficulty === 'easy').length;
-  const medCount = qs.filter(q => q.difficulty === 'medium').length;
-  const hardCount = qs.filter(q => q.difficulty === 'hard').length;
-  if (easyCount !== 2 || medCount !== 2 || hardCount !== 1) {
-    throw new Error(`Run ${run} failed difficulty distribution: ${easyCount}/${medCount}/${hardCount}`);
+  if (genRes.statusCode !== 201 || !genRes.data.record) {
+    throw new Error('Failed to generate OTP via API');
   }
-}
-console.log('PASS: 10 test runs verified 5 questions distribution (2 Easy, 2 Medium, 1 Hard) consistently.');
+  const generatedCode = genRes.data.record.code;
+  const generatedId = genRes.data.record.id;
+  console.log(`Generated OTP code: ${generatedCode} (ID: ${generatedId})`);
 
-console.log('\n=== TEST 3: OTP Lifecycle & 20-Min Expiration ===');
-let otps = [];
-const otp1 = {
-  id: 'otp_test_1',
-  code: '123456',
-  candidate: 'Candidate A',
-  createdAt: Date.now(),
-  durationMinutes: 20,
-  status: 'ACTIVE_UNUSED',
-  firstUsedAt: null,
-  expiresAt: null,
-  assignedQuestions: []
-};
-otps.push(otp1);
+  // Step 3b: Device 2 (Candidate phone - with zero local storage of Device 1)
+  console.log(`Step 3b: Phone 2 (Candidate) enters OTP "${generatedCode}" on separate device`);
+  const unlockRes = await mockRequest('POST', '/api/otps/unlock', {
+    code: generatedCode
+  });
 
-// Candidate unlocks OTP
-console.log('Step 3a: Candidate enters OTP 123456');
-const now = Date.now();
-otp1.status = 'IN_PROGRESS';
-otp1.firstUsedAt = now;
-otp1.expiresAt = now + (20 * 60 * 1000);
-otp1.assignedQuestions = generateRandomQuestionSet();
-
-console.log('Unlocked questions count:', otp1.assignedQuestions.length);
-console.log('Expires in (ms):', otp1.expiresAt - now);
-if (otp1.assignedQuestions.length !== 5) throw new Error('Failed to assign 5 questions');
-
-// Simulate 20 minutes passing (20 min + 1 sec)
-console.log('\nStep 3b: Fast-forward time past 20 minutes');
-const timeAfter20Min = now + (20 * 60 * 1000) + 1000;
-const hasExpired = timeAfter20Min >= otp1.expiresAt;
-console.log('Has 20 min expired?', hasExpired);
-if (!hasExpired) throw new Error('Expiration calculation error');
-
-// Mark expired
-otp1.status = 'EXPIRED';
-
-// Candidate tries to re-enter OTP
-console.log('\nStep 3c: Candidate tries to re-enter OTP 123456 after expiration');
-function attemptReUnlock(code) {
-  const match = otps.find(o => o.code === code);
-  if (match.status === 'EXPIRED') {
-    return { success: false, error: 'This OTP has expired (20-minute limit exceeded). You cannot reuse this OTP or get the same questions.' };
+  if (unlockRes.statusCode !== 200 || !unlockRes.data.success) {
+    throw new Error(`Phone 2 failed to unlock OTP: ${JSON.stringify(unlockRes.data)}`);
   }
-  return { success: true };
+  console.log('Phone 2 successfully unlocked 5 questions cross-device!');
+  console.log('Candidate assigned:', unlockRes.data.data.candidate);
+  console.log('Questions received:', unlockRes.data.data.questions.length);
+  if (unlockRes.data.data.questions.length !== 5) {
+    throw new Error('Expected 5 questions');
+  }
+
+  // Step 3c: Device 1 (Coordinator phone) checks dashboard
+  console.log('\nStep 3c: Phone 1 (Coordinator) checks live dashboard');
+  const dashRes = await mockRequest('GET', '/api/otps');
+  const matchedOnDash = dashRes.data.otps.find(o => o.code === generatedCode);
+  if (!matchedOnDash || matchedOnDash.status !== 'IN_PROGRESS') {
+    throw new Error('Coordinator dashboard did not reflect IN_PROGRESS status from Phone 2');
+  }
+  console.log(`PASS: Coordinator sees Phone 2 is IN_PROGRESS (Started at: ${new Date(matchedOnDash.firstUsedAt).toLocaleTimeString()})`);
+
+  // Step 3d: Device 2 submits assessment
+  console.log('\nStep 3d: Phone 2 submits answers');
+  const q1 = unlockRes.data.data.questions[0];
+  const q2 = unlockRes.data.data.questions[1];
+  const answers = {
+    [q1.id]: q1.answer, // correct
+    [q2.id]: 'Z. Wrong Option' // incorrect
+  };
+  const submitRes = await mockRequest('POST', '/api/otps/submit', {
+    code: generatedCode,
+    answers
+  });
+  if (submitRes.statusCode !== 200 || !submitRes.data.success) {
+    throw new Error('Failed to submit assessment from Phone 2');
+  }
+  console.log('Submission score:', submitRes.data.score);
+  console.log('PASS: Submission scored successfully.');
+
+  // Step 3e: Device 1 checks dashboard after submission
+  console.log('\nStep 3e: Phone 1 (Coordinator) checks completed status');
+  const dashRes2 = await mockRequest('GET', '/api/otps');
+  const matchedOnDash2 = dashRes2.data.otps.find(o => o.code === generatedCode);
+  if (!matchedOnDash2 || matchedOnDash2.status !== 'COMPLETED') {
+    throw new Error('Coordinator dashboard did not reflect COMPLETED status from Phone 2');
+  }
+  console.log(`PASS: Coordinator sees Phone 2 is COMPLETED with score ${matchedOnDash2.score.correct}/${matchedOnDash2.score.total}`);
+
+  // Step 3f: Device 2 (or any other device) attempts to re-enter the completed OTP
+  console.log('\nStep 3f: Attempting to reuse completed OTP on any device');
+  const reuseRes = await mockRequest('POST', '/api/otps/unlock', {
+    code: generatedCode
+  });
+  if (reuseRes.statusCode === 200) {
+    throw new Error('FAILED: Completed OTP was allowed to be re-unlocked!');
+  }
+  console.log('Rejected as expected:', reuseRes.data.error);
+  console.log('PASS: Replay protection prevents completed OTP reuse cross-device.');
+
+  console.log('\n=== ALL CROSS-DEVICE VERIFICATION TESTS PASSED SUCCESSFULLY! ===');
 }
 
-const reattempt = attemptReUnlock('123456');
-console.log('Re-attempt result:', reattempt);
-if (reattempt.success) {
-  throw new Error('FAILED: Expired OTP was allowed to be reused!');
-}
-console.log('PASS: Re-entering expired OTP is successfully blocked!');
-
-console.log('\nALL VERIFICATION CHECKS PASSED SUCCESSFULLY!');
+runTests().catch(err => {
+  console.error('TEST FAILED:', err);
+  process.exit(1);
+});

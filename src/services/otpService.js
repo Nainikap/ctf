@@ -1,14 +1,24 @@
+import { 
+  doc, 
+  getDoc, 
+  setDoc, 
+  updateDoc, 
+  deleteDoc, 
+  collection, 
+  getDocs, 
+  onSnapshot 
+} from 'firebase/firestore';
+import { db } from '../firebase';
 import questionBank from '../data/questions.json';
 
 const STORAGE_KEY = 'ctf_otp_registry_v1';
 const ACTIVE_SESSION_KEY = 'ctf_active_candidate_session_v1';
 const COORDINATOR_PIN_KEY = 'ctf_coordinator_pin_v1';
-
-// Default coordinator PIN
 const DEFAULT_COORDINATOR_PIN = 'admin123';
+const API_BASE = '/api';
 
 /**
- * Base64URL helper for JWT generation (pure client-side)
+ * Base64URL helper for JWT generation
  */
 function base64UrlEncode(str) {
   return btoa(unescape(encodeURIComponent(str)))
@@ -17,22 +27,10 @@ function base64UrlEncode(str) {
     .replace(/=+$/, '');
 }
 
-function base64UrlDecode(str) {
-  let base64 = str.replace(/-/g, '+').replace(/_/g, '/');
-  while (base64.length % 4) {
-    base64 += '=';
-  }
-  return decodeURIComponent(escape(atob(base64)));
-}
-
-/**
- * Generate a client-verifiable JWT token
- */
 export function createJWT(payload, secret = 'ctf_secret_salt_2026') {
   const header = { alg: 'HS256', typ: 'JWT' };
   const encodedHeader = base64UrlEncode(JSON.stringify(header));
   const encodedPayload = base64UrlEncode(JSON.stringify(payload));
-  // Simple deterministic client signature hash
   let hash = 0;
   const signatureInput = `${encodedHeader}.${encodedPayload}.${secret}`;
   for (let i = 0; i < signatureInput.length; i++) {
@@ -42,33 +40,6 @@ export function createJWT(payload, secret = 'ctf_secret_salt_2026') {
   }
   const signature = base64UrlEncode(hash.toString(16));
   return `${encodedHeader}.${encodedPayload}.${signature}`;
-}
-
-/**
- * Load OTP registry from localStorage
- */
-export function getStoredOTPs() {
-  try {
-    const raw = localStorage.getItem(STORAGE_KEY);
-    if (!raw) return [];
-    return JSON.parse(raw);
-  } catch (err) {
-    console.error('Failed to parse OTP storage', err);
-    return [];
-  }
-}
-
-/**
- * Save OTP registry to localStorage
- */
-export function saveOTPs(otps) {
-  try {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(otps));
-    // Dispatch custom event for cross-component and cross-tab update
-    window.dispatchEvent(new Event('ctf_otp_updated'));
-  } catch (err) {
-    console.error('Failed to save OTP storage', err);
-  }
 }
 
 /**
@@ -88,9 +59,9 @@ function pickRandomItems(array, count) {
  * Selects 5 questions: 2 Easy, 2 Medium, 1 Hard
  */
 export function generateRandomQuestionSet() {
-  const easyPicked = pickRandomItems(questionBank.easy, 2);
-  const mediumPicked = pickRandomItems(questionBank.medium, 2);
-  const hardPicked = pickRandomItems(questionBank.hard, 1);
+  const easyPicked = pickRandomItems(questionBank.easy || [], 2);
+  const mediumPicked = pickRandomItems(questionBank.medium || [], 2);
+  const hardPicked = pickRandomItems(questionBank.hard || [], 1);
 
   return [
     ...easyPicked.map(q => ({ ...q, tierOrder: 1 })),
@@ -100,224 +71,436 @@ export function generateRandomQuestionSet() {
 }
 
 /**
- * Generate a new unique OTP by the Coordinator
+ * Local cache helpers
  */
-export function coordinatorGenerateOTP(candidateName = '', durationMinutes = 20) {
-  const otps = getStoredOTPs();
+function getLocalOTPs() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch (err) {
+    return [];
+  }
+}
 
-  // Generate 6-digit numeric OTP that is unique
-  let code = '';
-  let attempts = 0;
-  do {
-    code = Math.floor(100000 + Math.random() * 900000).toString();
-    attempts++;
-  } while (otps.some(o => o.code === code) && attempts < 100);
+export function saveOTPs(otps) {
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(otps));
+    window.dispatchEvent(new Event('ctf_otp_updated'));
+  } catch (err) {
+    console.error('Failed to save local OTP storage', err);
+  }
+}
 
-  const id = 'otp_' + Date.now() + '_' + Math.random().toString(36).substring(2, 6);
+/**
+ * Fetch Network Info (LAN IP for cross-device access)
+ */
+export async function getNetworkInfo() {
+  try {
+    const res = await fetch(`${API_BASE}/network-info`);
+    if (res.ok) {
+      return await res.json();
+    }
+  } catch (err) {
+    // ignore
+  }
+  return { localUrl: window.location.origin, networkUrls: [] };
+}
+
+/**
+ * Firestore DB: Load all OTPs (for Coordinator)
+ */
+export async function getStoredOTPs() {
+  // 1. Try Firestore DB first
+  try {
+    const querySnapshot = await getDocs(collection(db, 'otps'));
+    const firestoreOtps = [];
+    querySnapshot.forEach((docSnap) => {
+      firestoreOtps.push(docSnap.data());
+    });
+
+    // Sort by createdAt descending
+    firestoreOtps.sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+
+    if (firestoreOtps.length > 0) {
+      saveOTPs(firestoreOtps);
+      return firestoreOtps;
+    }
+  } catch (err) {
+    console.warn('Firestore getStoredOTPs error, trying backend/local fallback:', err.message);
+  }
+
+  // 2. Try Local API Server fallback
+  try {
+    const res = await fetch(`${API_BASE}/otps`);
+    if (res.ok) {
+      const data = await res.json();
+      if (data.success && Array.isArray(data.otps)) {
+        saveOTPs(data.otps);
+        return data.otps;
+      }
+    }
+  } catch (err) {
+    // ignore
+  }
+
+  // 3. Local storage cache fallback
+  return getLocalOTPs();
+}
+
+/**
+ * Firestore DB: Generate and register a new OTP with 5 assigned question references
+ */
+export async function coordinatorGenerateOTP(candidateName = '', durationMinutes = 20) {
   const now = Date.now();
+  const code = Math.floor(100000 + Math.random() * 900000).toString();
+  const id = 'otp_' + now + '_' + Math.random().toString(36).substring(2, 6);
+
+  // Assign the 5 questions (2 Easy, 2 Medium, 1 Hard) referenced by this OTP
+  const questions = generateRandomQuestionSet();
 
   const payload = {
     id,
     otp: code,
-    candidate: candidateName || `Participant #${otps.length + 1}`,
+    candidate: candidateName || `Participant #${now.toString().slice(-4)}`,
     iat: now,
-    durationMs: durationMinutes * 60 * 1000
+    durationMs: (Number(durationMinutes) || 20) * 60 * 1000
   };
-
   const jwt = createJWT(payload);
 
   const newRecord = {
     id,
     code,
     jwt,
-    candidate: candidateName || `Participant #${otps.length + 1}`,
+    candidate: candidateName || `Participant #${now.toString().slice(-4)}`,
     createdAt: now,
     durationMinutes: Number(durationMinutes) || 20,
     status: 'ACTIVE_UNUSED', // ACTIVE_UNUSED | IN_PROGRESS | COMPLETED | EXPIRED | REVOKED
     firstUsedAt: null,
     expiresAt: null,
-    assignedQuestions: [], // Will be generated when first unlocked
+    assignedQuestions: questions, // Exact 5 questions referenced in the database
     submittedAnswers: {},
     score: null
   };
 
-  otps.unshift(newRecord);
-  saveOTPs(otps);
+  // 1. Write to Firestore DB
+  let savedToFirestore = false;
+  try {
+    await setDoc(doc(db, 'otps', code), newRecord);
+    savedToFirestore = true;
+    console.log('OTP registered in Firestore DB at otps/' + code);
+  } catch (err) {
+    console.warn('Firestore setDoc failed, saving to backup server/local:', err.message);
+  }
+
+  // 2. Also write to backend API for resilience
+  try {
+    await fetch(`${API_BASE}/otps`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ candidateName, durationMinutes })
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  // 3. Save to local cache
+  const local = getLocalOTPs();
+  local.unshift(newRecord);
+  saveOTPs(local);
+
   return newRecord;
 }
 
 /**
- * Verify & Unlock questions for a given OTP or JWT
+ * Firestore DB: Unlock questions with OTP on ANY device across networks
  */
-export function unlockQuestionsWithOTP(inputCode) {
+export async function unlockQuestionsWithOTP(inputCode) {
   const cleaned = (inputCode || '').trim();
   if (!cleaned) {
     return { success: false, error: 'Please enter a valid OTP or JWT token.' };
   }
 
-  const otps = getStoredOTPs();
   const now = Date.now();
 
-  // Match either by code or jwt
-  const recordIndex = otps.findIndex(o => o.code === cleaned || o.jwt === cleaned);
-  if (recordIndex === -1) {
-    return { 
-      success: false, 
-      error: 'Invalid OTP. Please check the code provided by your coordinator.' 
-    };
-  }
+  // 1. Query Firestore DB directly for this OTP
+  try {
+    const docRef = doc(db, 'otps', cleaned);
+    const docSnap = await getDoc(docRef);
 
-  const record = otps[recordIndex];
+    if (docSnap.exists()) {
+      const record = docSnap.data();
 
-  // Check if manually revoked
-  if (record.status === 'REVOKED') {
-    return {
-      success: false,
-      error: 'This OTP has been revoked by the coordinator.'
-    };
-  }
+      if (record.status === 'REVOKED') {
+        return { success: false, error: 'This OTP has been revoked by the coordinator.' };
+      }
+      if (record.status === 'COMPLETED') {
+        return {
+          success: false,
+          error: 'This test has already been completed with this OTP. You cannot take the test again with the same OTP.'
+        };
+      }
+      if (record.status === 'EXPIRED') {
+        return {
+          success: false,
+          error: 'This OTP has expired (20-minute limit exceeded). You cannot reuse this OTP or get the same questions.'
+        };
+      }
 
-  // Check if already completed
-  if (record.status === 'COMPLETED') {
-    return {
-      success: false,
-      error: 'This test has already been completed with this OTP. You cannot take the test again with the same OTP.'
-    };
-  }
+      // If IN_PROGRESS, check if time limit passed
+      if (record.status === 'IN_PROGRESS') {
+        if (record.expiresAt && now >= record.expiresAt) {
+          try {
+            await updateDoc(docRef, { status: 'EXPIRED' });
+          } catch (e) {}
+          return {
+            success: false,
+            error: 'The 20-minute time window for this OTP has expired. You cannot take the test.'
+          };
+        }
 
-  // Check if previously expired
-  if (record.status === 'EXPIRED') {
-    return {
-      success: false,
-      error: 'This OTP has expired (20-minute limit exceeded). You cannot reuse this OTP or get the same questions.'
-    };
-  }
+        // Resume session with the referenced questions from DB
+        const sessionData = {
+          otpId: record.id,
+          code: record.code,
+          candidate: record.candidate,
+          startedAt: record.firstUsedAt,
+          expiresAt: record.expiresAt,
+          questions: record.assignedQuestions
+        };
+        saveActiveSession(sessionData);
+        return { success: true, resumed: true, data: sessionData };
+      }
 
-  // If already IN_PROGRESS, check if the 20 minutes have passed
-  if (record.status === 'IN_PROGRESS') {
-    if (record.expiresAt && now >= record.expiresAt) {
-      // Mark as expired immediately
-      record.status = 'EXPIRED';
-      saveOTPs(otps);
-      return {
-        success: false,
-        error: 'The 20-minute time window for this OTP has expired. You cannot get the same set of questions.'
-      };
+      // If ACTIVE_UNUSED: First time unlocking on this device!
+      if (record.status === 'ACTIVE_UNUSED') {
+        const durationMs = (record.durationMinutes || 20) * 60 * 1000;
+        const expiresAt = now + durationMs;
+
+        // Use the questions referenced in the document, or generate if missing
+        const questions = (record.assignedQuestions && record.assignedQuestions.length > 0)
+          ? record.assignedQuestions
+          : generateRandomQuestionSet();
+
+        // Update status in Firestore so other devices see it is in progress
+        await updateDoc(docRef, {
+          status: 'IN_PROGRESS',
+          firstUsedAt: now,
+          expiresAt: expiresAt,
+          assignedQuestions: questions
+        });
+
+        const sessionData = {
+          otpId: record.id,
+          code: record.code,
+          candidate: record.candidate,
+          startedAt: now,
+          expiresAt,
+          questions
+        };
+        saveActiveSession(sessionData);
+        return { success: true, resumed: false, data: sessionData };
+      }
     }
+  } catch (err) {
+    console.warn('Firestore unlock query failed, trying fallback:', err.message);
+  }
 
-    // Session is still within the 20 minutes! Resume session.
-    saveActiveSession({
-      otpId: record.id,
-      code: record.code,
-      candidate: record.candidate,
-      startedAt: record.firstUsedAt,
-      expiresAt: record.expiresAt,
-      questions: record.assignedQuestions
+  // 2. Backend API fallback
+  try {
+    const res = await fetch(`${API_BASE}/otps/unlock`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: cleaned })
     });
 
-    return {
-      success: true,
-      resumed: true,
-      data: {
-        otp: record.code,
-        candidate: record.candidate,
-        startedAt: record.firstUsedAt,
-        expiresAt: record.expiresAt,
-        questions: record.assignedQuestions
-      }
-    };
+    const data = await res.json();
+    if (res.ok && data.success) {
+      saveActiveSession(data.data);
+      return { success: true, resumed: data.resumed || false, data: data.data };
+    } else if (res.status === 403 || res.status === 404) {
+      return { success: false, error: data.error || 'Invalid OTP.' };
+    }
+  } catch (err) {
+    // ignore
   }
 
-  // If ACTIVE_UNUSED: first time unlocking!
-  if (record.status === 'ACTIVE_UNUSED') {
-    const durationMs = (record.durationMinutes || 20) * 60 * 1000;
-    const expiresAt = now + durationMs;
+  // 3. Local storage fallback
+  const otps = getLocalOTPs();
+  const record = otps.find(o => o.code === cleaned || o.jwt === cleaned);
+  if (record) {
+    if (record.status === 'REVOKED') return { success: false, error: 'This OTP has been revoked.' };
+    if (record.status === 'COMPLETED') return { success: false, error: 'This test has already been completed.' };
+    if (record.status === 'EXPIRED') return { success: false, error: 'This OTP has expired.' };
 
-    // Pick 5 random questions: 2 Easy, 2 Medium, 1 Hard
-    const questions = generateRandomQuestionSet();
+    if (record.status === 'ACTIVE_UNUSED') {
+      const durationMs = (record.durationMinutes || 20) * 60 * 1000;
+      const expiresAt = now + durationMs;
+      const questions = (record.assignedQuestions && record.assignedQuestions.length > 0)
+        ? record.assignedQuestions
+        : generateRandomQuestionSet();
 
-    record.status = 'IN_PROGRESS';
-    record.firstUsedAt = now;
-    record.expiresAt = expiresAt;
-    record.assignedQuestions = questions;
+      record.status = 'IN_PROGRESS';
+      record.firstUsedAt = now;
+      record.expiresAt = expiresAt;
+      record.assignedQuestions = questions;
+      saveOTPs(otps);
 
-    saveOTPs(otps);
-
-    const sessionData = {
-      otpId: record.id,
-      code: record.code,
-      candidate: record.candidate,
-      startedAt: now,
-      expiresAt,
-      questions
-    };
-
-    saveActiveSession(sessionData);
-
-    return {
-      success: true,
-      resumed: false,
-      data: sessionData
-    };
+      const sessionData = {
+        otpId: record.id,
+        code: record.code,
+        candidate: record.candidate,
+        startedAt: now,
+        expiresAt,
+        questions
+      };
+      saveActiveSession(sessionData);
+      return { success: true, resumed: false, data: sessionData };
+    }
   }
 
   return {
     success: false,
-    error: 'OTP status is invalid.'
+    error: 'Invalid OTP. Please check the code provided by your coordinator.'
   };
 }
 
 /**
- * Complete/Submit an assessment session
+ * Firestore DB: Submit assessment answers and record score
  */
-export function submitAssessment(otpCode, answers = {}) {
-  const otps = getStoredOTPs();
-  const record = otps.find(o => o.code === otpCode);
-  if (!record) return { success: false, error: 'Session not found.' };
-
+export async function submitAssessment(otpCode, answers = {}) {
   const now = Date.now();
-  let correctCount = 0;
+  let assignedQuestions = [];
 
-  // Calculate score
-  if (record.assignedQuestions && record.assignedQuestions.length > 0) {
-    record.assignedQuestions.forEach(q => {
-      const userAnswer = answers[q.id];
-      // Compare user choice letter or text with q.answer
-      if (userAnswer) {
-        const userChoiceLetter = userAnswer.trim().charAt(0).toUpperCase();
-        const correctChoiceLetter = q.answer.trim().charAt(0).toUpperCase();
-        if (userChoiceLetter === correctChoiceLetter) {
-          correctCount++;
-        }
+  // 1. Try Firestore DB
+  try {
+    const docRef = doc(db, 'otps', otpCode);
+    const docSnap = await getDoc(docRef);
+
+    if (docSnap.exists()) {
+      const record = docSnap.data();
+      assignedQuestions = record.assignedQuestions || [];
+
+      let correctCount = 0;
+      if (assignedQuestions.length > 0) {
+        assignedQuestions.forEach(q => {
+          const userAnswer = answers[q.id];
+          if (userAnswer) {
+            const userChoice = userAnswer.trim().charAt(0).toUpperCase();
+            const correctChoice = (q.answer || '').trim().charAt(0).toUpperCase();
+            if (userChoice === correctChoice) {
+              correctCount++;
+            }
+          }
+        });
       }
-    });
+
+      const score = {
+        correct: correctCount,
+        total: assignedQuestions.length,
+        percentage: assignedQuestions.length > 0
+          ? Math.round((correctCount / assignedQuestions.length) * 100)
+          : 0
+      };
+
+      await updateDoc(docRef, {
+        status: 'COMPLETED',
+        submittedAnswers: answers,
+        score,
+        completedAt: now
+      });
+
+      clearActiveSession();
+
+      return {
+        success: true,
+        score,
+        questions: assignedQuestions,
+        submittedAnswers: answers
+      };
+    }
+  } catch (err) {
+    console.warn('Firestore submit failed, trying fallback:', err.message);
   }
 
-  record.status = 'COMPLETED';
-  record.submittedAnswers = answers;
-  record.score = {
-    correct: correctCount,
-    total: record.assignedQuestions.length,
-    percentage: Math.round((correctCount / record.assignedQuestions.length) * 100)
-  };
-  record.completedAt = now;
+  // 2. Backend API fallback
+  try {
+    const res = await fetch(`${API_BASE}/otps/submit`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: otpCode, answers })
+    });
+    if (res.ok) {
+      const data = await res.json();
+      if (data.success) {
+        clearActiveSession();
+        return data;
+      }
+    }
+  } catch (err) {
+    // ignore
+  }
 
-  saveOTPs(otps);
-  clearActiveSession();
+  // 3. Local fallback
+  const otps = getLocalOTPs();
+  const record = otps.find(o => o.code === otpCode);
+  if (record) {
+    let correctCount = 0;
+    if (record.assignedQuestions?.length > 0) {
+      record.assignedQuestions.forEach(q => {
+        const userAnswer = answers[q.id];
+        if (userAnswer) {
+          const userChoice = userAnswer.trim().charAt(0).toUpperCase();
+          const correctChoice = (q.answer || '').trim().charAt(0).toUpperCase();
+          if (userChoice === correctChoice) correctCount++;
+        }
+      });
+    }
+    record.status = 'COMPLETED';
+    record.submittedAnswers = answers;
+    record.score = {
+      correct: correctCount,
+      total: record.assignedQuestions ? record.assignedQuestions.length : 0,
+      percentage: record.assignedQuestions && record.assignedQuestions.length > 0
+        ? Math.round((correctCount / record.assignedQuestions.length) * 100)
+        : 0
+    };
+    record.completedAt = now;
+    saveOTPs(otps);
+    clearActiveSession();
+    return {
+      success: true,
+      score: record.score,
+      questions: record.assignedQuestions,
+      submittedAnswers: answers
+    };
+  }
 
-  return {
-    success: true,
-    score: record.score,
-    questions: record.assignedQuestions,
-    submittedAnswers: answers
-  };
+  return { success: false, error: 'Session not found.' };
 }
 
 /**
- * Expire an active OTP when 20 minutes runs out
+ * Firestore DB: Expire an active OTP
  */
-export function markOTPExpired(otpCode) {
-  const otps = getStoredOTPs();
+export async function markOTPExpired(otpCode) {
+  try {
+    await updateDoc(doc(db, 'otps', otpCode), {
+      status: 'EXPIRED'
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  try {
+    await fetch(`${API_BASE}/otps/expire`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code: otpCode })
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  const otps = getLocalOTPs();
   const record = otps.find(o => o.code === otpCode);
   if (record) {
     record.status = 'EXPIRED';
@@ -327,11 +510,30 @@ export function markOTPExpired(otpCode) {
 }
 
 /**
- * Revoke OTP by coordinator
+ * Firestore DB: Revoke OTP
  */
-export function revokeOTP(otpId) {
-  const otps = getStoredOTPs();
-  const record = otps.find(o => o.id === otpId);
+export async function revokeOTP(otpId, otpCode) {
+  const code = otpCode || (getLocalOTPs().find(o => o.id === otpId)?.code);
+  if (code) {
+    try {
+      await updateDoc(doc(db, 'otps', code), { status: 'REVOKED' });
+    } catch (err) {
+      // ignore
+    }
+  }
+
+  try {
+    await fetch(`${API_BASE}/otps/revoke`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: otpId, code })
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  const otps = getLocalOTPs();
+  const record = otps.find(o => o.id === otpId || o.code === code);
   if (record) {
     record.status = 'REVOKED';
     saveOTPs(otps);
@@ -339,30 +541,63 @@ export function revokeOTP(otpId) {
 }
 
 /**
- * Delete OTP record
+ * Firestore DB: Delete single OTP
  */
-export function deleteOTP(otpId) {
-  const otps = getStoredOTPs().filter(o => o.id !== otpId);
+export async function deleteOTP(otpId, otpCode) {
+  const code = otpCode || (getLocalOTPs().find(o => o.id === otpId)?.code);
+  if (code) {
+    try {
+      await deleteDoc(doc(db, 'otps', code));
+    } catch (err) {
+      // ignore
+    }
+  }
+
+  try {
+    await fetch(`${API_BASE}/otps/${encodeURIComponent(otpId)}`, {
+      method: 'DELETE'
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  const otps = getLocalOTPs().filter(o => o.id !== otpId && o.code !== code);
   saveOTPs(otps);
 }
 
 /**
- * Clear all OTP records (coordinator reset)
+ * Firestore DB: Clear all OTPs
  */
-export function clearAllOTPs() {
+export async function clearAllOTPs() {
+  try {
+    const snap = await getDocs(collection(db, 'otps'));
+    const deletes = [];
+    snap.forEach(d => {
+      deletes.push(deleteDoc(d.ref));
+    });
+    await Promise.all(deletes);
+  } catch (err) {
+    // ignore
+  }
+
+  try {
+    await fetch(`${API_BASE}/otps`, { method: 'DELETE' });
+  } catch (err) {
+    // ignore
+  }
+
   saveOTPs([]);
   clearActiveSession();
 }
 
 /**
- * Active Session persistence in localStorage (to survive browser refresh)
+ * Active Session persistence in localStorage
  */
 export function getActiveSession() {
   try {
     const raw = localStorage.getItem(ACTIVE_SESSION_KEY);
     if (!raw) return null;
     const session = JSON.parse(raw);
-    // Check if expired
     if (session.expiresAt && Date.now() >= session.expiresAt) {
       markOTPExpired(session.code);
       clearActiveSession();
@@ -389,15 +624,51 @@ export function clearActiveSession() {
 /**
  * Coordinator Passcode Management
  */
-export function getCoordinatorPin() {
+export function getLocalCoordinatorPin() {
   return localStorage.getItem(COORDINATOR_PIN_KEY) || DEFAULT_COORDINATOR_PIN;
 }
 
-export function setCoordinatorPin(newPin) {
-  localStorage.setItem(COORDINATOR_PIN_KEY, newPin);
+export async function verifyCoordinatorPin(inputPin) {
+  const pin = (inputPin || '').trim();
+  try {
+    const docSnap = await getDoc(doc(db, 'settings', 'coordinator'));
+    if (docSnap.exists() && docSnap.data().pin) {
+      return pin === docSnap.data().pin;
+    }
+  } catch (err) {
+    // ignore
+  }
+
+  try {
+    const res = await fetch(`${API_BASE}/coordinator/pin?pin=${encodeURIComponent(pin)}`);
+    if (res.ok) {
+      const data = await res.json();
+      return !!data.valid;
+    }
+  } catch (err) {
+    // ignore
+  }
+
+  return pin === getLocalCoordinatorPin();
 }
 
-export function verifyCoordinatorPin(inputPin) {
-  const current = getCoordinatorPin();
-  return (inputPin || '').trim() === current;
+export async function setCoordinatorPin(newPin) {
+  const pin = (newPin || '').trim();
+  try {
+    await setDoc(doc(db, 'settings', 'coordinator'), { pin }, { merge: true });
+  } catch (err) {
+    // ignore
+  }
+
+  try {
+    await fetch(`${API_BASE}/coordinator/pin`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ newPin: pin })
+    });
+  } catch (err) {
+    // ignore
+  }
+
+  localStorage.setItem(COORDINATOR_PIN_KEY, pin);
 }

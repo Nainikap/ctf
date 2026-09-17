@@ -11,7 +11,9 @@ import {
   Users, 
   Eye, 
   X,
-  FileCode
+  FileCode,
+  Globe,
+  RefreshCw
 } from 'lucide-react';
 import { 
   getStoredOTPs, 
@@ -20,7 +22,8 @@ import {
   deleteOTP, 
   clearAllOTPs,
   verifyCoordinatorPin,
-  setCoordinatorPin
+  setCoordinatorPin,
+  getNetworkInfo
 } from '../services/otpService';
 
 export default function CoordinatorPortal({ onClose }) {
@@ -32,24 +35,37 @@ export default function CoordinatorPortal({ onClose }) {
   const [durationMinutes, setDurationMinutes] = useState(20);
   const [copiedId, setCopiedId] = useState(null);
   const [copiedJwtId, setCopiedJwtId] = useState(null);
+  const [copiedUrl, setCopiedUrl] = useState(false);
   const [inspectQuestions, setInspectQuestions] = useState(null);
   const [showPinChange, setShowPinChange] = useState(false);
   const [newPin, setNewPin] = useState('');
+  const [networkInfo, setNetworkInfo] = useState(null);
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [isRefreshing, setIsRefreshing] = useState(false);
 
-  const loadOTPs = () => {
-    setOtps(getStoredOTPs());
+  const loadOTPs = async () => {
+    try {
+      const items = await getStoredOTPs();
+      setOtps(items || []);
+    } catch (err) {
+      console.error('Failed to load OTPs', err);
+    }
   };
 
   useEffect(() => {
     loadOTPs();
+    getNetworkInfo().then(info => {
+      if (info) setNetworkInfo(info);
+    });
 
     const handleUpdate = () => loadOTPs();
     window.addEventListener('storage', handleUpdate);
     window.addEventListener('ctf_otp_updated', handleUpdate);
 
+    // Live polling every 3 seconds for cross-device updates
     const timer = setInterval(() => {
       loadOTPs();
-    }, 5000);
+    }, 3000);
 
     return () => {
       window.removeEventListener('storage', handleUpdate);
@@ -58,22 +74,31 @@ export default function CoordinatorPortal({ onClose }) {
     };
   }, []);
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
-    if (verifyCoordinatorPin(pinInput)) {
+    const valid = await verifyCoordinatorPin(pinInput);
+    if (valid) {
       setIsAuthenticated(true);
       setPinError('');
+      loadOTPs();
     } else {
       setPinError('Invalid Coordinator Passcode.');
     }
   };
 
-  const handleGenerate = (e) => {
+  const handleGenerate = async (e) => {
     e.preventDefault();
-    const created = coordinatorGenerateOTP(candidateName, durationMinutes);
-    loadOTPs();
-    setCandidateName('');
-    copyToClipboard(created.code, created.id);
+    setIsGenerating(true);
+    try {
+      const created = await coordinatorGenerateOTP(candidateName, durationMinutes);
+      await loadOTPs();
+      setCandidateName('');
+      if (created && created.code) {
+        copyToClipboard(created.code, created.id);
+      }
+    } finally {
+      setIsGenerating(false);
+    }
   };
 
   const copyToClipboard = (text, id, isJwt = false) => {
@@ -87,27 +112,39 @@ export default function CoordinatorPortal({ onClose }) {
     }
   };
 
-  const handleRevoke = (id) => {
-    revokeOTP(id);
-    loadOTPs();
+  const handleCopyUrl = (url) => {
+    navigator.clipboard.writeText(url);
+    setCopiedUrl(true);
+    setTimeout(() => setCopiedUrl(false), 2500);
   };
 
-  const handleDelete = (id) => {
-    deleteOTP(id);
-    loadOTPs();
+  const handleRevoke = async (id, code) => {
+    await revokeOTP(id, code);
+    await loadOTPs();
   };
 
-  const handleClearAll = () => {
+  const handleDelete = async (id, code) => {
+    await deleteOTP(id, code);
+    await loadOTPs();
+  };
+
+  const handleClearAll = async () => {
     if (window.confirm('Are you sure you want to clear all generated OTPs? This cannot be undone.')) {
-      clearAllOTPs();
-      loadOTPs();
+      await clearAllOTPs();
+      await loadOTPs();
     }
   };
 
-  const handleChangePinSubmit = (e) => {
+  const handleManualRefresh = async () => {
+    setIsRefreshing(true);
+    await loadOTPs();
+    setTimeout(() => setIsRefreshing(false), 500);
+  };
+
+  const handleChangePinSubmit = async (e) => {
     e.preventDefault();
     if (newPin.trim().length >= 4) {
-      setCoordinatorPin(newPin.trim());
+      await setCoordinatorPin(newPin.trim());
       setShowPinChange(false);
       setNewPin('');
       alert('Coordinator passcode updated successfully.');
@@ -195,6 +232,10 @@ export default function CoordinatorPortal({ onClose }) {
   const completed = otps.filter(o => o.status === 'COMPLETED').length;
   const expired = otps.filter(o => o.status === 'EXPIRED' || (o.status === 'IN_PROGRESS' && o.expiresAt <= now)).length;
 
+  const candidateUrl = (networkInfo?.networkUrls && networkInfo.networkUrls.length > 0)
+    ? networkInfo.networkUrls[0].url
+    : window.location.origin;
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-gray-900 bg-opacity-70 overflow-y-auto">
       <div className="bg-white border-2 border-gray-300 rounded-lg w-full max-w-5xl shadow-2xl flex flex-col max-h-[92vh] overflow-hidden">
@@ -213,14 +254,24 @@ export default function CoordinatorPortal({ onClose }) {
                 <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-red-100 text-red-800 border border-red-300">
                   ADMIN
                 </span>
+                <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-green-100 text-green-800 border border-green-300">
+                  FIRESTORE CLOUD DB
+                </span>
               </div>
               <p className="text-xs text-gray-600">
-                Issue 20-minute assessment OTPs and inspect participant status
+                Issue 20-minute assessment OTPs and inspect candidate sessions in real-time
               </p>
             </div>
           </div>
 
           <div className="flex items-center gap-2">
+            <button
+              onClick={handleManualRefresh}
+              className="p-1.5 rounded bg-white hover:bg-gray-50 border border-gray-300 text-gray-700"
+              title="Refresh Registry"
+            >
+              <RefreshCw className={`w-4 h-4 ${isRefreshing ? 'animate-spin text-red-600' : ''}`} />
+            </button>
             <button
               onClick={() => setShowPinChange(!showPinChange)}
               className="px-3 py-1.5 rounded bg-white hover:bg-gray-50 border border-gray-300 text-xs text-gray-700 font-semibold"
@@ -257,6 +308,26 @@ export default function CoordinatorPortal({ onClose }) {
           </div>
         )}
 
+        {/* Cross-Device Connection Info Banner */}
+        <div className="px-6 py-2.5 bg-blue-50 border-b border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-blue-950">
+          <div className="flex items-center gap-2">
+            <Globe className="w-4 h-4 text-blue-600 shrink-0" />
+            <span>
+              <strong>Cross-Device Portal URL:</strong> Access on candidates' phones or other devices via:{' '}
+              <code className="bg-white px-2 py-0.5 rounded border border-blue-300 font-mono font-bold text-blue-900">
+                {candidateUrl}
+              </code>
+            </span>
+          </div>
+          <button
+            onClick={() => handleCopyUrl(candidateUrl)}
+            className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-white hover:bg-blue-100 border border-blue-300 font-bold text-[11px] text-blue-800 shadow-sm"
+          >
+            {copiedUrl ? <Check className="w-3.5 h-3.5 text-green-600" /> : <Copy className="w-3.5 h-3.5 text-blue-600" />}
+            <span>{copiedUrl ? 'Copied URL!' : 'Copy Portal URL'}</span>
+          </button>
+        </div>
+
         {/* Stats Strip */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 p-4 bg-gray-50 border-b border-gray-200 text-xs">
           <div className="p-3 rounded bg-white border border-gray-200">
@@ -289,7 +360,7 @@ export default function CoordinatorPortal({ onClose }) {
             <div className="flex items-center gap-2 mb-3">
               <Key className="w-5 h-5 text-red-600" />
               <h3 className="text-sm font-bold uppercase tracking-wider text-gray-900">
-                Generate Unique OTP
+                Generate Unique Cross-Device OTP
               </h3>
             </div>
             
@@ -324,15 +395,16 @@ export default function CoordinatorPortal({ onClose }) {
               <div className="sm:col-span-3">
                 <button
                   type="submit"
-                  className="w-full py-2 rounded bg-red-600 hover:bg-red-700 text-white font-bold text-sm shadow flex items-center justify-center gap-1.5"
+                  disabled={isGenerating}
+                  className="w-full py-2 rounded bg-red-600 hover:bg-red-700 text-white font-bold text-sm shadow flex items-center justify-center gap-1.5 disabled:opacity-70"
                 >
                   <Plus className="w-4 h-4" />
-                  Generate OTP
+                  {isGenerating ? 'Generating...' : 'Generate OTP'}
                 </button>
               </div>
             </form>
             <p className="text-[11px] text-gray-500 mt-2">
-              The 20-minute countdown starts when the candidate unlocks the test with this OTP.
+              This OTP is instantly synced and can be entered on any candidate phone or computer. The 20-minute timer begins when unlocked.
             </p>
           </div>
 
@@ -341,7 +413,7 @@ export default function CoordinatorPortal({ onClose }) {
             <div className="flex items-center justify-between mb-2">
               <h3 className="text-xs font-bold uppercase tracking-wider text-gray-700 flex items-center gap-1.5">
                 <Users className="w-4 h-4 text-gray-600" />
-                Issued OTP Registry
+                Issued OTP Registry (Live Sync)
               </h3>
 
               {otps.length > 0 && (
@@ -358,7 +430,7 @@ export default function CoordinatorPortal({ onClose }) {
             {otps.length === 0 ? (
               <div className="p-8 text-center rounded border-2 border-dashed border-gray-300 bg-gray-50 text-gray-500">
                 <p className="text-sm font-medium">No OTPs generated yet.</p>
-                <p className="text-xs mt-1">Click "Generate OTP" above to issue a code.</p>
+                <p className="text-xs mt-1">Click "Generate OTP" above to issue a code for candidates.</p>
               </div>
             ) : (
               <div className="space-y-2">
@@ -401,18 +473,18 @@ export default function CoordinatorPortal({ onClose }) {
                               </span>
                             )}
                             {isCurrentInProgress && (
-                              <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-yellow-300 text-yellow-950 border border-yellow-500">
+                              <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-yellow-300 text-yellow-950 border border-yellow-500 animate-pulse">
                                 In Progress ({remainingMin}m {remSecDisplay}s)
                               </span>
                             )}
                             {record.status === 'COMPLETED' && (
                               <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-green-100 text-green-800 border border-green-300">
-                                Completed ({record.score?.correct}/{record.score?.total})
+                                Completed ({record.score?.correct}/{record.score?.total} • {record.score?.percentage}%)
                               </span>
                             )}
                             {isCurrentExpired && record.status !== 'COMPLETED' && (
                               <span className="text-[11px] font-bold px-2 py-0.5 rounded bg-red-100 text-red-800 border border-red-300">
-                                Expired (20m up)
+                                Expired
                               </span>
                             )}
                             {record.status === 'REVOKED' && (
@@ -479,7 +551,7 @@ export default function CoordinatorPortal({ onClose }) {
 
                         {record.status !== 'REVOKED' && record.status !== 'COMPLETED' && !isCurrentExpired && (
                           <button
-                            onClick={() => handleRevoke(record.id)}
+                            onClick={() => handleRevoke(record.id, record.code)}
                             className="p-1.5 rounded bg-white hover:bg-red-50 text-red-600 border border-gray-300"
                             title="Revoke OTP"
                           >
@@ -488,7 +560,7 @@ export default function CoordinatorPortal({ onClose }) {
                         )}
 
                         <button
-                          onClick={() => handleDelete(record.id)}
+                          onClick={() => handleDelete(record.id, record.code)}
                           className="p-1.5 rounded bg-white hover:bg-red-50 text-red-600 border border-gray-300"
                           title="Delete"
                         >
@@ -505,7 +577,7 @@ export default function CoordinatorPortal({ onClose }) {
 
         {/* Modal Footer */}
         <div className="px-6 py-3 bg-gray-100 border-t border-gray-300 flex items-center justify-between text-xs text-gray-600">
-          <span>CTF Coordinator Portal</span>
+          <span>CTF Coordinator Portal • Real-time Sync Active</span>
           <button
             onClick={onClose}
             className="px-4 py-1.5 rounded bg-gray-800 hover:bg-gray-900 text-white font-bold"

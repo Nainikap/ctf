@@ -25,8 +25,10 @@ A React JS assessment portal powered by a dynamic question bank with strict 20-m
    - Auto-submits and expires when the 20 minutes elapse.
    - Re-entering the OTP after expiration or submission is strictly blocked:
      - *"This OTP has expired (20-minute limit exceeded). You cannot reuse this OTP or get the same questions."*
-5. **Zero Database Needed**:
-   - Complete state, active session, and OTP registry persistence using browser `localStorage` with real-time cross-tab synchronization.
+5. **Cross-Platform & Cross-Device Synchronization**:
+   - Centralized state, active session, and OTP registry persistence using automated server synchronization (`data/otp-store.json`) with local fallback.
+   - Generates OTPs on one phone or PC and instantly validates on any other phone or device.
+   - Real-time live dashboard updates across devices when candidates start or submit.
 
 ---
 
@@ -43,21 +45,22 @@ npm run parse:questions
 ```
 *Outputs parsed questions to `src/data/questions.json` (150 Easy, 150 Medium, 50 Hard).*
 
-### 3. Run Development Server
+### 3. Run Development Server (Cross-Device LAN Ready)
 ```bash
 npm run dev
 ```
-Open your browser at `http://localhost:3000` (or the port displayed in terminal).
+Open your browser locally at `http://localhost:3000` or on your phones / network devices at `http://<YOUR_LAN_IP>:3000`.
 
-### 4. Build for Production
+### 4. Build and Run for Production
 ```bash
 npm run build
-npm run preview
+npm start
 ```
 
 ---
 
 ## Coordinator Access
 - Click **"Coordinator Portal"** in the top navigation bar.
-- Passcode: Enter your coordinator passcode (or change it anytime via the "Change Passcode" button).
-- Issue an OTP and copy the 6-digit code or JWT token to provide to the candidate.
+- Passcode: Enter your coordinator passcode (default `admin123`, customizable in portal).
+- The portal displays your **Cross-Device Portal URL** (e.g. `http://172.17.81.121:3000`) to share with candidates.
+- Issue an OTP and copy the 6-digit code or JWT token to provide to the candidate on any device.
