@@ -1,3205 +1,4907 @@
-**EASY**
+CTF Question Bank
 
-**Indian History & Culture**
+Easy
 
-**Q1. Who is known as the Father of the Nation in India?**
+1. Who led the Dandi March in 1930?
 
-**A. Jawaharlal Nehru  
-B. Mahatma Gandhi  
-C. Sardar Vallabhbhai Patel  
-D. Subhas Chandra Bose**
+Category: Indian History & Culture
 
-**Answer: B. Mahatma Gandhi**
+A. Mahatma Gandhi
 
-**Q2. In which year did India gain independence?**
+B. Subhas Chandra Bose
 
-**A. 1945  
-B. 1946  
-C. 1947  
-D. 1950**
+C. Jawaharlal Nehru
 
-**Answer: C. 1947**
+D. Sardar Patel
 
-**Q3. Who was the first Prime Minister of independent India?**
+Answer: A. Mahatma Gandhi
 
-**A. Sardar Vallabhbhai Patel  
-B. Dr. B. R. Ambedkar  
-C. Jawaharlal Nehru  
-D. Rajendra Prasad**
+2. Who was the first Prime Minister of independent India?
 
-**Answer: C. Jawaharlal Nehru**
+Category: Indian History & Culture
 
-**Q4. Which monument is known as a symbol of love?**
+A. Jawaharlal Nehru
 
-**A. Qutub Minar  
-B. Taj Mahal  
-C. India Gate  
-D. Gateway of India**
+B. Rajendra Prasad
 
-**Answer: B. Taj Mahal**
+C. B. R. Ambedkar
 
-**Q5. Who wrote the Indian national anthem, "Jana Gana Mana"?**
+D. Sardar Patel
 
-**A. Bankim Chandra Chattopadhyay  
-B. Sarojini Naidu  
-C. Rabindranath Tagore  
-D. Subhas Chandra Bose**
+Answer: A. Jawaharlal Nehru
 
-**Answer: C. Rabindranath Tagore**
+3. Who is known as the Iron Man of India?
 
-**Q6. Which festival is known as the Festival of Lights?**
+Category: Indian History & Culture
 
-**A. Holi  
-B. Diwali  
-C. Pongal  
-D. Baisakhi**
+A. Sardar Vallabhbhai Patel
 
-**Answer: B. Diwali**
+B. Mahatma Gandhi
 
-**Q7. Who was the first President of India?**
+C. Bhagat Singh
 
-**A. Dr. Rajendra Prasad  
-B. Dr. S. Radhakrishnan  
-C. Dr. A. P. J. Abdul Kalam  
-D. Jawaharlal Nehru**
+D. Bal Gangadhar Tilak
 
-**Answer: A. Dr. Rajendra Prasad**
+Answer: A. Sardar Vallabhbhai Patel
 
-**Q8. Which ancient university was located in Bihar?**
+4. The Quit India Movement was launched in:
 
-**A. Takshashila  
-B. Nalanda  
-C. Vikramshila  
-D. Both B and C**
+Category: Indian History & Culture
 
-**Answer: D. Both B and C**
+A. 1942
 
-**Indian Geography**
+B. 1930
 
-**Q9. What is the capital of India?**
+C. 1919
 
-**A. Mumbai  
-B. New Delhi  
-C. Kolkata  
-D. Chennai**
+D. 1947
 
-**Answer: B. New Delhi**
+Answer: A. 1942
 
-**Q10. Which is the longest river in India?**
+5. Who wrote the Indian national anthem?
 
-**A. Yamuna  
-B. Godavari  
-C. Ganga  
-D. Narmada**
+Category: Indian History & Culture
 
-**Answer: C. Ganga**
+A. Rabindranath Tagore
 
-**Q11. Which is the largest state in India by area?**
+B. Bankim Chandra Chattopadhyay
 
-**A. Maharashtra  
-B. Madhya Pradesh  
-C. Rajasthan  
-D. Uttar Pradesh**
+C. Sarojini Naidu
 
-**Answer: C. Rajasthan**
+D. Mahatma Gandhi
 
-**Q12. Which is the smallest state in India by area?**
+Answer: A. Rabindranath Tagore
 
-**A. Sikkim  
-B. Goa  
-C. Tripura  
-D. Manipur**
+6. The Taj Mahal was built by:
 
-**Answer: B. Goa**
+Category: Indian History & Culture
 
-**Q13. The Thar Desert is primarily located in which Indian state?**
+A. Shah Jahan
 
-**A. Gujarat  
-B. Rajasthan  
-C. Haryana  
-D. Punjab**
+B. Akbar
 
-**Answer: B. Rajasthan**
+C. Aurangzeb
 
-**Q14. Which mountain range forms the northern boundary of India?**
+D. Babur
 
-**A. Aravalli  
-B. Western Ghats  
-C. Himalayas  
-D. Eastern Ghats**
+Answer: A. Shah Jahan
 
-**Answer: C. Himalayas**
+7. Who founded the Mauryan Empire?
 
-**Q15. Which Indian state is famous for its backwaters?**
+Category: Indian History & Culture
 
-**A. Kerala  
-B. Assam  
-C. Odisha  
-D. Goa**
+A. Chandragupta Maurya
 
-**Answer: A. Kerala**
+B. Ashoka
 
-**Q16. Which is the southernmost tip of mainland India?**
+C. Harsha
 
-**A. Indira Point  
-B. Kanyakumari  
-C. Rameswaram  
-D. Kochi**
+D. Akbar
 
-**Answer: B. Kanyakumari**
+Answer: A. Chandragupta Maurya
 
-**Indian Polity & Constitution**
+8. The Swadeshi Movement encouraged people to:
 
-**Q17. On which date did the Constitution of India come into effect?**
+Category: Indian History & Culture
 
-**A. 15 August 1947  
-B. 26 November 1949  
-C. 26 January 1950  
-D. 2 October 1950**
+A. Use Indian-made goods
 
-**Answer: C. 26 January 1950**
+B. Leave India
 
-**Q18. Who is known as the chief architect of the Indian Constitution?**
+C. Join the British army
 
-**A. Mahatma Gandhi  
-B. Dr. B. R. Ambedkar  
-C. Jawaharlal Nehru  
-D. Rajendra Prasad**
+D. Stop farming
 
-**Answer: B. Dr. B. R. Ambedkar**
+Answer: A. Use Indian-made goods
 
-**Q19. How many houses does the Parliament of India have?**
+9. What is the supreme law of India?
 
-**A. One  
-B. Two  
-C. Three  
-D. Four**
+Category: Indian Polity & Constitution
 
-**Answer: B. Two**
+A. The Constitution
 
-**Q20. What is the lower house of the Indian Parliament called?**
+B. The Parliament Rules
 
-**A. Rajya Sabha  
-B. Lok Sabha  
-C. Vidhan Sabha  
-D. Legislative Council**
+C. The Union Budget
 
-**Answer: B. Lok Sabha**
+D. The Election Manifesto
 
-**Q21. What is the upper house of the Indian Parliament called?**
+Answer: A. The Constitution
 
-**A. Lok Sabha  
-B. Rajya Sabha  
-C. Vidhan Sabha  
-D. Gram Sabha**
+10. Who is the head of state of India?
 
-**Answer: B. Rajya Sabha**
+Category: Indian Polity & Constitution
 
-**Q22. Who is the constitutional head of India?**
+A. The President
 
-**A. Prime Minister  
-B. President  
-C. Chief Justice of India  
-D. Vice-President**
+B. The Prime Minister
 
-**Answer: B. President**
+C. The Chief Justice
 
-**Q23. What is the minimum voting age for Indian citizens?**
+D. The Speaker of Lok Sabha
 
-**A. 16 years  
-B. 18 years  
-C. 21 years  
-D. 25 years**
+Answer: A. The President
 
-**Answer: B. 18 years**
+11. Who is the head of the government of India?
 
-**Q24. Which document is the supreme law of India?**
+Category: Indian Polity & Constitution
 
-**A. Indian Penal Code  
-B. Constitution of India  
-C. Parliament Act  
-D. Civil Code**
+A. The Prime Minister
 
-**Answer: B. Constitution of India**
+B. The President
 
-**Science & Everyday Technology**
+C. The Chief Justice
 
-**Q25. What is the chemical symbol for gold?**
+D. The Governor
 
-**A. Go  
-B. Gd  
-C. Au  
-D. Ag**
+Answer: A. The Prime Minister
 
-**Answer: C. Au**
+12. Which house of Parliament is called the House of the People?
 
-**Q26. Which planet is known as the Red Planet?**
+Category: Indian Polity & Constitution
 
-**A. Venus  
-B. Mars  
-C. Jupiter  
-D. Mercury**
+A. Lok Sabha
 
-**Answer: B. Mars**
+B. Rajya Sabha
 
-**Q27. What is the SI unit of force?**
+C. Vidhan Parishad
 
-**A. Joule  
-B. Pascal  
-C. Newton  
-D. Watt**
+D. Supreme Court
 
-**Answer: C. Newton**
+Answer: A. Lok Sabha
 
-**Q28. Which gas is most abundant in Earth's atmosphere?**
+13. Which house of Parliament is also known as the Council of States?
 
-**A. Oxygen  
-B. Carbon dioxide  
-C. Nitrogen  
-D. Hydrogen**
+Category: Indian Polity & Constitution
 
-**Answer: C. Nitrogen**
+A. Rajya Sabha
 
-**Q29. What is the process by which plants convert sunlight into chemical energy?**
+B. Lok Sabha
 
-**A. Respiration  
-B. Photosynthesis  
-C. Transpiration  
-D. Fermentation**
+C. Vidhan Sabha
 
-**Answer: B. Photosynthesis**
+D. Gram Sabha
 
-**Q30. Which organ pumps blood throughout the human body?**
+Answer: A. Rajya Sabha
 
-**A. Brain  
-B. Lungs  
-C. Heart  
-D. Liver**
+14. What is the voting age for Indian citizens?
 
-**Answer: C. Heart**
+Category: Indian Polity & Constitution
 
-**Q31. What is the boiling point of water at standard atmospheric pressure?**
+A. 18 years
 
-**A. 50°C  
-B. 75°C  
-C. 100°C  
-D. 120°C**
+B. 21 years
 
-**Answer: C. 100°C**
+C. 25 years
 
-**Q32. Which vitamin is primarily produced in the skin through sunlight exposure?**
+D. 30 years
 
-**A. Vitamin A  
-B. Vitamin B12  
-C. Vitamin C  
-D. Vitamin D**
+Answer: A. 18 years
 
-**Answer: D. Vitamin D**
+15. Which body conducts elections in India?
 
-**World Geography & Organizations**
+Category: Indian Polity & Constitution
 
-**Q33. What is the capital of Japan?**
+A. Election Commission of India
 
-**A. Beijing  
-B. Seoul  
-C. Tokyo  
-D. Kyoto**
+B. Supreme Court
 
-**Answer: C. Tokyo**
+C. Parliament Secretariat
 
-**Q34. Which is the largest ocean on Earth?**
+D. Finance Commission
 
-**A. Atlantic Ocean  
-B. Indian Ocean  
-C. Arctic Ocean  
-D. Pacific Ocean**
+Answer: A. Election Commission of India
 
-**Answer: D. Pacific Ocean**
+16. Which is the highest court in India?
 
-**Q35. Which country is known as the Land of the Rising Sun?**
+Category: Indian Polity & Constitution
 
-**A. China  
-B. Japan  
-C. Thailand  
-D. South Korea**
+A. Supreme Court
 
-**Answer: B. Japan**
+B. High Court
 
-**Q36. Where is the headquarters of the United Nations located?**
+C. District Court
 
-**A. Geneva  
-B. Paris  
-C. New York City  
-D. London**
+D. Sessions Court
 
-**Answer: C. New York City**
+Answer: A. Supreme Court
 
-**Q37. Which is the largest continent by area?**
+17. Fundamental Rights are given in the:
 
-**A. Africa  
-B. Europe  
-C. Asia  
-D. North America**
+Category: Indian Polity & Constitution
 
-**Answer: C. Asia**
+A. Constitution of India
 
-**Q38. Which currency is used in the United Kingdom?**
+B. Union Budget
 
-**A. Euro  
-B. Dollar  
-C. Pound Sterling  
-D. Franc**
+C. Election Commission Act
 
-**Answer: C. Pound Sterling**
+D. Indian Penal Code only
 
-**Sports**
+Answer: A. Constitution of India
 
-**Q39. How many players are there in a cricket team on the field?**
+18. Who appoints the Prime Minister of India?
 
-**A. 9  
-B. 10  
-C. 11  
-D. 12**
+Category: Indian Polity & Constitution
 
-**Answer: C. 11**
+A. The President
 
-**Q40. Which country hosted the 2016 Summer Olympics?**
+B. The Chief Justice
 
-**A. China  
-B. Brazil  
-C. Japan  
-D. United Kingdom**
+C. The Speaker
 
-**Answer: B. Brazil**
+D. The Election Commission
 
-**Q41. Wimbledon is associated with which sport?**
+Answer: A. The President
 
-**A. Football  
-B. Tennis  
-C. Cricket  
-D. Badminton**
+19. The Constitution of India came into effect on:
 
-**Answer: B. Tennis**
+Category: Indian Polity & Constitution
 
-**Q42. How many rings are there in the Olympic symbol?**
+A. 26 January 1950
 
-**A. 4  
-B. 5  
-C. 6  
-D. 7**
+B. 15 August 1947
 
-**Answer: B. 5**
+C. 26 November 1949
 
-**Q43. Which sport is associated with the term "checkmate"?**
+D. 2 October 1950
 
-**A. Boxing  
-B. Chess  
-C. Tennis  
-D. Hockey**
+Answer: A. 26 January 1950
 
-**Answer: B. Chess**
+20. Which amendment is associated with Panchayati Raj institutions?
 
-**Miscellaneous GK & Current Awareness**
+Category: Indian Polity & Constitution
 
-**Q44. What is the national animal of India?**
+A. 73rd Amendment
 
-**A. Lion  
-B. Elephant  
-C. Bengal Tiger  
-D. Leopard**
+B. 42nd Amendment
 
-**Answer: C. Bengal Tiger**
+C. 44th Amendment
 
-**Q45. What is the national flower of India?**
+D. 61st Amendment
 
-**A. Rose  
-B. Lotus  
-C. Jasmine  
-D. Sunflower**
+Answer: A. 73rd Amendment
 
-**Answer: B. Lotus**
+21. What is the capital of India?
 
-**Q46. Which is the national aquatic animal of India?**
+Category: Indian Geography
 
-**A. Blue Whale  
-B. Ganges River Dolphin  
-C. Crocodile  
-D. Olive Ridley Turtle**
+A. New Delhi
 
-**Answer: B. Ganges River Dolphin**
+B. Mumbai
 
-**Q47. What does UNESCO stand for?**
+C. Kolkata
 
-**A. United Nations Educational, Scientific and Cultural Organization  
-B. United Nations Economic and Social Council Organization  
-C. Universal Network for Education, Science and Cultural Operations  
-D. United Nations Environmental Science and Culture Office**
+D. Chennai
 
-**Answer: A. United Nations Educational, Scientific and Cultural Organization**
+Answer: A. New Delhi
 
-**Q48. Which is the world's largest mammal?**
+22. Which is the largest Indian state by area?
 
-**A. African Elephant  
-B. Blue Whale  
-C. Giraffe  
-D. Hippopotamus**
+Category: Indian Geography
 
-**Answer: B. Blue Whale**
+A. Rajasthan
 
-**Q49. Which instrument is used to measure temperature?**
+B. Maharashtra
 
-**A. Barometer  
-B. Hygrometer  
-C. Thermometer  
-D. Anemometer**
+C. Goa
 
-**Answer: C. Thermometer**
+D. Punjab
 
-**Q50. Which day is celebrated as World Environment Day?**
+Answer: A. Rajasthan
 
-**A. 22 April  
-B. 5 June  
-C. 8 March  
-D. 16 September**
+23. Which is the smallest Indian state by area?
 
-**Answer: B. 5 June**
+Category: Indian Geography
 
-**Computer Fundamentals & Hardware**
+A. Goa
 
-**Q1. What is the brain of a computer commonly called?**
+B. Sikkim
 
-A. RAM  
-B. CPU  
-C. Hard Disk  
-D. Monitor
+C. Tripura
 
-**Answer: B. CPU**
+D. Manipur
 
-**Q2. Which of the following is an input device?**
+Answer: A. Goa
 
-A. Printer  
-B. Monitor  
-C. Keyboard  
-D. Speaker
+24. Which state is famous for its backwaters?
 
-**Answer: C. Keyboard**
+Category: Indian Geography
 
-**Q3. Which memory is volatile?**
+A. Kerala
 
-A. ROM  
-B. Hard Disk  
-C. RAM  
-D. SSD
+B. Punjab
 
-**Answer: C. RAM**
+C. Bihar
 
-**Q4. What does CPU stand for?**
+D. Haryana
 
-A. Central Processing Unit  
-B. Computer Processing Utility  
-C. Central Program Unit  
-D. Computer Power Unit
+Answer: A. Kerala
 
-**Answer: A. Central Processing Unit**
+25. Which mountain range lies in northern India?
 
-**Q5. Which device is used to display visual output?**
+Category: Indian Geography
 
-A. Scanner  
-B. Monitor  
-C. Keyboard  
-D. Microphone
+A. Himalayas
 
-**Answer: B. Monitor**
+B. Western Ghats
 
-**Q6. What is the basic unit of digital information?**
+C. Aravallis
 
-A. Byte  
-B. Bit  
-C. Nibble  
-D. Word
+D. Eastern Ghats
 
-**Answer: B. Bit**
+Answer: A. Himalayas
 
-**Q7. How many bits are there in one byte?**
+26. Which force pulls objects towards Earth?
 
-A. 4  
-B. 8  
-C. 16  
-D. 32
+Category: Science
 
-**Answer: B. 8**
+A. Gravity
 
-**Q8. Which of the following is an example of secondary storage?**
+B. Friction
 
-A. RAM  
-B. Cache  
-C. Register  
-D. Hard Disk
+C. Magnetism
 
-**Answer: D. Hard Disk**
+D. Buoyancy
 
-**Programming Basics**
+Answer: A. Gravity
 
-**Q9. Which symbol is commonly used to end a statement in C?**
+27. What is the SI unit of electric current?
 
-A. :  
-B. ;  
-C. .  
-D. ,
+Category: Science
 
-**Answer: B. ;**
+A. Ampere
 
-**Q10. Which of the following is a programming language?**
+B. Volt
 
-A. HTML  
-B. Python  
-C. HTTP  
-D. BIOS
+C. Ohm
 
-**Answer: B. Python**
+D. Watt
 
-**Q11. Which data type is commonly used to store whole numbers in C?**
+Answer: A. Ampere
 
-A. float  
-B. char  
-C. int  
-D. double
+28. Water boils at approximately what temperature at normal atmospheric pressure?
 
-**Answer: C. int**
+Category: Science
 
-**Q12. Which operator is used for addition in most programming languages?**
+A. 100°C
 
-A. \*  
-B. +  
-C. /  
-D. %
+B. 50°C
 
-**Answer: B. +**
+C. 0°C
 
-**Q13. What is the output of printf("%d", 5 + 3); in C?**
+D. 200°C
 
-A. 2  
-B. 8  
-C. 15  
-D. 53
+Answer: A. 100°C
 
-**Answer: B. 8**
+29. Which gas is most abundant in Earth's atmosphere?
 
-**Q14. Which loop is guaranteed to execute at least once in C?**
+Category: Science
 
-A. for  
-B. while  
-C. do-while  
-D. Nested loop
+A. Nitrogen
 
-**Answer: C. do-while**
+B. Oxygen
 
-**Q15. Which keyword is used to return a value from a function in C?**
+C. Carbon dioxide
 
-A. break  
-B. return  
-C. exit  
-D. continue
+D. Hydrogen
 
-**Answer: B. return**
+Answer: A. Nitrogen
 
-**Q16. What is the purpose of a compiler?**
+30. Which organ pumps blood through the human body?
 
-A. To execute hardware instructions only  
-B. To translate source code into machine or target code  
-C. To store data permanently  
-D. To connect computers to a network
+Category: Science
 
-**Answer: B. To translate source code into machine or target code**
+A. Heart
 
-**Data Structures**
+B. Lung
 
-**Q17. Which data structure follows the LIFO principle?**
+C. Kidney
 
-A. Queue  
-B. Stack  
-C. Array  
-D. Linked List
+D. Liver
 
-**Answer: B. Stack**
+Answer: A. Heart
 
-**Q18. Which data structure follows the FIFO principle?**
+31. Which part of a computer performs most calculations?
 
-A. Stack  
-B. Tree  
-C. Queue  
+Category: Computer Fundamentals
+
+A. CPU
+
+B. Monitor
+
+C. Keyboard
+
+D. Printer
+
+Answer: A. CPU
+
+32. Which memory is used for temporary storage while programs are running?
+
+Category: Computer Fundamentals
+
+A. RAM
+
+B. ROM
+
+C. DVD
+
+D. Hard disk
+
+Answer: A. RAM
+
+33. Which symbol is commonly used to end a statement in C/C++?
+
+Category: Programming Basics
+
+A. ;
+
+B. :
+
+C. #
+
+D. @
+
+Answer: A. ;
+
+34. Which loop is guaranteed to execute its body at least once in C/C++?
+
+Category: Programming Basics
+
+A. do-while
+
+B. for
+
+C. while
+
+D. None of these
+
+Answer: A. do-while
+
+35. Which data type is commonly used to store whole numbers in C++?
+
+Category: Programming Basics
+
+A. int
+
+B. char
+
+C. float
+
+D. bool
+
+Answer: A. int
+
+36. Which data structure follows LIFO?
+
+Category: Data Structures
+
+A. Stack
+
+B. Queue
+
+C. Array
+
 D. Graph
 
-**Answer: C. Queue**
+Answer: A. Stack
 
-**Q19. Which data structure stores elements in contiguous memory locations in its typical implementation?**
+37. Which data structure follows FIFO?
 
-A. Array  
-B. Graph  
-C. Tree  
-D. Linked List
+Category: Data Structures
 
-**Answer: A. Array**
+A. Queue
 
-**Q20. Which data structure consists of nodes connected by links?**
+B. Stack
 
-A. Array  
-B. Linked List  
-C. Stack only  
-D. Hash table only
+C. Tree
 
-**Answer: B. Linked List**
+D. Heap
 
-**Q21. Which data structure is commonly used to implement recursion?**
+Answer: A. Queue
 
-A. Queue  
-B. Stack  
-C. Heap  
-D. Graph
+38. Which structure stores data in key-value pairs?
 
-**Answer: B. Stack**
+Category: Data Structures
 
-**Q22. Which data structure is used to represent hierarchical relationships?**
+A. Hash table
 
-A. Tree  
-B. Array  
-C. Stack  
-D. Queue
+B. Stack
 
-**Answer: A. Tree**
+C. Queue
 
-**Operating Systems**
+D. Linked list
 
-**Q23. What is an operating system?**
+Answer: A. Hash table
 
-A. Application software only  
-B. Software that manages computer hardware and resources  
-C. A programming language  
-D. A type of computer virus
+39. Which software manages computer hardware and applications?
 
-**Answer: B. Software that manages computer hardware and resources**
+Category: Operating Systems
 
-**Q24. Which of the following is an operating system?**
+A. Operating system
 
-A. Linux  
-B. MySQL  
-C. Python  
-D. Google Chrome
+B. Compiler
 
-**Answer: A. Linux**
+C. Browser
 
-**Q25. What is a process?**
+D. Text editor
 
-A. A program in execution  
-B. A physical component  
-C. A type of memory  
-D. A network cable
+Answer: A. Operating system
 
-**Answer: A. A program in execution**
+40. Which program decides which process gets the CPU?
 
-**Q26. Which of the following is responsible for managing files and directories?**
+Category: Operating Systems
 
-A. Operating System  
-B. Monitor  
-C. Compiler only  
-D. Keyboard
+A. Scheduler
 
-**Answer: A. Operating System**
+B. Loader
 
-**Q27. What does multitasking mean?**
+C. Compiler
 
-A. Running only one program  
-B. Running multiple tasks apparently or actually concurrently  
-C. Increasing hard disk size  
-D. Connecting multiple monitors
+D. Browser
 
-**Answer: B. Running multiple tasks apparently or actually concurrently**
+Answer: A. Scheduler
 
-**Q28. Which scheduling algorithm typically executes processes in the order they arrive?**
+41. Which device connects different networks?
 
-A. Round Robin  
-B. Priority Scheduling  
-C. FCFS  
-D. Shortest Job First
+Category: Networks
 
-**Answer: C. FCFS**
+A. Router
 
-**Computer Networks**
+B. Keyboard
 
-**Q29. What does IP stand for in computer networking?**
+C. Monitor
 
-A. Internet Protocol  
-B. Internal Process  
-C. Information Port  
-D. Internet Program
+D. Printer
 
-**Answer: A. Internet Protocol**
+Answer: A. Router
 
-**Q30. Which device connects multiple devices within a local area network?**
+42. Which protocol is used to open web pages?
 
-A. Switch  
-B. Scanner  
-C. Printer  
-D. Keyboard
+Category: Networks
 
-**Answer: A. Switch**
+A. HTTP
 
-**Q31. What does LAN stand for?**
+B. FTP
 
-A. Large Area Network  
-B. Local Area Network  
-C. Long Access Network  
-D. Linked Application Network
+C. SMTP
 
-**Answer: B. Local Area Network**
+D. ARP
 
-**Q32. Which protocol is commonly used to access websites?**
+Answer: A. HTTP
 
-A. HTTP  
-B. FTP  
-C. SMTP  
-D. SSH
+43. Which protocol is used to translate domain names into IP addresses?
 
-**Answer: A. HTTP**
+Category: Networks
 
-**Q33. Which protocol is used to send emails?**
+A. DNS
 
-A. SMTP  
-B. FTP  
-C. DNS  
-D. DHCP
+B. HTTP
 
-**Answer: A. SMTP**
+C. TCP
 
-**Q34. What is the primary function of DNS?**
+D. FTP
 
-A. Encrypting files  
-B. Translating domain names into IP addresses  
-C. Compressing data  
-D. Managing computer memory
+Answer: A. DNS
 
-**Answer: B. Translating domain names into IP addresses**
+44. Which SQL command is used to retrieve data?
 
-**Q35. Which device forwards packets between different networks?**
+Category: DBMS & SQL
 
-A. Switch  
-B. Router  
-C. Hub  
-D. Repeater
+A. SELECT
 
-**Answer: B. Router**
+B. INSERT
 
-**Q36. What does Wi-Fi primarily provide?**
+C. DELETE
 
-A. Wireless network connectivity  
-B. Wired power supply  
-C. Data storage  
-D. Virus protection
-
-**Answer: A. Wireless network connectivity**
-
-**Databases & SQL**
-
-**Q37. What does DBMS stand for?**
-
-A. Database Management System  
-B. Data Backup Management Software  
-C. Digital Base Memory System  
-D. Database Machine Service
-
-**Answer: A. Database Management System**
-
-**Q38. Which SQL command is used to retrieve data from a database?**
-
-A. INSERT  
-B. UPDATE  
-C. SELECT  
-D. DELETE
-
-**Answer: C. SELECT**
-
-**Q39. Which key uniquely identifies a record in a relational table?**
-
-A. Foreign Key  
-B. Primary Key  
-C. Candidate Value  
-D. Duplicate Key
-
-**Answer: B. Primary Key**
-
-**Q40. Which SQL command is used to add new records to a table?**
-
-A. INSERT  
-B. CREATE  
-C. ALTER  
 D. DROP
 
-**Answer: A. INSERT**
+Answer: A. SELECT
 
-**Q41. What does SQL stand for?**
+45. Which SQL command is used to add a new row?
 
-A. Structured Query Language  
-B. Simple Question Language  
-C. System Query Logic  
-D. Sequential Query Language
+Category: DBMS & SQL
 
-**Answer: A. Structured Query Language**
+A. INSERT
 
-**Cybersecurity Basics**
+B. SELECT
 
-**Q42. What is phishing?**
+C. UPDATE
 
-A. A method of cooling a computer  
-B. A fraudulent attempt to obtain sensitive information  
-C. A data compression technique  
-D. A network routing protocol
+D. DROP
 
-**Answer: B. A fraudulent attempt to obtain sensitive information**
+Answer: A. INSERT
 
-**Q43. Which of the following is used to protect an account from unauthorized access?**
+46. A primary key should uniquely identify a:
 
-A. Strong password  
-B. Screen brightness  
-C. File extension  
-D. Desktop wallpaper
+Category: DBMS & SQL
 
-**Answer: A. Strong password**
+A. Row
 
-**Q44. What is malware?**
+B. Database server
 
-A. Malicious software  
-B. Network hardware  
-C. A programming language  
-D. A database table
+C. SQL command
 
-**Answer: A. Malicious software**
+D. Column type only
 
-**Q45. What does antivirus software help detect and remove?**
+Answer: A. Row
 
-A. Computer viruses and other malicious software  
-B. Keyboard errors  
-C. Low battery  
-D. Internet speed issues
+47. Which attack uses fake messages or websites to steal information?
 
-**Answer: A. Computer viruses and other malicious software**
+Category: Cybersecurity
 
-**Internet & Software Fundamentals**
+A. Phishing
 
-**Q46. Which of the following is a web browser?**
+B. Caching
 
-A. Google Chrome  
-B. Linux  
-C. MySQL  
-D. Python
+C. Compression
 
-**Answer: A. Google Chrome**
+D. Defragmentation
 
-**Q47. What does URL stand for?**
+Answer: A. Phishing
 
-A. Uniform Resource Locator  
-B. Universal Routing Link  
-C. Uniform Retrieval Language  
-D. User Resource List
+48. Which is a strong password?
 
-**Answer: A. Uniform Resource Locator**
+Category: Cybersecurity
 
-**Q48. Which file extension is commonly associated with a C source file?**
+A. T7@kL9#pQ2
 
-A. .py  
-B. .java  
-C. .c  
-D. .html
+B. password123
 
-**Answer: C. .c**
+C. 12345678
 
-**Q49. What is cloud computing?**
+D. qwerty
 
-A. Computing services delivered over the internet  
-B. Computing only during cloudy weather  
-C. A type of computer hardware  
-D. A method of printing documents
+Answer: A. T7@kL9#pQ2
 
-**Answer: A. Computing services delivered over the internet**
+49. How many different values can 3 binary bits represent?
 
-**Q50. Which of the following is an example of open-source software?**
+Category: Digital Electronics
 
-A. Linux  
-B. Microsoft Paint  
-C. Adobe Photoshop  
-D. Microsoft PowerPoint
+A. 8
 
-**Answer: A. Linux**
+B. 3
 
-**Basic Electrical Concepts**
+C. 6
 
-**Q1. What is the SI unit of electric current?**
+D. 16
 
-**A. Volt  
-B. Ampere  
-C. Ohm  
-D. Watt**
+Answer: A. 8
 
-**Answer: B. Ampere**
+50. Which gate gives output 1 when both inputs are 1?
 
-**Q2. What is the SI unit of resistance?**
+Category: Digital Electronics
 
-**A. Ohm  
-B. Farad  
-C. Henry  
-D. Coulomb**
+A. AND
 
-**Answer: A. Ohm**
+B. OR
 
-**Q3. Which law states that V = IR?**
+C. NOT
 
-**A. Faraday's Law  
-B. Ohm's Law  
-C. Kirchhoff's Current Law  
-D. Lenz's Law**
+D. XOR
 
-**Answer: B. Ohm's Law**
+Answer: A. AND
 
-**Q4. What is the SI unit of electrical power?**
+51. Which number system uses only 0 and 1?
 
-**A. Joule  
-B. Watt  
-C. Volt  
-D. Ampere**
+Category: Digital Electronics
 
-**Answer: B. Watt**
+A. Binary
 
-**Q5. Which component stores electrical energy in an electric field?**
+B. Decimal
 
-**A. Resistor  
-B. Capacitor  
-C. Inductor  
-D. Diode**
+C. Octal
 
-**Answer: B. Capacitor**
+D. Hexadecimal
 
-**Q6. Which component stores energy in a magnetic field?**
+Answer: A. Binary
 
-**A. Capacitor  
-B. Resistor  
-C. Inductor  
-D. Transistor**
+52. What is the SI unit of resistance?
 
-**Answer: C. Inductor**
+Category: Basic Electrical
 
-**Q7. What is the primary function of a resistor?**
+A. Ohm
 
-**A. Store electric charge  
-B. Oppose the flow of electric current  
-C. Amplify signals  
-D. Convert AC to DC**
+B. Volt
 
-**Answer: B. Oppose the flow of electric current**
+C. Ampere
 
-**Q8. In a series circuit, which quantity remains the same through all components?**
+D. Watt
 
-**A. Voltage  
-B. Current  
-C. Resistance  
-D. Power**
+Answer: A. Ohm
 
-**Answer: B. Current**
+53. A 10 Ω resistor carries 2 A. What is the voltage across it?
 
-**Electronic Components**
+Category: Basic Electrical
 
-**Q9. A semiconductor has conductivity between which two types of materials?**
+A. 20 V
 
-**A. Conductors and insulators  
-B. Metals and alloys  
-C. Magnets and conductors  
-D. Superconductors and metals**
+B. 5 V
 
-**Answer: A. Conductors and insulators**
+C. 12 V
 
-**Q10. Which of the following is a commonly used semiconductor material?**
+D. 8 V
 
-**A. Copper  
-B. Silicon  
-C. Aluminium  
-D. Iron**
+Answer: A. 20 V
 
-**Answer: B. Silicon**
+54. An ideal diode mainly allows current to flow in:
 
-**Q11. What is the main function of a diode?**
+Category: Analog Electronics
 
-**A. Allow current primarily in one direction  
-B. Store magnetic energy  
-C. Amplify all signals  
-D. Generate mechanical motion**
+A. One direction
 
-**Answer: A. Allow current primarily in one direction**
+B. Both directions equally
 
-**Q12. Which diode is commonly used for voltage regulation?**
+C. No direction
 
-**A. LED  
-B. Photodiode  
-C. Zener diode  
-D. Tunnel diode**
+D. Only through air
 
-**Answer: C. Zener diode**
+Answer: A. One direction
 
-**Q13. What does LED stand for?**
+55. An ideal op-amp has very high:
 
-**A. Low Energy Device  
-B. Light Emitting Diode  
-C. Linear Electronic Diode  
-D. Light Energy Detector**
+Category: Analog Electronics
 
-**Answer: B. Light Emitting Diode**
+A. Voltage gain
 
-**Q14. Which component is commonly used for amplification and switching?**
+B. Resistance only at the output
 
-**A. Transistor  
-B. Capacitor  
-C. Fuse  
-D. Transformer core**
+C. Power consumption
 
-**Answer: A. Transistor**
+D. Input current
 
-**Q15. How many terminals does a bipolar junction transistor (BJT) have?**
+Answer: A. Voltage gain
 
-**A. 2  
-B. 3  
-C. 4  
-D. 5**
+56. AM stands for:
 
-**Answer: B. 3**
+Category: Communication Systems
 
-**Q16. What are the three terminals of a BJT?**
+A. Amplitude Modulation
 
-**A. Gate, Source, Drain  
-B. Anode, Cathode, Gate  
-C. Emitter, Base, Collector  
-D. Input, Output, Ground**
+B. Analog Memory
 
-**Answer: C. Emitter, Base, Collector**
+C. Automatic Modulation
 
-**Digital Electronics**
+D. Amplitude Memory
 
-**Q17. Which number system uses only 0 and 1?**
+Answer: A. Amplitude Modulation
 
-**A. Decimal  
-B. Octal  
-C. Binary  
-D. Hexadecimal**
+57. A signal with frequency 10 Hz has a period of:
 
-**Answer: C. Binary**
+Category: Signals & Systems
 
-**Q18. What is the decimal equivalent of binary 1010?**
+A. 0.1 s
 
-**A. 8  
-B. 10  
-C. 12  
-D. 14**
+B. 10 s
 
-**Answer: B. 10**
+C. 1 s
 
-**Q19. Which logic gate produces an output of 1 only when all inputs are 1?**
+D. 0.01 s
 
-**A. OR  
-B. NOT  
-C. AND  
-D. XOR**
+Answer: A. 0.1 s
 
-**Answer: C. AND**
+58. What does CPU stand for?
 
-**Q20. Which logic gate produces an output of 1 when at least one input is 1?**
+Category: Microprocessors & Embedded
 
-**A. AND  
-B. OR  
-C. NOT  
-D. NAND**
+A. Central Processing Unit
 
-**Answer: B. OR**
+B. Computer Program Unit
 
-**Q21. Which gate is also known as an inverter?**
+C. Central Program Utility
 
-**A. AND  
-B. OR  
-C. NOT  
-D. XOR**
+D. Control Processing Utility
 
-**Answer: C. NOT**
+Answer: A. Central Processing Unit
 
-**Q22. Which of the following is a universal logic gate?**
+59. A watchdog timer is mainly used to:
 
-**A. AND  
-B. OR  
-C. NAND  
-D. XOR**
+Category: Microprocessors & Embedded
 
-**Answer: C. NAND**
+A. Reset a system if software becomes unresponsive
 
-**Q23. What is the output of an XOR gate when both inputs are the same?**
+B. Increase storage
 
-**A. 1  
-B. 0  
-C. Undefined  
-D. Depends only on voltage**
+C. Display graphics
 
-**Answer: B. 0**
+D. Replace RAM
 
-**Q24. How many bits can a basic flip-flop store?**
+Answer: A. Reset a system if software becomes unresponsive
 
-**A. 1 bit  
-B. 2 bits  
-C. 4 bits  
-D. 8 bits**
+60. A system that uses feedback is called a:
 
-**Answer: A. 1 bit**
+Category: Control Systems & Instrumentation
 
-**Q25. Which circuit is used to add two binary bits?**
+A. Closed-loop system
 
-**A. Multiplexer  
-B. Half adder  
-C. Decoder  
-D. Counter**
+B. Open-loop system
 
-**Answer: B. Half adder**
+C. Digital system
 
-**Q26. What is the main function of a multiplexer?**
+D. Static system
 
-**A. Select one input from multiple inputs  
-B. Convert analog signals to digital signals  
-C. Store permanent data  
-D. Amplify electrical power**
+Answer: A. Closed-loop system
 
-**Answer: A. Select one input from multiple inputs**
+61. What does GDP stand for?
 
-**Analog Electronics**
+Category: Economics & International Affairs
 
-**Q27. What is the main purpose of an amplifier?**
+A. Government Domestic Production
 
-**A. Reduce signal strength  
-B. Increase signal amplitude or power  
-C. Convert DC into mechanical energy  
-D. Store digital data**
+B. Gross Domestic Product
 
-**Answer: B. Increase signal amplitude or power**
+C. General Development Percentage
 
-**Q28. What does an operational amplifier primarily amplify?**
+D. Gross Development Plan
 
-**A. Difference between its input voltages  
-B. Only the supply voltage  
-C. Magnetic fields  
-D. Frequency alone**
+Answer: B. Gross Domestic Product
 
-**Answer: A. Difference between its input voltages**
+62. Which institution is responsible for monetary policy in India?
 
-**Q29. Which of the following is a common application of a rectifier?**
+Category: Economics & International Affairs
 
-**A. Converting AC to DC  
-B. Converting DC to AC only  
-C. Increasing resistance  
-D. Storing binary data**
+A. SEBI
 
-**Answer: A. Converting AC to DC**
+B. RBI
 
-**Q30. Which component is commonly used to smooth the output of a rectifier?**
+C. Finance Commission
 
-**A. Capacitor  
-B. Switch  
-C. LED only  
-D. Fuse**
+D. NABARD
 
-**Answer: A. Capacitor**
+Answer: B. RBI
 
-**Q31. What is the approximate forward voltage of a silicon diode under typical operating conditions?**
+63. What is inflation?
 
-**A. 0.1 V  
-B. 0.3 V  
-C. 0.7 V  
-D. 2.5 V**
+Category: Economics & International Affairs
 
-**Answer: C. 0.7 V**
+A. A sustained increase in the general price level
 
-**Q32. Which transistor configuration is commonly used for voltage amplification?**
+B. A decrease in the money supply only
 
-**A. Common-emitter  
-B. Common-collector only  
-C. Common-base only  
-D. Open-collector**
+C. An increase in exports only
 
-**Answer: A. Common-emitter**
+D. A fall in all commodity prices
 
-**Communication Systems**
+Answer: A. A sustained increase in the general price level
 
-**Q33. What is the primary purpose of a communication system?**
+64. What is the primary function of the Securities and Exchange Board of India (SEBI)?
 
-**A. To transfer information from one point to another  
-B. To store electrical energy  
-C. To increase resistance  
-D. To generate heat**
+Category: Economics & International Affairs
 
-**Answer: A. To transfer information from one point to another**
+A. Managing India's foreign policy
 
-**Q34. Which of the following is a basic element of a communication system?**
+B. Conducting population census
 
-**A. Transmitter  
-B. Receiver  
-C. Communication channel  
-D. All of the above**
+C. Regulating the securities market
 
-**Answer: D. All of the above**
+D. Printing currency
 
-**Q35. What is modulation?**
+Answer: C. Regulating the securities market
 
-**A. Process of varying a carrier signal according to an information signal  
-B. Process of removing all noise  
-C. Process of storing data in RAM  
-D. Process of converting AC to DC only**
+65. Which organization is primarily responsible for maintaining international monetary stability?
 
-**Answer: A. Process of varying a carrier signal according to an information signal**
+Category: Economics & International Affairs
 
-**Q36. Which modulation technique varies the amplitude of the carrier?**
+A. IMF
 
-**A. FM  
-B. PM  
-C. AM  
-D. PCM**
+B. UNESCO
 
-**Answer: C. AM**
+C. WTO
 
-**Q37. Which modulation technique varies the frequency of the carrier?**
+D. WHO
 
-**A. AM  
-B. FM  
-C. PM  
-D. ASK only**
+Answer: A. IMF
 
-**Answer: B. FM**
+66. Where is the headquarters of the World Trade Organization located?
 
-**Q38. What does FM stand for?**
+Category: Economics & International Affairs
 
-**A. Frequency Modulation  
-B. Field Modulation  
-C. Frequency Multiplication  
-D. Filtered Messaging**
+A. Geneva
 
-**Answer: A. Frequency Modulation**
+B. Washington, D.C.
 
-**Q39. What is noise in a communication system?**
+C. New York
 
-**A. Unwanted disturbance that affects a signal  
-B. Desired information  
-C. A type of transmitter  
-D. A storage device**
+D. Paris
 
-**Answer: A. Unwanted disturbance that affects a signal**
+Answer: A. Geneva
 
-**Q40. Which medium uses light to transmit information?**
+67. The Thomas Cup is associated with which sport?
 
-**A. Coaxial cable  
-B. Optical fiber  
-C. Twisted-pair cable  
-D. Copper wire only**
+Category: Sports & Awards
 
-**Answer: B. Optical fiber**
+A. Hockey
 
-**Signals & Systems**
+B. Tennis
 
-**Q41. A signal that varies continuously with time is called a \_**\_** signal.**
+C. Badminton
 
-**A. Digital  
-B. Analog  
-C. Binary  
-D. Discrete-only**
+D. Table Tennis
 
-**Answer: B. Analog**
+Answer: C. Badminton
 
-**Q42. A signal that takes values at discrete time instants is called a \_**\_** signal.**
+68. The Davis Cup is associated with which sport?
 
-**A. Continuous-time  
-B. Discrete-time  
-C. Analog-only  
-D. Sinusoidal-only**
+Category: Sports & Awards
 
-**Answer: B. Discrete-time**
+A. Tennis
 
-**Q43. What is the unit of frequency?**
+B. Basketball
 
-**A. Hertz  
-B. Tesla  
-C. Weber  
-D. Ohm**
+C. Football
 
-**Answer: A. Hertz**
+D. Cricket
 
-**Q44. What is the frequency of a signal with a time period of 1 second?**
+Answer: A. Tennis
 
-**A. 0.1 Hz  
-B. 1 Hz  
-C. 10 Hz  
-D. 100 Hz**
+69. Which country has won the most FIFA Men's World Cup titles?
 
-**Answer: B. 1 Hz**
+Category: Sports & Awards
 
-**Microprocessors & Embedded Systems**
+A. Italy
 
-**Q45. What is a microprocessor?**
+B. Brazil
 
-**A. A CPU implemented on a single integrated circuit  
-B. A type of resistor  
-C. A storage cable  
-D. A communication channel**
+C. Argentina
 
-**Answer: A. A CPU implemented on a single integrated circuit**
+D. Germany
 
-**Q46. What is a microcontroller?**
+Answer: B. Brazil
 
-**A. An integrated circuit containing a processor, memory, and peripherals  
-B. Only a display device  
-C. Only an external memory chip  
-D. A type of diode**
+70. The Dronacharya Award is primarily given to recognize excellence in:
 
-**Answer: A. An integrated circuit containing a processor, memory, and peripherals**
+Category: Sports & Awards
 
-**Q47. Which of the following is commonly used in embedded systems?**
+A. Sports coaching
 
-**A. Microcontroller  
-B. Loudspeaker only  
-C. Transformer only  
-D. Fuse only**
+B. Sports journalism
 
-**Answer: A. Microcontroller**
+C. Sports medicine
 
-**Q48. What does GPIO stand for?**
+D. Sports administration
 
-**A. General-Purpose Input/Output  
-B. General Processing Internal Operation  
-C. Graphical Peripheral Input Option  
-D. General Power Interface Output**
+Answer: A. Sports coaching
 
-**Answer: A. General-Purpose Input/Output**
+71. The Bharat Ratna is India's highest:
 
-**Q49. Which device is commonly used to measure temperature electronically?**
+Category: Sports & Awards
 
-**A. Temperature sensor  
-B. Transformer  
-C. Rectifier  
-D. Oscillator only**
+A. Civilian award
 
-**Answer: A. Temperature sensor**
+B. Sports award
 
-**Q50. What is the primary function of an oscillator?**
+C. Military award
 
-**A. Generate a periodic signal  
-B. Store permanent data  
-C. Reduce all frequencies to zero  
-D. Convert binary to decimal only**
+D. Literary award
 
-**Answer: A. Generate a periodic signal**
+Answer: A. Civilian award
 
-**MEDIUM**
+72. Which classical dance form originated in Tamil Nadu?
 
-**Indian History & Freedom Movement**
+Category: Miscellaneous General Knowledge
 
-**Q1. The Indus Valley Civilization is also known as which civilization?**
+A. Bharatanatyam
 
-**A. Vedic Civilization  
-B. Harappan Civilization  
-C. Mauryan Civilization  
-D. Gupta Civilization**
+B. Sattriya
 
-**Answer: B. Harappan Civilization**
+C. Manipuri
 
-**Q2. Which Harappan site is famous for its dockyard?**
+D. Kathakali
 
-**A. Harappa  
-B. Mohenjo-daro  
-C. Lothal  
-D. Kalibangan**
+Answer: A. Bharatanatyam
 
-**Answer: C. Lothal**
+73. Which Indian classical dance form originated in Assam?
 
-**Q3. Who founded the Maurya Empire?**
+Category: Miscellaneous General Knowledge
 
-**A. Ashoka  
-B. Chandragupta Maurya  
-C. Bindusara  
-D. Samudragupta**
+A. Mohiniyattam
 
-**Answer: B. Chandragupta Maurya**
+B. Odissi
 
-**Q4. The Kalinga War significantly influenced which ruler's adoption of Buddhism?**
+C. Kuchipudi
 
-**A. Chandragupta Maurya  
-B. Ashoka  
-C. Harshavardhana  
-D. Kanishka**
+D. Sattriya
 
-**Answer: B. Ashoka**
+Answer: D. Sattriya
 
-**Q5. Who founded the Mughal Empire in India?**
+74. Who wrote the book The Discovery of India?
 
-**A. Akbar  
-B. Humayun  
-C. Babur  
-D. Sher Shah Suri**
+Category: Miscellaneous General Knowledge
 
-**Answer: C. Babur**
+A. Dr. B. R. Ambedkar
 
-**Q6. The Battle of Plassey was fought in which year?**
+B. Mahatma Gandhi
 
-**A. 1757  
-B. 1764  
-C. 1857  
-D. 1748**
+C. Rabindranath Tagore
 
-**Answer: A. 1757**
+D. Jawaharlal Nehru
 
-**Q7. The Non-Cooperation Movement was launched under the leadership of:**
+Answer: D. Jawaharlal Nehru
 
-**A. Subhas Chandra Bose  
-B. Mahatma Gandhi  
-C. Bal Gangadhar Tilak  
-D. Bhagat Singh**
+75. Which is the smallest country in the world by area?
 
-**Answer: B. Mahatma Gandhi**
+Category: Miscellaneous General Knowledge
 
-**Q8. The Dandi March of 1930 was associated with which movement?**
+A. Vatican City
 
-**A. Quit India Movement  
-B. Non-Cooperation Movement  
-C. Civil Disobedience Movement  
-D. Swadeshi Movement**
+B. Liechtenstein
 
-**Answer: C. Civil Disobedience Movement**
+C. Monaco
 
-**Indian Polity & Governance**
+D. San Marino
 
-**Q9. Fundamental Rights in the Indian Constitution are primarily contained in which Part?**
+Answer: A. Vatican City
 
-**A. Part I  
-B. Part II  
-C. Part III  
-D. Part IV**
+76. Which strait separates India and Sri Lanka?
 
-**Answer: C. Part III**
+Category: Miscellaneous General Knowledge
 
-**Q10. Which Article of the Indian Constitution deals with equality before law?**
+A. Malacca Strait
 
-**A. Article 14  
-B. Article 19  
-C. Article 21  
-D. Article 32**
+B. Hormuz Strait
 
-**Answer: A. Article 14**
+C. Palk Strait
 
-**Q11. Which constitutional amendment lowered the voting age in India from 21 to 18 years?**
+D. Bering Strait
 
-**A. 42nd Amendment  
-B. 44th Amendment  
-C. 61st Amendment  
-D. 73rd Amendment**
+Answer: C. Palk Strait
 
-**Answer: C. 61st Amendment**
+77. Which organization publishes the World Economic Outlook report?
 
-**Q12. The Directive Principles of State Policy were inspired primarily by the Constitution of which country?**
+Category: Miscellaneous General Knowledge
 
-**A. United States  
-B. Ireland  
-C. Canada  
-D. Australia**
+A. United Nations Development Programme
 
-**Answer: B. Ireland**
+B. World Bank
 
-**Q13. Who appoints the Governor of an Indian state?**
+C. World Trade Organization
 
-**A. Prime Minister  
-B. Chief Minister  
-C. President of India  
-D. Chief Justice of India**
+D. International Monetary Fund
 
-**Answer: C. President of India**
+Answer: D. International Monetary Fund
 
-**Q14. What is the maximum strength of the Lok Sabha as provided by the Constitution, including nominated members under the former provision?**
+78. Which is the only continent through which all four hemispheres pass?
 
-**A. 545  
-B. 550  
-C. 552  
-D. 560**
+Category: Miscellaneous General Knowledge
 
-**Answer: C. 552**
+A. Europe
 
-**Q15. Which body conducts elections to the Parliament and state legislatures in India?**
+B. Asia
 
-**A. UPSC  
-B. Election Commission of India  
-C. Finance Commission  
-D. NITI Aayog**
+C. Africa
 
-**Answer: B. Election Commission of India**
+D. South America
 
-**Q16. The 73rd Constitutional Amendment is primarily associated with:**
+Answer: C. Africa
 
-**A. Municipalities  
-B. Panchayati Raj Institutions  
-C. Fundamental Duties  
-D. Emergency provisions**
+79. What is the worst-case time complexity of binary search on a sorted array?
 
-**Answer: B. Panchayati Raj Institutions**
+Category: Data Structures & Algorithms
 
-**Geography & Environment**
+A. O(log n)
 
-**Q17. Which river is known as the "Dakshin Ganga"?**
+B. O(n)
 
-**A. Krishna  
-B. Kaveri  
-C. Godavari  
-D. Mahanadi**
+C. O(n log n)
 
-**Answer: C. Godavari**
+D. O(1)
 
-**Q18. Which of the following rivers flows westward into the Arabian Sea?**
+Answer: A. O(log n)
 
-**A. Godavari  
-B. Krishna  
-C. Narmada  
-D. Mahanadi**
+80. Which traversal of a Binary Search Tree produces elements in sorted order?
 
-**Answer: C. Narmada**
+Category: Data Structures & Algorithms
 
-**Q19. Black soil is particularly suitable for the cultivation of:**
+A. Postorder
 
-**A. Rice  
-B. Cotton  
-C. Tea  
-D. Jute**
+B. Inorder
 
-**Answer: B. Cotton**
+C. Preorder
 
-**Q20. The Tropic of Cancer passes through how many Indian states?**
+D. Level order
 
-**A. 6  
-B. 7  
-C. 8  
-D. 9**
+Answer: B. Inorder
 
-**Answer: C. 8**
+81. Which data structure is most suitable for implementing Breadth-First Search (BFS)?
 
-**Q21. Which Indian state has the longest coastline?**
+Category: Data Structures & Algorithms
 
-**A. Tamil Nadu  
-B. Andhra Pradesh  
-C. Gujarat  
-D. Maharashtra**
+A. Hash table
 
-**Answer: C. Gujarat**
+B. Heap
 
-**Q22. The Sundarbans delta is formed primarily by which river systems?**
+C. Queue
 
-**A. Ganga, Brahmaputra and Meghna  
-B. Godavari and Krishna  
-C. Narmada and Tapi  
-D. Mahanadi and Brahmani**
+D. Stack
 
-**Answer: A. Ganga, Brahmaputra and Meghna**
+Answer: C. Queue
 
-**Q23. Which layer of the atmosphere contains the ozone layer?**
+82. Which data structure is commonly used in Depth-First Search (DFS)?
 
-**A. Troposphere  
-B. Stratosphere  
-C. Mesosphere  
-D. Thermosphere**
+Category: Data Structures & Algorithms
 
-**Answer: B. Stratosphere**
+A. Stack
 
-**Q24. The Ramsar Convention is primarily concerned with the conservation of:**
+B. Priority queue
 
-**A. Deserts  
-B. Wetlands  
-C. Mountains  
-D. Coral reefs only**
+C. Queue
 
-**Answer: B. Wetlands**
+D. Circular buffer
 
-**Science & Technology**
+Answer: A. Stack
 
-**Q25. Which particle determines the atomic number of an element?**
+83. What is the worst-case time complexity of Merge Sort?
 
-**A. Neutron  
-B. Electron  
-C. Proton  
-D. Photon**
+Category: Data Structures & Algorithms
 
-**Answer: C. Proton**
+A. O(n log n)
 
-**Q26. What is the pH value of a neutral solution at approximately 25°C?**
+B. O(log n)
 
-**A. 0  
-B. 5  
-C. 7  
-D. 14**
+C. O(n²)
 
-**Answer: C. 7**
+D. O(n)
 
-**Q27. Which blood group is commonly called the universal donor for red blood cell transfusion, considering the ABO and Rh systems?**
+Answer: A. O(n log n)
 
-**A. AB positive  
-B. O negative  
-C. A positive  
-D. B negative**
+84. Which sorting algorithm generally has an average-case time complexity of O(n log n) but can take O(n²) in the worst case?
 
-**Answer: B. O negative**
+Category: Data Structures & Algorithms
 
-**Q28. Which part of the human brain is primarily responsible for balance and coordination?**
+A. Quick Sort
 
-**A. Cerebrum  
-B. Cerebellum  
-C. Medulla  
-D. Hypothalamus**
+B. Radix Sort
 
-**Answer: B. Cerebellum**
+C. Counting Sort
 
-**Q29. What is the approximate speed of light in vacuum?**
+D. Merge Sort
 
-**A. 3 × 10⁶ m/s  
-B. 3 × 10⁷ m/s  
-C. 3 × 10⁸ m/s  
-D. 3 × 10⁹ m/s**
+Answer: A. Quick Sort
 
-**Answer: C. 3 × 10⁸ m/s**
+85. Which algorithm is commonly used to find the shortest path from a source vertex in a graph with non-negative edge weights?
 
-**Q30. Which law explains the relationship between current and magnetic field around a conductor?**
+Category: Data Structures & Algorithms
 
-**A. Ohm's Law  
-B. Ampere's Circuital Law  
-C. Boyle's Law  
-D. Hooke's Law**
+A. Prim's Algorithm
 
-**Answer: B. Ampere's Circuital Law**
+B. Dijkstra's Algorithm
 
-**Q31. CRISPR technology is primarily associated with:**
+C. Kruskal's Algorithm
 
-**A. Gene editing  
-B. Satellite communication  
-C. Nuclear fission  
-D. Weather forecasting**
+D. DFS
 
-**Answer: A. Gene editing**
+Answer: B. Dijkstra's Algorithm
 
-**Q32. Which Indian space agency launched the Chandrayaan missions?**
+86. Which technique solves a problem by breaking it into overlapping subproblems and storing their results?
 
-**A. DRDO  
-B. ISRO  
-C. HAL  
-D. BARC**
+Category: Data Structures & Algorithms
 
-**Answer: B. ISRO**
+A. Dynamic programming
 
-**Economics & International Affairs**
+B. Backtracking only
 
-**Q33. What does GDP stand for?**
+C. Divide and conquer only
 
-**A. Gross Domestic Product  
-B. General Development Percentage  
-C. Gross Development Plan  
-D. Government Domestic Production**
+D. Greedy method
 
-**Answer: A. Gross Domestic Product**
+Answer: A. Dynamic programming
 
-**Q34. Which institution is responsible for monetary policy in India?**
+87. Which scheduling algorithm assigns each process a fixed time slice in a cyclic manner?
 
-**A. SEBI  
-B. RBI  
-C. NABARD  
-D. Finance Commission**
+Category: Operating Systems
 
-**Answer: B. RBI**
+A. Shortest Job First
 
-**Q35. What is inflation?**
+B. FCFS
 
-**A. A sustained increase in the general price level  
-B. A decrease in the money supply only  
-C. A fall in all commodity prices  
-D. An increase in exports only**
+C. Priority Scheduling
 
-**Answer: A. A sustained increase in the general price level**
+D. Round Robin
 
-**Q36. What is the primary function of the Securities and Exchange Board of India (SEBI)?**
+Answer: D. Round Robin
 
-**A. Regulating the securities market  
-B. Printing currency  
-C. Managing India's foreign policy  
-D. Conducting population census**
+88. What is a context switch?
 
-**Answer: A. Regulating the securities market**
+Category: Operating Systems
 
-**Q37. Which organization is primarily responsible for maintaining international monetary stability?**
+A. Moving data from RAM to ROM
 
-**A. UNESCO  
-B. IMF  
-C. WHO  
-D. WTO**
+B. Changing the computer's operating system
 
-**Answer: B. IMF**
+C. Switching from one programming language to another
 
-**Q38. Where is the headquarters of the World Trade Organization located?**
+D. Saving the state of one process and loading the state of another
 
-**A. New York  
-B. Geneva  
-C. Paris  
-D. Washington, D.C.**
+Answer: D. Saving the state of one process and loading the state of another
 
-**Answer: B. Geneva**
+89. Which of the following is a necessary condition for deadlock?
 
-**Sports & Awards**
+Category: Operating Systems
 
-**Q39. The Thomas Cup is associated with which sport?**
+A. Infinite memory
 
-**A. Table Tennis  
-B. Badminton  
-C. Hockey  
-D. Tennis**
+B. Mutual exclusion
 
-**Answer: B. Badminton**
+C. Preemptive scheduling
 
-**Q40. The Davis Cup is associated with which sport?**
+D. Guaranteed resource availability
 
-**A. Cricket  
-B. Tennis  
-C. Football  
-D. Basketball**
+Answer: B. Mutual exclusion
 
-**Answer: B. Tennis**
+90. Which memory management technique divides physical memory into fixed-size blocks?
 
-**Q41. Which country has won the most FIFA Men's World Cup titles?**
+Category: Operating Systems
 
-**A. Germany  
-B. Argentina  
-C. Brazil  
-D. Italy**
+A. Paging
 
-**Answer: C. Brazil**
+B. Spooling
 
-**Q42. The Dronacharya Award is primarily given to recognize excellence in:**
+C. Segmentation
 
-**A. Sports coaching  
-B. Sports journalism  
-C. Sports administration  
-D. Sports medicine**
+D. Swapping only
 
-**Answer: A. Sports coaching**
+Answer: A. Paging
 
-**Q43. The Bharat Ratna is India's highest:**
+91. What is a page fault?
 
-**A. Military award  
-B. Civilian award  
-C. Sports award  
-D. Literary award**
+Category: Operating Systems
 
-**Answer: B. Civilian award**
+A. An error in a program's source code
 
-**Miscellaneous General Knowledge**
+B. A corrupted hard disk sector only
 
-**Q44. Which classical dance form originated in Tamil Nadu?**
+C. A failure of the CPU
 
-**A. Kathakali  
-B. Bharatanatyam  
-C. Sattriya  
-D. Manipuri**
+D. An event that occurs when a required page is not in main memory
 
-**Answer: B. Bharatanatyam**
+Answer: D. An event that occurs when a required page is not in main memory
 
-**Q45. Which Indian classical dance form originated in Assam?**
+92. Which scheduling algorithm can cause the convoy effect?
 
-**A. Kuchipudi  
-B. Odissi  
-C. Sattriya  
-D. Mohiniyattam**
+Category: Operating Systems
 
-**Answer: C. Sattriya**
+A. Multilevel Queue only
 
-**Q46. Who wrote the book _The Discovery of India_?**
+B. Round Robin
 
-**A. Mahatma Gandhi  
-B. Jawaharlal Nehru  
-C. Rabindranath Tagore  
-D. Dr. B. R. Ambedkar**
+C. FCFS
 
-**Answer: B. Jawaharlal Nehru**
+D. Shortest Remaining Time First
 
-**Q47. Which is the smallest country in the world by area?**
+Answer: C. FCFS
 
-**A. Monaco  
-B. Vatican City  
-C. San Marino  
-D. Liechtenstein**
+93. What is the primary purpose of virtual memory?
 
-**Answer: B. Vatican City**
+Category: Operating Systems
 
-**Q48. Which strait separates India and Sri Lanka?**
+A. To permanently store BIOS
 
-**A. Malacca Strait  
-B. Palk Strait  
-C. Bering Strait  
-D. Hormuz Strait**
+B. To increase processor clock speed
 
-**Answer: B. Palk Strait**
+C. To allow programs to use more memory than the available physical RAM
 
-**Q49. Which organization publishes the World Economic Outlook report?**
+D. To eliminate the need for secondary storage
 
-**A. World Bank  
-B. International Monetary Fund  
-C. World Trade Organization  
-D. United Nations Development Programme**
+Answer: C. To allow programs to use more memory than the available physical RAM
 
-**Answer: B. International Monetary Fund**
+94. Which of the following is a synchronization mechanism used to control access to shared resources?
 
-**Q50. Which is the only continent through which all four hemispheres pass?**
+Category: Operating Systems
 
-**A. Asia  
-B. Africa  
-C. South America  
-D. Europe**
+A. Semaphore
 
-**Answer: B. Africa**
+B. Compiler
 
-**Data Structures & Algorithms**
+C. Cache
 
-**Q1. What is the worst-case time complexity of binary search on a sorted array?**
+D. Loader
 
-**A. O(1)  
-B. O(log n)  
-C. O(n)  
-D. O(n log n)**
+Answer: A. Semaphore
 
-**Answer: B. O(log n)**
+95. Which layer of the OSI model is responsible for routing packets?
 
-**Q2. Which traversal of a Binary Search Tree produces elements in sorted order?**
+Category: Computer Networks
 
-**A. Preorder  
-B. Postorder  
-C. Inorder  
-D. Level order**
+A. Transport Layer
 
-**Answer: C. Inorder**
+B. Session Layer
 
-**Q3. Which data structure is most suitable for implementing Breadth-First Search (BFS)?**
+C. Network Layer
 
-**A. Stack  
-B. Queue  
-C. Heap  
-D. Hash table**
+D. Data Link Layer
 
-**Answer: B. Queue**
+Answer: C. Network Layer
 
-**Q4. Which data structure is commonly used in Depth-First Search (DFS)?**
+96. Which protocol provides reliable, connection-oriented data transmission?
 
-**A. Queue  
-B. Stack  
-C. Priority queue  
-D. Circular buffer**
+Category: Computer Networks
 
-**Answer: B. Stack**
+A. ARP
 
-**Q5. What is the worst-case time complexity of Merge Sort?**
+B. UDP
 
-**A. O(n)  
-B. O(log n)  
-C. O(n log n)  
-D. O(n²)**
+C. IP
 
-**Answer: C. O(n log n)**
+D. TCP
 
-**Q6. Which sorting algorithm generally has an average-case time complexity of O(n log n) but can take O(n²) in the worst case?**
+Answer: D. TCP
 
-**A. Merge Sort  
-B. Quick Sort  
-C. Counting Sort  
-D. Radix Sort**
+97. What is the main advantage of UDP over TCP?
 
-**Answer: B. Quick Sort**
+Category: Computer Networks
 
-**Q7. Which algorithm is commonly used to find the shortest path from a source vertex in a graph with non-negative edge weights?**
+A. Built-in retransmission
 
-**A. Prim's Algorithm  
-B. Kruskal's Algorithm  
-C. Dijkstra's Algorithm  
-D. DFS**
+B. Lower overhead and no connection establishment
 
-**Answer: C. Dijkstra's Algorithm**
+C. Ordered delivery
 
-**Q8. Which technique solves a problem by breaking it into overlapping subproblems and storing their results?**
+D. Guaranteed delivery
 
-**A. Greedy method  
-B. Dynamic programming  
-C. Backtracking only  
-D. Divide and conquer only**
+Answer: B. Lower overhead and no connection establishment
 
-**Answer: B. Dynamic programming**
+98. Which protocol maps an IPv4 address to a MAC address on a local network?
 
-**Operating Systems**
+Category: Computer Networks
 
-**Q9. Which scheduling algorithm assigns each process a fixed time slice in a cyclic manner?**
+A. ICMP
 
-**A. FCFS  
-B. Shortest Job First  
-C. Round Robin  
-D. Priority Scheduling**
+B. DHCP
 
-**Answer: C. Round Robin**
+C. ARP
 
-**Q10. What is a context switch?**
+D. DNS
 
-**A. Switching from one programming language to another  
-B. Saving the state of one process and loading the state of another  
-C. Changing the computer's operating system  
-D. Moving data from RAM to ROM**
+Answer: C. ARP
 
-**Answer: B. Saving the state of one process and loading the state of another**
+99. What is the purpose of a subnet mask?
 
-**Q11. Which of the following is a necessary condition for deadlock?**
+Category: Computer Networks
 
-**A. Mutual exclusion  
-B. Infinite memory  
-C. Preemptive scheduling  
-D. Guaranteed resource availability**
+A. To convert domain names into IP addresses
 
-**Answer: A. Mutual exclusion**
+B. To encrypt network traffic
 
-**Q12. Which memory management technique divides physical memory into fixed-size blocks?**
+C. To assign MAC addresses
 
-**A. Segmentation  
-B. Paging  
-C. Spooling  
-D. Swapping only**
+D. To identify the network and host portions of an IP address
 
-**Answer: B. Paging**
+Answer: D. To identify the network and host portions of an IP address
 
-**Q13. What is a page fault?**
+100. Which IP address is a private IPv4 address?
 
-**A. An error in a program's source code  
-B. An event that occurs when a required page is not in main memory  
-C. A failure of the CPU  
-D. A corrupted hard disk sector only**
+Category: Computer Networks
 
-**Answer: B. An event that occurs when a required page is not in main memory**
+A. 172.16.0.1
 
-**Q14. Which scheduling algorithm can cause the convoy effect?**
+B. 8.8.8.8
 
-**A. Round Robin  
-B. FCFS  
-C. Shortest Remaining Time First  
-D. Multilevel Queue only**
+C. 1.1.1.1
 
-**Answer: B. FCFS**
+D. 203.0.113.5
 
-**Q15. What is the primary purpose of virtual memory?**
+Answer: A. 172.16.0.1
 
-**A. To increase processor clock speed  
-B. To allow programs to use more memory than the available physical RAM  
-C. To permanently store BIOS  
-D. To eliminate the need for secondary storage**
+101. Which protocol is commonly used to automatically assign IP addresses to devices?
 
-**Answer: B. To allow programs to use more memory than the available physical RAM**
+Category: Computer Networks
 
-**Q16. Which of the following is a synchronization mechanism used to control access to shared resources?**
+A. SNMP
 
-**A. Semaphore  
-B. Compiler  
-C. Cache  
-D. Loader**
+B. FTP
 
-**Answer: A. Semaphore**
+C. DHCP
 
-**Computer Networks**
+D. SMTP
 
-**Q17. Which layer of the OSI model is responsible for routing packets?**
+Answer: C. DHCP
 
-**A. Data Link Layer  
-B. Network Layer  
-C. Transport Layer  
-D. Session Layer**
+102. In the OSI model, encryption and data formatting are primarily associated with which layer?
 
-**Answer: B. Network Layer**
+Category: Computer Networks
 
-**Q18. Which protocol provides reliable, connection-oriented data transmission?**
+A. Transport Layer
 
-**A. UDP  
-B. IP  
-C. TCP  
-D. ARP**
+B. Physical Layer
 
-**Answer: C. TCP**
+C. Network Layer
 
-**Q19. What is the main advantage of UDP over TCP?**
+D. Presentation Layer
 
-**A. Guaranteed delivery  
-B. Lower overhead and no connection establishment  
-C. Built-in retransmission  
-D. Ordered delivery**
+Answer: D. Presentation Layer
 
-**Answer: B. Lower overhead and no connection establishment**
+103. Which normal form eliminates partial dependency on a composite candidate key?
 
-**Q20. Which protocol maps an IPv4 address to a MAC address on a local network?**
+Category: DBMS & SQL
 
-**A. DNS  
-B. DHCP  
-C. ARP  
-D. ICMP**
+A. 2NF
 
-**Answer: C. ARP**
+B. 1NF
 
-**Q21. What is the purpose of a subnet mask?**
+C. BCNF
 
-**A. To encrypt network traffic  
-B. To identify the network and host portions of an IP address  
-C. To assign MAC addresses  
-D. To convert domain names into IP addresses**
+D. 3NF
 
-**Answer: B. To identify the network and host portions of an IP address**
+Answer: A. 2NF
 
-**Q22. Which IP address is a private IPv4 address?**
+104. Which SQL clause is used to filter groups after applying aggregate functions?
 
-**A. 8.8.8.8  
-B. 172.16.0.1  
-C. 1.1.1.1  
-D. 203.0.113.5**
+Category: DBMS & SQL
 
-**Answer: B. 172.16.0.1**
+A. DISTINCT
 
-**Q23. Which protocol is commonly used to automatically assign IP addresses to devices?**
+B. ORDER BY
 
-**A. FTP  
-B. DHCP  
-C. SMTP  
-D. SNMP**
+C. HAVING
 
-**Answer: B. DHCP**
+D. WHERE
 
-**Q24. In the OSI model, encryption and data formatting are primarily associated with which layer?**
+Answer: C. HAVING
 
-**A. Physical Layer  
-B. Transport Layer  
-C. Presentation Layer  
-D. Network Layer**
+105. Which SQL operation combines rows from two or more tables based on a related column?
 
-**Answer: C. Presentation Layer**
+Category: DBMS & SQL
 
-**DBMS & SQL**
+A. ORDER BY
 
-**Q25. Which normal form eliminates partial dependency on a composite candidate key?**
+B. JOIN
 
-**A. 1NF  
-B. 2NF  
-C. 3NF  
-D. BCNF**
+C. GROUP BY
 
-**Answer: B. 2NF**
+D. UNION only
 
-**Q26. Which SQL clause is used to filter groups after applying aggregate functions?**
+Answer: B. JOIN
 
-**A. WHERE  
-B. ORDER BY  
-C. HAVING  
-D. DISTINCT**
+106. What does the SQL command DELETE FROM Students WHERE id = 5; do?
 
-**Answer: C. HAVING**
+Category: DBMS & SQL
 
-**Q27. Which SQL operation combines rows from two or more tables based on a related column?**
+A. Deletes the entire Students table
 
-**A. JOIN  
-B. UNION only  
-C. GROUP BY  
-D. ORDER BY**
+B. Removes all databases
 
-**Answer: A. JOIN**
+C. Removes only the column named id
 
-**Q28. What does the SQL command DELETE FROM Students WHERE id = 5; do?**
+D. Deletes the row or rows matching the condition
 
-**A. Deletes the entire Students table  
-B. Deletes the row or rows matching the condition  
-C. Removes only the column named id  
-D. Removes all databases**
+Answer: D. Deletes the row or rows matching the condition
 
-**Answer: B. Deletes the row or rows matching the condition**
+107. Which property of a database transaction ensures that all operations are completed or none are applied?
 
-**Q29. Which property of a database transaction ensures that all operations are completed or none are applied?**
+Category: DBMS & SQL
 
-**A. Consistency  
-B. Isolation  
-C. Atomicity  
-D. Durability**
+A. Isolation
 
-**Answer: C. Atomicity**
+B. Consistency
 
-**Q30. Which key is used to establish a relationship between two relational tables?**
+C. Atomicity
 
-**A. Primary key only  
-B. Foreign key  
-C. Super key only  
-D. Composite attribute**
+D. Durability
 
-**Answer: B. Foreign key**
+Answer: C. Atomicity
 
-**Q31. What is the primary purpose of an index in a database?**
+108. Which key is used to establish a relationship between two relational tables?
 
-**A. To improve data retrieval speed  
-B. To eliminate all duplicate data  
-C. To replace the primary key  
-D. To encrypt the database**
+Category: DBMS & SQL
 
-**Answer: A. To improve data retrieval speed**
+A. Foreign key
 
-**Programming & OOP**
+B. Composite attribute
 
-**Q32. Which OOP concept allows a class to acquire properties and methods from another class?**
+C. Super key only
 
-**A. Encapsulation  
-B. Inheritance  
-C. Abstraction  
-D. Overloading**
+D. Primary key only
 
-**Answer: B. Inheritance**
+Answer: A. Foreign key
 
-**Q33. Which OOP concept refers to presenting essential features while hiding implementation details?**
+109. What is the primary purpose of an index in a database?
 
-**A. Abstraction  
-B. Inheritance  
-C. Compilation  
-D. Recursion**
+Category: DBMS & SQL
 
-**Answer: A. Abstraction**
+A. To encrypt the database
 
-**Q34. What is function overloading?**
+B. To eliminate all duplicate data
 
-**A. Defining multiple functions with the same name but different parameter lists  
-B. Defining a function inside another function only  
-C. Calling a function recursively  
-D. Replacing a function at runtime only**
+C. To improve data retrieval speed
 
-**Answer: A. Defining multiple functions with the same name but different parameter lists**
+D. To replace the primary key
 
-**Q35. What is the output of the following C code?**
+Answer: C. To improve data retrieval speed
 
-**int x = 10;**
+110. Which OOP concept allows a class to acquire properties and methods from another class?
 
-**printf("%d", x++);**
+Category: Programming & OOP
 
-**A. 9  
-B. 10  
-C. 11  
-D. Compilation error**
+A. Encapsulation
 
-**Answer: B. 10**
+B. Inheritance
 
-**Q36. Which of the following is used to allocate memory dynamically in C?**
+C. Abstraction
 
-**A. printf()  
-B. scanf()  
-C. malloc()  
-D. sizeof()**
+D. Overloading
 
-**Answer: C. malloc()**
+Answer: B. Inheritance
 
-**Q37. What is recursion?**
+111. Which OOP concept refers to presenting essential features while hiding implementation details?
 
-**A. A function calling itself directly or indirectly  
-B. A program using multiple variables  
-C. A loop that never terminates  
-D. A method of allocating static memory**
+Category: Programming & OOP
 
-**Answer: A. A function calling itself directly or indirectly**
+A. Compilation
 
-**Q38. Which of the following is a mutable data structure in Python?**
+B. Inheritance
 
-**A. Tuple  
-B. String  
-C. List  
-D. Integer**
+C. Recursion
 
-**Answer: C. List**
+D. Abstraction
 
-**Cybersecurity**
+Answer: D. Abstraction
 
-**Q39. Which security property ensures that data is accessible to authorized users when needed?**
+112. What is function overloading?
 
-**A. Confidentiality  
-B. Integrity  
-C. Availability  
-D. Authentication**
+Category: Programming & OOP
 
-**Answer: C. Availability**
+A. Defining multiple functions with the same name but different parameter lists
 
-**Q40. What is hashing primarily used for in cybersecurity?**
+B. Replacing a function at runtime only
 
-**A. Reversible encryption of large files  
-B. Creating a fixed-length representation of data  
-C. Increasing network bandwidth  
-D. Assigning IP addresses**
+C. Defining a function inside another function only
 
-**Answer: B. Creating a fixed-length representation of data**
+D. Calling a function recursively
 
-**Q41. Which type of attack attempts to overwhelm a service with excessive traffic?**
+Answer: A. Defining multiple functions with the same name but different parameter lists
 
-**A. Phishing  
-B. Denial-of-Service attack  
-C. SQL injection  
-D. Shoulder surfing**
+113. What is the output of the following C code?
 
-**Answer: B. Denial-of-Service attack**
+Category: Programming & OOP
 
-**Q42. What is the primary purpose of a firewall?**
+A. Compilation error
 
-**A. To filter and control network traffic based on security rules  
-B. To increase CPU speed  
-C. To compress files  
-D. To generate encryption keys only**
+B. 11
 
-**Answer: A. To filter and control network traffic based on security rules**
+C. 10
 
-**Q43. Which of the following is an example of asymmetric encryption?**
+D. 9
 
-**A. AES  
-B. DES  
-C. RSA  
-D. SHA-256**
+Answer: C. 10
 
-**Answer: C. RSA**
+114. Which of the following is used to allocate memory dynamically in C?
 
-**Computer Architecture & Cloud Computing**
+Category: printf("%d", x++);
 
-**Q44. Which memory is generally faster than main memory and is used to reduce CPU access time?**
+A. sizeof()
 
-**A. Cache memory  
-B. Optical disk  
-C. Magnetic tape  
-D. Pen drive**
+B. malloc()
 
-**Answer: A. Cache memory**
+C. scanf()
 
-**Q45. What is pipelining in computer architecture?**
+D. printf()
 
-**A. Executing different stages of multiple instructions in an overlapping manner  
-B. Storing all instructions permanently  
-C. Increasing hard disk capacity  
-D. Connecting multiple computers through a cable**
+Answer: B. malloc()
 
-**Answer: A. Executing different stages of multiple instructions in an overlapping manner**
+115. What is recursion?
 
-**Q46. Which component performs arithmetic and logical operations in a CPU?**
+Category: printf("%d", x++);
 
-**A. Control Unit  
-B. ALU  
-C. Register File only  
-D. Cache Controller**
+A. A loop that never terminates
 
-**Answer: B. ALU**
+B. A method of allocating static memory
 
-**Q47. What is the main purpose of virtualization in cloud computing?**
+C. A function calling itself directly or indirectly
 
-**A. To create virtual versions of computing resources  
-B. To eliminate operating systems  
-C. To physically increase RAM chips  
-D. To prevent all network failures**
+D. A program using multiple variables
 
-**Answer: A. To create virtual versions of computing resources**
+Answer: C. A function calling itself directly or indirectly
 
-**Q48. Which cloud service model provides virtual machines, storage, and networking resources?**
+116. Which of the following is a mutable data structure in Python?
 
-**A. SaaS  
-B. PaaS  
-C. IaaS  
-D. DBaaS only**
+Category: printf("%d", x++);
 
-**Answer: C. IaaS**
+A. Tuple
 
-**Q49. Which cloud service model provides a platform for application development without requiring users to manage the underlying infrastructure?**
+B. String
 
-**A. IaaS  
-B. PaaS  
-C. SaaS  
-D. On-premises computing**
+C. Integer
 
-**Answer: B. PaaS**
+D. List
 
-**Q50. Which of the following is an example of Software as a Service (SaaS)?**
+Answer: D. List
 
-**A. Renting a virtual machine  
-B. Google Docs accessed through a browser  
-C. Buying a physical server  
-D. Installing a local motherboard**
+117. Which security property ensures that data is accessible to authorized users when needed?
 
-**Answer: B. Google Docs accessed through a browser**
+Category: Cybersecurity
 
-**Circuit Analysis**
+A. Authentication
 
-**Q1. According to Kirchhoff's Current Law (KCL), the algebraic sum of currents at a node is:**
+B. Confidentiality
 
-**A. Equal to the resistance  
-B. Zero  
-C. Equal to the voltage  
-D. Always positive**
+C. Availability
 
-**Answer: B. Zero**
+D. Integrity
 
-**Q2. Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?**
+Answer: C. Availability
 
-**A. 9 Ω  
-B. 3 Ω  
-C. 2 Ω  
-D. 1 Ω**
+118. What is hashing primarily used for in cybersecurity?
 
-**Answer: C. 2 Ω**
+Category: Cybersecurity
 
-**Q3. A 10 Ω resistor carries a current of 2 A. What is the power dissipated?**
+A. Reversible encryption of large files
 
-**A. 5 W  
-B. 20 W  
-C. 40 W  
-D. 100 W**
+B. Increasing network bandwidth
 
-**Answer: C. 40 W**
+C. Assigning IP addresses
 
-**Q4. In a purely capacitive AC circuit, the current leads the voltage by:**
+D. Creating a fixed-length representation of data
 
-**A. 0°  
-B. 45°  
-C. 90°  
-D. 180°**
+Answer: D. Creating a fixed-length representation of data
 
-**Answer: C. 90°**
+119. Which type of attack attempts to overwhelm a service with excessive traffic?
 
-**Q5. In a purely inductive AC circuit, the current:**
+Category: Cybersecurity
 
-**A. Leads voltage by 90°  
-B. Lags voltage by 90°  
-C. Is in phase with voltage  
-D. Leads voltage by 180°**
+A. SQL injection
 
-**Answer: B. Lags voltage by 90°**
+B. Phishing
 
-**Q6. What happens to the total capacitance when capacitors are connected in parallel?**
+C. Denial-of-Service attack
 
-**A. It decreases below the smallest capacitance  
-B. It remains equal to the smallest capacitance  
-C. It is the sum of individual capacitances  
-D. It becomes zero**
+D. Shoulder surfing
 
-**Answer: C. It is the sum of individual capacitances**
+Answer: C. Denial-of-Service attack
 
-**Q7. The time constant of an RC circuit is given by:**
+120. What is the primary purpose of a firewall?
 
-**A. R/C  
-B. RC  
-C. R + C  
-D. 1/RC**
+Category: Cybersecurity
 
-**Answer: B. RC**
+A. To compress files
 
-**Q8. A transformer operates on the principle of:**
+B. To filter and control network traffic based on security rules
 
-**A. Electrostatic induction  
-B. Mutual electromagnetic induction  
-C. Photoelectric effect  
-D. Thermionic emission**
+C. To generate encryption keys only
 
-**Answer: B. Mutual electromagnetic induction**
+D. To increase CPU speed
 
-**Digital Electronics**
+Answer: B. To filter and control network traffic based on security rules
 
-**Q9. What is the decimal equivalent of hexadecimal 2F?**
+121. Which of the following is an example of asymmetric encryption?
 
-**A. 35  
-B. 42  
-C. 47  
-D. 52**
+Category: Cybersecurity
 
-**Answer: C. 47**
+A. DES
 
-**Q10. Simplify the Boolean expression: A + AB**
+B. RSA
 
-**A. A  
-B. B  
-C. AB  
-D. A + B**
+C. AES
 
-**Answer: A. A**
+D. SHA-256
 
-**Q11. Which gate produces an output of 0 only when all its inputs are 1?**
+Answer: B. RSA
 
-**A. NOR  
-B. NAND  
-C. XOR  
-D. XNOR**
+122. Which memory is generally faster than main memory and is used to reduce CPU access time?
 
-**Answer: B. NAND**
+Category: Computer Architecture & Cloud Computing
 
-**Q12. What is the complement of the Boolean expression A + B?**
+A. Magnetic tape
 
-**A. A' + B'  
-B. AB  
-C. A'B'  
-D. A + B'**
+B. Pen drive
 
-**Answer: C. A'B'**
+C. Cache memory
 
-**Q13. A full adder adds:**
+D. Optical disk
 
-**A. Two bits only  
-B. Three input bits  
-C. Four input bits  
-D. One bit and one byte**
+Answer: C. Cache memory
 
-**Answer: B. Three input bits**
+123. What is pipelining in computer architecture?
 
-**Q14. How many select lines are required for an 8-to-1 multiplexer?**
+Category: Computer Architecture & Cloud Computing
 
-**A. 2  
-B. 3  
-C. 4  
-D. 8**
+A. Increasing hard disk capacity
 
-**Answer: B. 3**
+B. Executing different stages of multiple instructions in an overlapping manner
 
-**Q15. A decoder with 3 input lines can have a maximum of how many output lines?**
+C. Storing all instructions permanently
 
-**A. 3  
-B. 6  
-C. 8  
-D. 9**
+D. Connecting multiple computers through a cable
 
-**Answer: C. 8**
+Answer: B. Executing different stages of multiple instructions in an overlapping manner
 
-**Q16. Which flip-flop eliminates the invalid state associated with the SR flip-flop by using complementary inputs?**
+124. Which component performs arithmetic and logical operations in a CPU?
 
-**A. D flip-flop  
-B. T flip-flop  
-C. JK flip-flop  
-D. Master-slave flip-flop**
+Category: Computer Architecture & Cloud Computing
 
-**Answer: C. JK flip-flop**
+A. Register File only
 
-**Q17. What is the main function of a counter circuit?**
+B. ALU
 
-**A. To amplify signals  
-B. To count clock pulses  
-C. To convert AC to DC  
-D. To store analog signals only**
+C. Control Unit
 
-**Answer: B. To count clock pulses**
+D. Cache Controller
 
-**Q18. In a synchronous counter, the flip-flops are generally triggered by:**
+Answer: B. ALU
 
-**A. Different unrelated clocks  
-B. A common clock signal  
-C. Only an asynchronous reset  
-D. Analog input voltage**
+125. What is the main purpose of virtualization in cloud computing?
 
-**Answer: B. A common clock signal**
+Category: Computer Architecture & Cloud Computing
 
-**Analog Electronics**
+A. To eliminate operating systems
 
-**Q19. In a common-emitter amplifier, the output voltage is generally:**
+B. To physically increase RAM chips
 
-**A. In phase with the input  
-B. 90° ahead of the input  
-C. 180° out of phase with the input  
-D. Always zero**
+C. To prevent all network failures
 
-**Answer: C. 180° out of phase with the input**
+D. To create virtual versions of computing resources
 
-**Q20. The Q-point of a transistor represents its:**
+Answer: D. To create virtual versions of computing resources
 
-**A. Maximum frequency  
-B. DC operating point  
-C. Breakdown voltage only  
-D. AC input resistance only**
+126. Which cloud service model provides virtual machines, storage, and networking resources?
 
-**Answer: B. DC operating point**
+Category: Computer Architecture & Cloud Computing
 
-**Q21. Which transistor configuration generally provides high input impedance and low output impedance?**
+A. PaaS
 
-**A. Common-emitter  
-B. Common-base  
-C. Common-collector  
-D. Common-gate only**
+B. SaaS
 
-**Answer: C. Common-collector**
+C. DBaaS only
 
-**Q22. An ideal operational amplifier has:**
+D. IaaS
 
-**A. Infinite input impedance  
-B. Zero input impedance  
-C. Infinite output impedance  
-D. Zero voltage gain**
+Answer: D. IaaS
 
-**Answer: A. Infinite input impedance**
+127. Which cloud service model provides a platform for application development without requiring users to manage the underlying infrastructure?
 
-**Q23. In an ideal inverting op-amp, the voltage gain is given by:**
+Category: Computer Architecture & Cloud Computing
 
-**A. Rf/Rin  
-B. −Rf/Rin  
-C. Rin/Rf  
-D. −Rin/Rf**
+A. SaaS
 
-**Answer: B. −Rf/Rin**
+B. On-premises computing
 
-**Q24. Which feedback is commonly used to improve the stability and bandwidth of an amplifier?**
+C. IaaS
 
-**A. Positive feedback  
-B. Negative feedback  
-C. No feedback  
-D. Thermal feedback only**
+D. PaaS
 
-**Answer: B. Negative feedback**
+Answer: D. PaaS
 
-**Q25. A Zener diode is normally operated in which region for voltage regulation?**
+128. Which of the following is an example of Software as a Service (SaaS)?
 
-**A. Forward cut-off region  
-B. Reverse breakdown region  
-C. Saturation region only  
-D. Active region**
+Category: Computer Architecture & Cloud Computing
 
-**Answer: B. Reverse breakdown region**
+A. Installing a local motherboard
 
-**Signals & Systems**
+B. Google Docs accessed through a browser
 
-**Q26. According to the Nyquist sampling theorem, the sampling frequency must be at least:**
+C. Buying a physical server
 
-**A. Equal to the highest frequency  
-B. Twice the highest frequency  
-C. Half the highest frequency  
-D. Four times the lowest frequency**
+D. Renting a virtual machine
 
-**Answer: B. Twice the highest frequency**
+Answer: B. Google Docs accessed through a browser
 
-**Q27. What is aliasing?**
+129. According to Kirchhoff's Current Law (KCL), the algebraic sum of currents at a node is:
 
-**A. Amplification of a signal  
-B. Distortion caused by insufficient sampling frequency  
-C. Removal of noise using a filter  
-D. Conversion of digital data to analog form**
+Category: Circuit Analysis
 
-**Answer: B. Distortion caused by insufficient sampling frequency**
+A. Equal to the voltage
 
-**Q28. The Fourier Transform is primarily used to analyze a signal in the:**
+B. Zero
 
-**A. Time domain only  
-B. Frequency domain  
-C. Spatial domain only  
-D. Power domain only**
+C. Always positive
 
-**Answer: B. Frequency domain**
+D. Equal to the resistance
 
-**Q29. A system is linear if it satisfies:**
+Answer: B. Zero
 
-**A. Only stability  
-B. Superposition  
-C. Periodicity  
-D. Quantization**
+130. Two resistors of 6 Ω and 3 Ω are connected in parallel. What is their equivalent resistance?
 
-**Answer: B. Superposition**
+Category: Circuit Analysis
 
-**Q30. What is the output of an LTI system for an input impulse called?**
+A. 9 Ω
 
-**A. Step response  
-B. Frequency response  
-C. Impulse response  
-D. Ramp response**
+B. 2 Ω
 
-**Answer: C. Impulse response**
+C. 1 Ω
 
-**Q31. Which transform is commonly used to analyze discrete-time systems?**
+D. 3 Ω
 
-**A. Z-transform  
-B. Laplace transform only  
-C. Fourier series only  
-D. Hilbert transform only**
+Answer: B. 2 Ω
 
-**Answer: A. Z-transform**
+131. A 10 Ω resistor carries a current of 2
 
-**Communication Systems**
+Category: Circuit Analysis
 
-**Q32. What is the main purpose of modulation in a communication system?**
+A. 40 W
 
-**A. To eliminate the need for a receiver  
-B. To make signal transmission more suitable for the communication channel  
-C. To convert all signals into DC  
-D. To remove the information signal**
+B. 5 W
 
-**Answer: B. To make signal transmission more suitable for the communication channel**
+C. 100 W
 
-**Q33. In amplitude modulation, the amplitude of the carrier varies according to the:**
+D. 20 W
 
-**A. Carrier frequency only  
-B. Message signal  
-C. Noise signal only  
-D. Antenna length only**
+Answer: A. 40 W
 
-**Answer: B. Message signal**
+132. In a purely capacitive AC circuit, the current leads the voltage by:
 
-**Q34. What is the approximate bandwidth of a conventional AM signal with a maximum message frequency of 5 kHz?**
+Category: Circuit Analysis
 
-**A. 2.5 kHz  
-B. 5 kHz  
-C. 10 kHz  
-D. 15 kHz**
+A. 0°
 
-**Answer: C. 10 kHz**
+B. 45°
 
-**Q35. Which modulation technique is generally more resistant to amplitude noise?**
+C. 90°
 
-**A. AM  
-B. FM  
-C. PAM  
-D. ASK**
+D. 180°
 
-**Answer: B. FM**
+Answer: C. 90°
 
-**Q36. What does PCM stand for?**
+133. In a purely inductive AC circuit, the current:
 
-**A. Pulse Code Modulation  
-B. Phase Carrier Modulation  
-C. Pulse Carrier Multiplexing  
-D. Periodic Code Measurement**
+Category: Circuit Analysis
 
-**Answer: A. Pulse Code Modulation**
+A. Lags voltage by 90°
 
-**Q37. In PCM, quantization is performed after:**
+B. Is in phase with voltage
 
-**A. Sampling  
-B. Amplification only  
-C. Demodulation  
-D. Filtering the carrier only**
+C. Leads voltage by 90°
 
-**Answer: A. Sampling**
+D. Leads voltage by 180°
 
-**Q38. Which digital modulation technique changes the phase of the carrier to represent digital data?**
+Answer: A. Lags voltage by 90°
 
-**A. ASK  
-B. FSK  
-C. PSK  
-D. PAM**
+134. What happens to the total capacitance when capacitors are connected in parallel?
 
-**Answer: C. PSK**
+Category: Circuit Analysis
 
-**Q39. In QPSK, each symbol represents how many bits?**
+A. It becomes zero
 
-**A. 1  
-B. 2  
-C. 3  
-D. 4**
+B. It is the sum of individual capacitances
 
-**Answer: B. 2**
+C. It remains equal to the smallest capacitance
 
-**Microprocessors & Microcontrollers**
+D. It decreases below the smallest capacitance
 
-**Q40. How many bits are there in the data bus of the 8085 microprocessor?**
+Answer: B. It is the sum of individual capacitances
 
-**A. 4  
-B. 8  
-C. 16  
-D. 32**
+135. The time constant of an RC circuit is given by:
 
-**Answer: B. 8**
+Category: Circuit Analysis
 
-**Q41. What is the primary function of the Program Counter (PC)?**
+A. R/C
 
-**A. Store the result of arithmetic operations  
-B. Hold the address of the next instruction  
-C. Store input data permanently  
-D. Control the stack only**
+B. R + C
 
-**Answer: B. Hold the address of the next instruction**
+C. RC
 
-**Q42. Which register in the 8085 is primarily used for arithmetic and logical operations?**
+D. 1/RC
 
-**A. Accumulator  
-B. Program Counter  
-C. Stack Pointer  
-D. Instruction Register only**
+Answer: C. RC
 
-**Answer: A. Accumulator**
+136. A transformer operates on the principle of:
 
-**Q43. What is an interrupt?**
+Category: Circuit Analysis
 
-**A. A signal that requests the processor's attention  
-B. A permanent memory location  
-C. A type of arithmetic instruction  
-D. A method of increasing clock frequency**
+A. Mutual electromagnetic induction
 
-**Answer: A. A signal that requests the processor's attention**
+B. Photoelectric effect
 
-**Q44. Which memory retains its contents even when power is removed?**
+C. Thermionic emission
 
-**A. RAM  
-B. Cache  
-C. ROM  
-D. Register**
+D. Electrostatic induction
 
-**Answer: C. ROM**
+Answer: A. Mutual electromagnetic induction
 
-**Q45. What is the primary advantage of a microcontroller over a general-purpose microprocessor for dedicated applications?**
+137. What is the decimal equivalent of hexadecimal 2F?
 
-**A. It integrates processor, memory, and peripherals on a single chip  
-B. It always has a higher clock speed  
-C. It cannot execute programs  
-D. It requires more external components in every application**
+Category: Digital Electronics
 
-**Answer: A. It integrates processor, memory, and peripherals on a single chip**
+A. 47
 
-**Control Systems & Instrumentation**
+B. 52
 
-**Q46. A system is said to be in open-loop control when:**
+C. 35
 
-**A. Its output is fed back to the input  
-B. It operates without feedback  
-C. It always has zero error  
-D. It uses only digital signals**
+D. 42
 
-**Answer: B. It operates without feedback**
+Answer: A. 47
 
-**Q47. What is the main purpose of feedback in a control system?**
+138. Simplify the Boolean expression: A + AB
 
-**A. To eliminate the input  
-B. To compare the output with the desired response and improve control  
-C. To increase noise only  
-D. To disconnect the system**
+Category: Digital Electronics
 
-**Answer: B. To compare the output with the desired response and improve control**
+A. A
 
-**Q48. Which instrument is used to observe voltage waveforms as a function of time?**
+B. A + B
 
-**A. Ammeter  
-B. Oscilloscope  
-C. Wattmeter  
-D. Galvanometer only**
+C. B
 
-**Answer: B. Oscilloscope**
+D. AB
 
-**Q49. A thermocouple is primarily used to measure:**
+Answer: A. A
 
-**A. Pressure  
-B. Temperature  
-C. Resistance only  
-D. Frequency**
+139. Which gate produces an output of 0 only when all its inputs are 1?
 
-**Answer: B. Temperature**
+Category: Digital Electronics
 
-**Q50. Which transducer converts a physical quantity into an electrical signal?**
+A. NOR
 
-**A. Transducer  
-B. Transformer only  
-C. Rectifier  
-D. Oscillator only**
+B. XNOR
 
-**Answer: A. Transducer**
+C. NAND
 
-**HARD**
+D. XOR
 
-**Section A: Hard General Knowledge — 15 Questions**
+Answer: C. NAND
 
-**Q1. The concept of "constitutional morality" in India is most closely associated with which constitutional value?  
-A. Parliamentary supremacy  
-B. Rule of law and constitutional principles  
-C. Judicial activism only  
-D. Federal supremacy**
+140. What is the complement of the Boolean expression A + B?
 
-**Answer: B. Rule of law and constitutional principles**
+Category: Digital Electronics
 
-**Q2. Which ancient Indian text is primarily associated with statecraft, economics, diplomacy, and political administration?  
-A. Manusmriti  
-B. Arthashastra  
-C. Natyashastra  
-D. Charaka Samhita**
+A. A + B'
 
-**Answer: B. Arthashastra**
+B. A' + B'
 
-**Q3. The "Great Oxidation Event" was primarily caused by the accumulation of which gas in Earth's atmosphere?  
-A. Nitrogen  
-B. Methane  
-C. Oxygen  
-D. Carbon dioxide**
+C. A'B'
 
-**Answer: C. Oxygen**
+D. AB
 
-**Q4. Which of the following correctly describes the Coriolis effect?  
-A. Deflection of moving objects due to Earth's rotation  
-B. Heating of Earth due to solar radiation  
-C. Movement of tectonic plates due to tides  
-D. Change in ocean salinity due to evaporation**
+Answer: C. A'B'
 
-**Answer: A. Deflection of moving objects due to Earth's rotation**
+141. A full adder adds:
 
-**Q5. The Treaty of Westphalia of 1648 is historically significant because it is associated with the development of the modern concept of:  
-A. Collective security  
-B. Nation-state sovereignty  
-C. Universal suffrage  
-D. International criminal law**
+Category: Digital Electronics
 
-**Answer: B. Nation-state sovereignty**
+A. Two bits only
 
-**Q6. Which particle mediates the strong nuclear force?  
-A. Photon  
-B. Gluon  
-C. W boson  
-D. Neutrino**
+B. Three input bits
 
-**Answer: B. Gluon**
+C. One bit and one byte
 
-**Q7. The Chandrasekhar limit is associated with the maximum stable mass of a:  
-A. Neutron star  
-B. White dwarf  
-C. Black hole  
-D. Red giant**
+D. Four input bits
 
-**Answer: B. White dwarf**
+Answer: B. Three input bits
 
-**Q8. Which Indian classical dance form originated primarily in Kerala and traditionally involves elaborate facial expressions and makeup?  
-A. Bharatanatyam  
-B. Kathak  
-C. Kathakali  
-D. Manipuri**
+142. How many select lines are required for an 8-to-1 multiplexer?
 
-**Answer: C. Kathakali**
+Category: Digital Electronics
 
-**Q9. The term "Blue Economy" primarily refers to the sustainable use of:  
-A. Forest resources  
-B. Ocean and marine resources  
-C. Mineral resources  
-D. Atmospheric resources**
+A. 3
 
-**Answer: B. Ocean and marine resources**
+B. 2
 
-**Q10. Which of the following is an example of a Ramsar wetland site in India?  
-A. Gir National Park  
-B. Keoladeo National Park  
-C. Bandhavgarh National Park  
-D. Kanha National Park**
+C. 4
 
-**Answer: B. Keoladeo National Park**
+D. 8
 
-**Q11. In economics, the "Giffen good" contradicts the usual law of demand because its demand:  
-A. Increases when its price increases under specific conditions  
-B. Remains constant regardless of price  
-C. Falls when income increases  
-D. Is unrelated to consumer preferences**
+Answer: A. 3
 
-**Answer: A. Increases when its price increases under specific conditions**
+143. A decoder with 3 input lines can have a maximum of how many output lines?
 
-**Q12. Which mathematical constant is the base of natural logarithms?  
-A. π  
-B. φ  
-C. e  
-D. γ**
+Category: Digital Electronics
 
-**Answer: C. e**
+A. 9
 
-**Q13. The "Doppler effect" describes a change in the observed:  
-A. Amplitude due to reflection  
-B. Frequency due to relative motion  
-C. Wavelength due to refraction only  
-D. Speed due to temperature**
+B. 8
 
-**Answer: B. Frequency due to relative motion**
+C. 3
 
-**Q14. Which civilization is credited with the development of the earliest known form of democracy in ancient Greece?  
-A. Sparta  
-B. Athens  
-C. Corinth  
-D. Thebes**
+D. 6
 
-**Answer: B. Athens**
+Answer: B. 8
 
-**Q15. The term "anthropocene" is generally used to describe a proposed geological epoch characterized by:  
-A. Dominance of volcanic activity  
-B. Significant human influence on Earth's systems  
-C. The extinction of dinosaurs  
-D. The formation of the first oceans**
+144. Which flip-flop eliminates the invalid state associated with the SR flip-flop by using complementary inputs?
 
-**Answer: B. Significant human influence on Earth's systems**
+Category: Digital Electronics
 
-**Section B: Hard Computer Science — 20 Questions**
+A. JK flip-flop
 
-**Q16. What is the worst-case time complexity of Dijkstra's algorithm using an adjacency matrix and a linear search for the minimum-distance vertex?  
-A. O(log V)  
-B. O(V)  
-C. O(V²)  
-D. O(E log V)**
+B. Master-slave flip-flop
 
-**Answer: C. O(V²)**
+C. D flip-flop
 
-**Q17. Which problem is a classic example of an NP-complete problem?  
-A. Minimum spanning tree  
-B. Single-source shortest path with non-negative weights  
-C. Boolean satisfiability problem  
-D. Binary search**
+D. T flip-flop
 
-**Answer: C. Boolean satisfiability problem**
+Answer: A. JK flip-flop
 
-**Q18. In a B+ tree, actual data records or record pointers are generally stored in:  
-A. Internal nodes only  
-B. Leaf nodes  
-C. Root node only  
-D. Hash buckets**
+145. What is the main function of a counter circuit?
 
-**Answer: B. Leaf nodes**
+Category: Digital Electronics
 
-**Q19. Which scheduling algorithm can result in starvation if priorities are not dynamically adjusted?  
-A. Round Robin  
-B. First Come First Serve  
-C. Priority Scheduling  
-D. Shortest Remaining Time with aging**
+A. To convert AC to DC
 
-**Answer: C. Priority Scheduling**
+B. To amplify signals
 
-**Q20. In compiler design, which parsing technique can handle a larger class of grammars than LL(1) parsing?  
-A. Recursive descent without backtracking  
-B. LR parsing  
-C. Operator precedence only  
-D. Finite automata parsing**
+C. To count clock pulses
 
-**Answer: B. LR parsing**
+D. To store analog signals only
 
-**Q21. What is the primary purpose of Static Single Assignment form in compiler optimization?  
-A. Ensure every variable is assigned exactly once  
-B. Eliminate all loops  
-C. Convert machine code into assembly  
-D. Remove the need for registers**
+Answer: C. To count clock pulses
 
-**Answer: A. Ensure every variable is assigned exactly once**
+146. In a synchronous counter, the flip-flops are generally triggered by:
 
-**Q22. Which page replacement algorithm can exhibit Belady's anomaly?  
-A. LRU  
-B. Optimal  
-C. FIFO  
-D. Most Recently Used**
+Category: Digital Electronics
 
-**Answer: C. FIFO**
+A. A common clock signal
 
-**Q23. In a relational database, a decomposition is dependency-preserving if:  
-A. All relations have the same number of attributes  
-B. Functional dependencies can be enforced without joining relations  
-C. The decomposition always produces 2NF  
-D. No foreign keys are required**
+B. Different unrelated clocks
 
-**Answer: B. Functional dependencies can be enforced without joining relations**
+C. Only an asynchronous reset
 
-**Q24. Which of the following is not guaranteed by a two-phase locking protocol?  
-A. Conflict serializability  
-B. Absence of deadlock  
-C. Growing and shrinking phases  
-D. Lock-based concurrency control**
+D. Analog input voltage
 
-**Answer: B. Absence of deadlock**
+Answer: A. A common clock signal
 
-**Q25. In TCP congestion control, the congestion window generally grows exponentially during:  
-A. Congestion avoidance  
-B. Slow start  
-C. Fast recovery only  
-D. Persistent retransmission timeout**
+147. In a common-emitter amplifier, the output voltage is generally:
 
-**Answer: B. Slow start**
+Category: Analog Electronics
 
-**Q26. Which data structure is most suitable for implementing a priority queue with efficient insertion and deletion of the highest-priority element?  
-A. Binary heap  
-B. Singly linked list without sorting  
-C. Stack  
-D. Circular queue**
+A. In phase with the input
 
-**Answer: A. Binary heap**
+B. 180° out of phase with the input
 
-**Q27. What is the time complexity of building a binary heap from an unordered array using the bottom-up heap construction method?  
-A. O(log n)  
-B. O(n)  
-C. O(n log n)  
-D. O(n²)**
+C. Always zero
 
-**Answer: B. O(n)**
+D. 90° ahead of the input
 
-**Q28. Which automaton recognizes exactly the class of regular languages?  
-A. Pushdown automaton  
-B. Linear bounded automaton  
-C. Finite automaton  
-D. Turing machine only**
+Answer: B. 180° out of phase with the input
 
-**Answer: C. Finite automaton**
+148. The Q-point of a transistor represents its:
 
-**Q29. The language is:  
-A. Regular  
-B. Context-free but not regular  
-C. Context-sensitive but not context-free  
-D. Not recursively enumerable**
+Category: Analog Electronics
 
-**Answer: B. Context-free but not regular**
+A. Maximum frequency
 
-**Q30. Which consistency model guarantees that all processes observe write operations in the same order?  
-A. Eventual consistency  
-B. Causal consistency  
-C. Sequential consistency  
-D. Weak consistency**
+B. Breakdown voltage only
 
-**Answer: C. Sequential consistency**
+C. AC input resistance only
 
-**Q31. In operating systems, the Banker's algorithm is used for:  
-A. Deadlock detection only  
-B. Deadlock avoidance  
-C. Deadlock recovery only  
-D. CPU scheduling**
+D. DC operating point
 
-**Answer: B. Deadlock avoidance**
+Answer: D. DC operating point
 
-**Q32. Which cryptographic property ensures that finding two different inputs producing the same hash is computationally difficult?  
-A. Preimage resistance  
-B. Collision resistance  
-C. Perfect secrecy  
-D. Forward secrecy**
+149. Which transistor configuration generally provides high input impedance and low output impedance?
 
-**Answer: B. Collision resistance**
+Category: Analog Electronics
 
-**Q33. In virtual memory, a Translation Lookaside Buffer is used to cache:  
-A. Page contents  
-B. Disk blocks  
-C. Page table entries  
-D. CPU instructions only**
+A. Common-base
 
-**Answer: C. Page table entries**
+B. Common-emitter
 
-**Q34. Which graph traversal algorithm is generally used to find the shortest path in an unweighted graph?  
-A. Depth-First Search  
-B. Breadth-First Search  
-C. Prim's algorithm  
-D. Kruskal's algorithm**
+C. Common-collector
 
-**Answer: B. Breadth-First Search**
+D. Common-gate only
 
-**Q35. Which normal form eliminates transitive dependencies of non-prime attributes on candidate keys?  
-A. First Normal Form  
-B. Second Normal Form  
-C. Third Normal Form  
-D. Domain-Key Normal Form only**
+Answer: C. Common-collector
 
-**Answer: C. Third Normal Form**
+150. An ideal operational amplifier has:
 
-**Section C: Hard ECE — 15 Questions**
+Category: Analog Electronics
 
-**Q36. For a continuous-time LTI system, BIBO stability requires the impulse response to satisfy:  
-A. must be periodic  
-B.  
-C. must be differentiable  
-D. must have finite duration**
+A. Infinite output impedance
 
-**Answer: B.**
+B. Zero voltage gain
 
-**Q37. According to the Nyquist sampling theorem, a band-limited signal with maximum frequency must be sampled at a rate:  
-A. Less than  
-B. Equal to  
-C. Greater than  
-D. At least**
+C. Zero input impedance
 
-**Answer: C. Greater than**
+D. Infinite input impedance
 
-**Q38. In an ideal op-amp operating in the linear region with negative feedback, the voltage difference between its input terminals is approximately:  
-A. Equal to the supply voltage  
-B. Zero  
-C. Infinite  
-D. Equal to the output voltage**
+Answer: D. Infinite input impedance
 
-**Answer: B. Zero**
+Medium
 
-**Q39. The slew rate of an operational amplifier limits its:  
-A. Input resistance  
-B. Maximum rate of change of output voltage  
-C. Common-mode rejection ratio  
-D. Output resistance at DC only**
+1. A bill passed by both Houses of Parliament generally becomes an Act after it receives:
 
-**Answer: B. Maximum rate of change of output voltage**
+Category: Indian Polity & Constitution
 
-**Q40. In a class-B push-pull amplifier, the theoretical maximum conversion efficiency is approximately:  
-A. 25%  
-B. 50%  
-C. 78.5%  
-D. 100%**
+A. President's assent
 
-**Answer: C. 78.5%**
+B. Supreme Court approval in every case
 
-**Q41. Which modulation technique varies the phase of the carrier according to the instantaneous amplitude of the message signal?  
-A. Amplitude modulation  
-B. Frequency modulation  
-C. Phase modulation  
-D. Pulse-code modulation**
+C. Election Commission approval
 
-**Answer: C. Phase modulation**
+D. Governor's approval
 
-**Q42. In frequency modulation, Carson's rule estimates the transmission bandwidth as:  
-A.  
-B.  
-C.  
-D.**
+Answer: A. President's assent
 
-**Answer: B.**
+2. Which of the following is a Fundamental Duty?
 
-**Q43. A flip-flop that changes its state whenever its clock is triggered and its input is high is typically a:  
-A. D flip-flop  
-B. T flip-flop  
-C. SR latch only  
-D. Master-slave register only**
+Category: Indian Polity & Constitution
 
-**Answer: B. T flip-flop**
+A. Respect the national symbols
 
-**Q44. In a JK flip-flop, when J = 1 and K = 1, the output:  
-A. Resets  
-B. Sets  
-C. Toggles  
-D. Remains unchanged**
+B. Choose the Prime Minister
 
-**Answer: C. Toggles**
+C. Conduct elections
 
-**Q45. Which logic family generally offers the lowest static power dissipation?  
-A. RTL  
-B. ECL  
-C. CMOS  
-D. Standard TTL**
+D. Pass the Union Budget
 
-**Answer: C. CMOS**
+Answer: A. Respect the national symbols
 
-**Q46. The primary function of a phase-locked loop is to:  
-A. Convert AC into DC  
-B. Synchronize the phase of an oscillator with an input signal  
-C. Amplify only high-frequency signals  
-D. Eliminate all harmonic distortion**
+3. Which level of government is responsible for Gram Panchayats?
 
-**Answer: B. Synchronize the phase of an oscillator with an input signal**
+Category: Indian Polity & Constitution
 
-**Q47. In a superheterodyne receiver, the intermediate frequency is used mainly to:  
-A. Eliminate the need for an antenna  
-B. Provide fixed-frequency amplification and filtering  
-C. Increase the noise figure intentionally  
-D. Convert analog signals directly into digital signals**
+A. Local government
 
-**Answer: B. Provide fixed-frequency amplification and filtering**
+B. Union government only
 
-**Q48. The characteristic impedance of a transmission line is the ratio of:  
-A. Electric field to magnetic field at any point  
-B. Voltage to current of a single travelling wave  
-C. Input power to output power  
-D. Resistance to capacitance**
+C. Supreme Court
 
-**Answer: B. Voltage to current of a single travelling wave**
+D. Election Commission
 
-**Q49. In a p-type semiconductor, the majority charge carriers are:  
-A. Electrons  
-B. Holes  
-C. Ions  
-D. Photons**
+Answer: A. Local government
 
-**Answer: B. Holes**
+4. A person who is a citizen of India and is 18 years old can generally:
 
-**Q50. The stability factor of a transistor biasing circuit indicates the sensitivity of collector current to changes in:  
-A. Collector resistance only  
-B. Reverse saturation current and transistor parameters  
-C. Signal frequency only  
-D. Load capacitance only**
+Category: Indian Polity & Constitution
 
-**Answer: B. Reverse saturation current and transistor parameters**
+A. Vote in elections if registered as an elector
 
-Top of Form
+B. Become President immediately
 
-Bottom of Form
+C. Become Prime Minister automatically
+
+D. Vote twice in an election
+
+Answer: A. Vote in elections if registered as an elector
+
+5. Which body can declare a law unconstitutional if it violates the Constitution?
+
+Category: Indian Polity & Constitution
+
+A. The judiciary
+
+B. The Election Commission
+
+C. The Finance Commission
+
+D. The UPSC
+
+Answer: A. The judiciary
+
+6. A TCP sender receives three duplicate ACKs. Under classic TCP Reno behavior, this event typically triggers:
+
+Category: Networks
+
+A. A DNS query
+
+B. An ARP broadcast
+
+C. A complete connection teardown
+
+D. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+Answer: D. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+7. For a subnet 10.20.32.0/20, which address is in the same subnet?
+
+Category: Networks
+
+A. 10.20.63.1
+
+B. 10.20.48.1
+
+C. 10.20.16.9
+
+D. 10.20.47.200
+
+Answer: D. 10.20.47.200
+
+8. Under strict two-phase locking, exclusive locks are held until commit or abort. Which property does this primarily help guarantee?
+
+Category: DBMS & SQL
+
+A. Conflict serializability and recoverability without cascading aborts
+
+B. Constant-time queries
+
+C. Read uncommitted behavior
+
+D. Elimination of all deadlocks
+
+Answer: A. Conflict serializability and recoverability without cascading aborts
+
+9. A B+ tree stores search keys in leaves linked in sorted order. Why is this structure especially effective for range queries?
+
+Category: DBMS & SQL
+
+A. Leaves are deliberately stored in random order
+
+B. A range can be located once and then scanned sequentially through linked leaves
+
+C. Every range query becomes O(1)
+
+D. Internal nodes store complete table rows
+
+Answer: B. A range can be located once and then scanned sequentially through linked leaves
+
+10. In a TLS 1.3-style handshake using ephemeral Diffie-Hellman, compromise of the server's long-term authentication key after a completed session does not by itself reveal past session keys. This property is:
+
+Category: Cybersecurity
+
+A. Forward secrecy
+
+B. Non-repudiation
+
+C. Data compression
+
+D. Replay amplification
+
+Answer: A. Forward secrecy
+
+11. A digital signature verifies that a message was signed by the holder of a private key and was not altered. Which statement is NOT a normal property of a signature?
+
+Category: Cybersecurity
+
+A. It provides confidentiality of the signed plaintext by itself
+
+B. It supports integrity
+
+C. It can support non-repudiation depending on the system
+
+D. It supports origin authentication in the cryptographic sense
+
+Answer: A. It provides confidentiality of the signed plaintext by itself
+
+12. In SSA form, a φ-function is needed at a control-flow merge when:
+
+Category: Programming & Compilers
+
+A. A function has no return statement
+
+B. A variable may have different reaching definitions from predecessor blocks
+
+C. The program contains no branches
+
+D. A variable is always a compile-time constant
+
+Answer: B. A variable may have different reaching definitions from predecessor blocks
+
+13. A grammar is ambiguous if:
+
+Category: Programming & Compilers
+
+A. It has an epsilon production
+
+B. It contains at least two nonterminals
+
+C. Some string in its language has more than one distinct parse tree
+
+D. It contains left recursion
+
+Answer: C. Some string in its language has more than one distinct parse tree
+
+14. A five-stage pipeline has a branch resolved in the fourth stage. With no prediction and no delayed branching, a taken branch can cause multiple younger instructions to be squashed. The primary performance cost is:
+
+Category: Computer Architecture
+
+A. Structural hazard only
+
+B. Control hazard penalty
+
+C. Cache coherence
+
+D. TLB capacity
+
+Answer: B. Control hazard penalty
+
+15. Suppose a branch predictor has 90% accuracy, and a misprediction costs 12 cycles. If branches constitute 20% of instructions, the average penalty per instruction due only to mispredictions is:
+
+Category: Computer Architecture
+
+A. 1.2 cycles
+
+B. 0.024 cycles
+
+C. 2.4 cycles
+
+D. 0.24 cycles
+
+Answer: D. 0.24 cycles
+
+16. An ideal op-amp integrator has R=10 kΩ and C=0.1 μF. Its magnitude of gain at angular frequency ω is 1/(ωRC). At ω=1000 rad/s, the magnitude is:
+
+Category: Circuit Analysis
+
+A. 0.1
+
+B. 100
+
+C. 1
+
+D. 10
+
+Answer: C. 1
+
+17. A synchronous finite-state machine uses D flip-flops. If the next-state equation for one bit is D = A XOR Q, then on the active clock edge the new state is:
+
+Category: Digital Electronics
+
+A. Q_next = NOT A
+
+B. Q_next = A AND Q
+
+C. Q_next = A XOR Q
+
+D. Q_next = A OR Q
+
+Answer: C. Q_next = A XOR Q
+
+18. For a common-emitter BJT stage, increasing emitter degeneration resistance without bypassing it generally:
+
+Category: Analog Electronics
+
+A. Makes gain infinite
+
+B. Eliminates all collector current
+
+C. Reduces gain magnitude but improves bias stability and linearity
+
+D. Always reverses transistor polarity
+
+Answer: C. Reduces gain magnitude but improves bias stability and linearity
+
+19. A continuous-time LTI system has transfer function H(s)=1/(s²+2ζω_ns+ω_n²). For 0<ζ<1, the natural response is:
+
+Category: Signals & Systems
+
+A. A constant for every initial condition
+
+B. A pure growing exponential
+
+C. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+D. An impulse train
+
+Answer: C. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+20. An FM transmitter has peak frequency deviation 75 kHz and highest modulating frequency 15 kHz. Using Carson's rule, the approximate occupied bandwidth is:
+
+Category: Communication Systems
+
+A. 75 kHz
+
+B. 180 kHz
+
+C. 90 kHz
+
+D. 150 kHz
+
+Answer: B. 180 kHz
+
+21. An RTOS has a high-priority task blocked by a mutex held by a low-priority task, while a medium-priority task repeatedly preempts the low-priority task. This is:
+
+Category: Microprocessors & Embedded
+
+A. Priority inversion; priority inheritance can mitigate it
+
+B. Aliasing; oversampling can mitigate it
+
+C. A page fault; paging can mitigate it
+
+D. Dead code; compiler optimization can remove it
+
+Answer: A. Priority inversion; priority inheritance can mitigate it
+
+22. For a unity-feedback type-1 system, what is the steady-state error to a unit step under the usual finite-gain assumptions?
+
+Category: Control Systems & Instrumentation
+
+A. A finite nonzero constant
+
+B. Infinity
+
+C. Undefined because type-1 systems cannot track steps
+
+D. Zero
+
+Answer: D. Zero
+
+23. The concept of “constitutional morality” in India is most closely associated with which constitutional value?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Federal supremacy
+
+B. Rule of law and constitutional principles
+
+C. Parliamentary supremacy
+
+D. Judicial activism only
+
+Answer: B. Rule of law and constitutional principles
+
+24. Which ancient Indian text is primarily associated with statecraft, economics, diplomacy, and political administration?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Natyashastra
+
+B. Manusmriti
+
+C. Arthashastra
+
+D. Charaka Samhita
+
+Answer: C. Arthashastra
+
+25. The “Great Oxidation Event” was primarily caused by the accumulation of which gas in Earth’s atmosphere?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Methane
+
+B. Nitrogen
+
+C. Carbon dioxide
+
+D. Oxygen
+
+Answer: D. Oxygen
+
+26. Which of the following correctly describes the Coriolis effect?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Deflection of moving objects due to Earth’s rotation
+
+B. Movement of tectonic plates due to tides
+
+C. Change in ocean salinity due to evaporation
+
+D. Heating of Earth due to solar radiation
+
+Answer: A. Deflection of moving objects due to Earth’s rotation
+
+27. The Treaty of Westphalia of 1648 is historically significant because it is associated with the development of the modern concept of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. International criminal law
+
+B. Nation-state sovereignty
+
+C. Universal suffrage
+
+D. Collective security
+
+Answer: B. Nation-state sovereignty
+
+28. Which particle mediates the strong nuclear force?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Gluon
+
+B. Neutrino
+
+C. W boson
+
+D. Photon
+
+Answer: A. Gluon
+
+29. The Chandrasekhar limit is associated with the maximum stable mass of a:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Neutron star
+
+B. Red giant
+
+C. White dwarf
+
+D. Black hole
+
+Answer: C. White dwarf
+
+30. Which Indian classical dance form originated primarily in Kerala and traditionally involves elaborate facial expressions and makeup?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Bharatanatyam
+
+B. Kathak
+
+C. Kathakali
+
+D. Manipuri
+
+Answer: C. Kathakali
+
+31. The term “Blue Economy” primarily refers to the sustainable use of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Ocean and marine resources
+
+B. Forest resources
+
+C. Mineral resources
+
+D. Atmospheric resources
+
+Answer: A. Ocean and marine resources
+
+32. Which of the following is an example of a Ramsar wetland site in India?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Keoladeo National Park
+
+B. Gir National Park
+
+C. Bandhavgarh National Park
+
+D. Kanha National Park
+
+Answer: A. Keoladeo National Park
+
+33. In economics, the “Giffen good” contradicts the usual law of demand because its demand:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Falls when income increases
+
+B. Increases when its price increases under specific conditions
+
+C. Is unrelated to consumer preferences
+
+D. Remains constant regardless of price
+
+Answer: B. Increases when its price increases under specific conditions
+
+34. Which mathematical constant is the base of natural logarithms?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. φ
+
+B. π
+
+C. γ
+
+D. e
+
+Answer: D. e
+
+35. The “Doppler effect” describes a change in the observed:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Frequency due to relative motion
+
+B. Speed due to temperature
+
+C. Amplitude due to reflection
+
+D. Wavelength due to refraction only
+
+Answer: A. Frequency due to relative motion
+
+36. Which civilization is credited with the development of the earliest known form of democracy in ancient Greece?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Athens
+
+B. Thebes
+
+C. Sparta
+
+D. Corinth
+
+Answer: A. Athens
+
+37. The term “anthropocene” is generally used to describe a proposed geological epoch characterized by:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Significant human influence on Earth’s systems
+
+B. The formation of the first oceans
+
+C. The extinction of dinosaurs
+
+D. Dominance of volcanic activity
+
+Answer: A. Significant human influence on Earth’s systems
+
+38. What is the worst-case time complexity of Dijkstra’s algorithm using an adjacency matrix and a linear search for the minimum-distance vertex?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(V²)
+
+B. O(log V)
+
+C. O(V)
+
+D. O(E log V)
+
+Answer: A. O(V²)
+
+39. Which problem is a classic example of an NP-complete problem?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Binary search
+
+B. Minimum spanning tree
+
+C. Single-source shortest path with non-negative weights
+
+D. Boolean satisfiability problem
+
+Answer: D. Boolean satisfiability problem
+
+40. In a B+ tree, actual data records or record pointers are generally stored in:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Internal nodes only
+
+B. Root node only
+
+C. Hash buckets
+
+D. Leaf nodes
+
+Answer: D. Leaf nodes
+
+41. Which scheduling algorithm can result in starvation if priorities are not dynamically adjusted?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Shortest Remaining Time with aging
+
+B. Priority Scheduling
+
+C. First Come First Serve
+
+D. Round Robin
+
+Answer: B. Priority Scheduling
+
+42. In compiler design, which parsing technique can handle a larger class of grammars than LL(1) parsing?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Finite automata parsing
+
+B. LR parsing
+
+C. Recursive descent without backtracking
+
+D. Operator precedence only
+
+Answer: B. LR parsing
+
+43. What is the primary purpose of Static Single Assignment form in compiler optimization?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Eliminate all loops
+
+B. Remove the need for registers
+
+C. Convert machine code into assembly
+
+D. Ensure every variable is assigned exactly once
+
+Answer: D. Ensure every variable is assigned exactly once
+
+44. Which page replacement algorithm can exhibit Belady’s anomaly?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. LRU
+
+B. Optimal
+
+C. FIFO
+
+D. Most Recently Used
+
+Answer: C. FIFO
+
+45. In a relational database, a decomposition is dependency-preserving if:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. All relations have the same number of attributes
+
+B. Functional dependencies can be enforced without joining relations
+
+C. The decomposition always produces 2NF
+
+D. No foreign keys are required
+
+Answer: B. Functional dependencies can be enforced without joining relations
+
+46. Which of the following is not guaranteed by a two-phase locking protocol?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Growing and shrinking phases
+
+B. Lock-based concurrency control
+
+C. Absence of deadlock
+
+D. Conflict serializability
+
+Answer: C. Absence of deadlock
+
+47. In TCP congestion control, the congestion window generally grows exponentially during:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Persistent retransmission timeout
+
+B. Congestion avoidance
+
+C. Fast recovery only
+
+D. Slow start
+
+Answer: D. Slow start
+
+48. Which data structure is most suitable for implementing a priority queue with efficient insertion and deletion of the highest-priority element?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Singly linked list without sorting
+
+B. Binary heap
+
+C. Stack
+
+D. Circular queue
+
+Answer: B. Binary heap
+
+49. What is the time complexity of building a binary heap from an unordered array using the bottom-up heap construction method?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(n)
+
+B. O(log n)
+
+C. O(n log n)
+
+D. O(n²)
+
+Answer: A. O(n)
+
+50. Which automaton recognizes exactly the class of regular languages?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Finite automaton
+
+B. Pushdown automaton
+
+C. Linear bounded automaton
+
+D. Turing machine only
+
+Answer: A. Finite automaton
+
+51. The language is:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Regular
+
+B. Context-sensitive but not context-free
+
+C. Context-free but not regular
+
+D. Not recursively enumerable
+
+Answer: C. Context-free but not regular
+
+52. Which consistency model guarantees that all processes observe write operations in the same order?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Sequential consistency
+
+B. Weak consistency
+
+C. Causal consistency
+
+D. Eventual consistency
+
+Answer: A. Sequential consistency
+
+53. In operating systems, the Banker’s algorithm is used for:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Deadlock detection only
+
+B. CPU scheduling
+
+C. Deadlock recovery only
+
+D. Deadlock avoidance
+
+Answer: D. Deadlock avoidance
+
+54. Which cryptographic property ensures that finding two different inputs producing the same hash is computationally difficult?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Perfect secrecy
+
+B. Forward secrecy
+
+C. Collision resistance
+
+D. Preimage resistance
+
+Answer: C. Collision resistance
+
+55. In virtual memory, a Translation Lookaside Buffer is used to cache:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Disk blocks
+
+B. Page table entries
+
+C. CPU instructions only
+
+D. Page contents
+
+Answer: B. Page table entries
+
+56. Which graph traversal algorithm is generally used to find the shortest path in an unweighted graph?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Breadth-First Search
+
+B. Kruskal’s algorithm
+
+C. Prim’s algorithm
+
+D. Depth-First Search
+
+Answer: A. Breadth-First Search
+
+57. Which normal form eliminates transitive dependencies of non-prime attributes on candidate keys?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Third Normal Form
+
+B. First Normal Form
+
+C. Domain-Key Normal Form only
+
+D. Second Normal Form
+
+Answer: A. Third Normal Form
+
+58. For a continuous-time LTI system, BIBO stability requires the impulse response to satisfy:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. must have finite duration
+
+B.
+
+C. must be differentiable
+
+D. must be periodic
+
+Answer: B.
+
+59. According to the Nyquist sampling theorem, a band-limited signal with maximum frequency must be sampled at a rate:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Less than
+
+B. Greater than
+
+C. Equal to
+
+D. At least
+
+Answer: B. Greater than
+
+60. In an ideal op-amp operating in the linear region with negative feedback, the voltage difference between its input terminals is approximately:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Zero
+
+B. Infinite
+
+C. Equal to the output voltage
+
+D. Equal to the supply voltage
+
+Answer: A. Zero
+
+61. The slew rate of an operational amplifier limits its:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Common-mode rejection ratio
+
+B. Maximum rate of change of output voltage
+
+C. Input resistance
+
+D. Output resistance at DC only
+
+Answer: B. Maximum rate of change of output voltage
+
+62. In a class-B push-pull amplifier, the theoretical maximum conversion efficiency is approximately:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. 100%
+
+B. 78.5%
+
+C. 25%
+
+D. 50%
+
+Answer: B. 78.5%
+
+63. Which modulation technique varies the phase of the carrier according to the instantaneous amplitude of the message signal?
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Frequency modulation
+
+B. Phase modulation
+
+C. Pulse-code modulation
+
+D. Amplitude modulation
+
+Answer: B. Phase modulation
+
+64. In frequency modulation, Carson’s rule estimates the transmission bandwidth as:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A.
+
+B.
+
+C.
+
+D.
+
+Answer: A.
+
+65. A flip-flop that changes its state whenever its clock is triggered and its input is high is typically a:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Master-slave register only
+
+B. SR latch only
+
+C. T flip-flop
+
+D. D flip-flop
+
+Answer: C. T flip-flop
+
+66. In a JK flip-flop, when J = 1 and K = 1, the output:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Resets
+
+B. Toggles
+
+C. Sets
+
+D. Remains unchanged
+
+Answer: B. Toggles
+
+67. Which logic family generally offers the lowest static power dissipation?
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. ECL
+
+B. Standard TTL
+
+C. CMOS
+
+D. RTL
+
+Answer: C. CMOS
+
+68. The primary function of a phase-locked loop is to:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Amplify only high-frequency signals
+
+B. Synchronize the phase of an oscillator with an input signal
+
+C. Eliminate all harmonic distortion
+
+D. Convert AC into DC
+
+Answer: B. Synchronize the phase of an oscillator with an input signal
+
+69. In a superheterodyne receiver, the intermediate frequency is used mainly to:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Eliminate the need for an antenna
+
+B. Increase the noise figure intentionally
+
+C. Convert analog signals directly into digital signals
+
+D. Provide fixed-frequency amplification and filtering
+
+Answer: D. Provide fixed-frequency amplification and filtering
+
+70. The characteristic impedance of a transmission line is the ratio of:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Input power to output power
+
+B. Resistance to capacitance
+
+C. Voltage to current of a single travelling wave
+
+D. Electric field to magnetic field at any point
+
+Answer: C. Voltage to current of a single travelling wave
+
+71. In a p-type semiconductor, the majority charge carriers are:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Photons
+
+B. Holes
+
+C. Ions
+
+D. Electrons
+
+Answer: B. Holes
+
+72. The stability factor of a transistor biasing circuit indicates the sensitivity of collector current to changes in:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Reverse saturation current and transistor parameters
+
+B. Signal frequency only
+
+C. Load capacitance only
+
+D. Collector resistance only
+
+Answer: A. Reverse saturation current and transistor parameters
+
+73. The concept of “constitutional morality” in India is most closely associated with which constitutional value?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Judicial activism only
+
+B. Parliamentary supremacy
+
+C. Rule of law and constitutional principles
+
+D. Federal supremacy
+
+Answer: C. Rule of law and constitutional principles
+
+74. Which ancient Indian text is primarily associated with statecraft, economics, diplomacy, and political administration?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Manusmriti
+
+B. Natyashastra
+
+C. Arthashastra
+
+D. Charaka Samhita
+
+Answer: C. Arthashastra
+
+75. The “Great Oxidation Event” was primarily caused by the accumulation of which gas in Earth’s atmosphere?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Carbon dioxide
+
+B. Oxygen
+
+C. Methane
+
+D. Nitrogen
+
+Answer: B. Oxygen
+
+76. Which of the following correctly describes the Coriolis effect?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Change in ocean salinity due to evaporation
+
+B. Heating of Earth due to solar radiation
+
+C. Movement of tectonic plates due to tides
+
+D. Deflection of moving objects due to Earth’s rotation
+
+Answer: D. Deflection of moving objects due to Earth’s rotation
+
+77. The Treaty of Westphalia of 1648 is historically significant because it is associated with the development of the modern concept of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. International criminal law
+
+B. Collective security
+
+C. Universal suffrage
+
+D. Nation-state sovereignty
+
+Answer: D. Nation-state sovereignty
+
+78. Which particle mediates the strong nuclear force?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Neutrino
+
+B. Photon
+
+C. Gluon
+
+D. W boson
+
+Answer: C. Gluon
+
+79. The Chandrasekhar limit is associated with the maximum stable mass of a:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Red giant
+
+B. White dwarf
+
+C. Black hole
+
+D. Neutron star
+
+Answer: B. White dwarf
+
+80. Which Indian classical dance form originated primarily in Kerala and traditionally involves elaborate facial expressions and makeup?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Manipuri
+
+B. Kathakali
+
+C. Bharatanatyam
+
+D. Kathak
+
+Answer: B. Kathakali
+
+81. The term “Blue Economy” primarily refers to the sustainable use of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Forest resources
+
+B. Mineral resources
+
+C. Ocean and marine resources
+
+D. Atmospheric resources
+
+Answer: C. Ocean and marine resources
+
+82. Which of the following is an example of a Ramsar wetland site in India?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Kanha National Park
+
+B. Gir National Park
+
+C. Keoladeo National Park
+
+D. Bandhavgarh National Park
+
+Answer: C. Keoladeo National Park
+
+83. In economics, the “Giffen good” contradicts the usual law of demand because its demand:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Is unrelated to consumer preferences
+
+B. Increases when its price increases under specific conditions
+
+C. Falls when income increases
+
+D. Remains constant regardless of price
+
+Answer: B. Increases when its price increases under specific conditions
+
+84. Which mathematical constant is the base of natural logarithms?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. φ
+
+B. π
+
+C. e
+
+D. γ
+
+Answer: C. e
+
+85. The “Doppler effect” describes a change in the observed:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Speed due to temperature
+
+B. Amplitude due to reflection
+
+C. Wavelength due to refraction only
+
+D. Frequency due to relative motion
+
+Answer: D. Frequency due to relative motion
+
+86. Which civilization is credited with the development of the earliest known form of democracy in ancient Greece?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Corinth
+
+B. Athens
+
+C. Sparta
+
+D. Thebes
+
+Answer: B. Athens
+
+87. The term “anthropocene” is generally used to describe a proposed geological epoch characterized by:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. The formation of the first oceans
+
+B. Significant human influence on Earth’s systems
+
+C. The extinction of dinosaurs
+
+D. Dominance of volcanic activity
+
+Answer: B. Significant human influence on Earth’s systems
+
+88. What is the worst-case time complexity of Dijkstra’s algorithm using an adjacency matrix and a linear search for the minimum-distance vertex?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(E log V)
+
+B. O(V)
+
+C. O(log V)
+
+D. O(V²)
+
+Answer: D. O(V²)
+
+89. Which problem is a classic example of an NP-complete problem?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Boolean satisfiability problem
+
+B. Single-source shortest path with non-negative weights
+
+C. Binary search
+
+D. Minimum spanning tree
+
+Answer: A. Boolean satisfiability problem
+
+90. In a B+ tree, actual data records or record pointers are generally stored in:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Internal nodes only
+
+B. Hash buckets
+
+C. Root node only
+
+D. Leaf nodes
+
+Answer: D. Leaf nodes
+
+91. Which scheduling algorithm can result in starvation if priorities are not dynamically adjusted?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. First Come First Serve
+
+B. Priority Scheduling
+
+C. Round Robin
+
+D. Shortest Remaining Time with aging
+
+Answer: B. Priority Scheduling
+
+92. In compiler design, which parsing technique can handle a larger class of grammars than LL(1) parsing?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Operator precedence only
+
+B. LR parsing
+
+C. Recursive descent without backtracking
+
+D. Finite automata parsing
+
+Answer: B. LR parsing
+
+93. What is the primary purpose of Static Single Assignment form in compiler optimization?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Remove the need for registers
+
+B. Convert machine code into assembly
+
+C. Ensure every variable is assigned exactly once
+
+D. Eliminate all loops
+
+Answer: C. Ensure every variable is assigned exactly once
+
+94. Which page replacement algorithm can exhibit Belady’s anomaly?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Optimal
+
+B. FIFO
+
+C. LRU
+
+D. Most Recently Used
+
+Answer: B. FIFO
+
+95. In a relational database, a decomposition is dependency-preserving if:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. All relations have the same number of attributes
+
+B. No foreign keys are required
+
+C. Functional dependencies can be enforced without joining relations
+
+D. The decomposition always produces 2NF
+
+Answer: C. Functional dependencies can be enforced without joining relations
+
+96. Which of the following is not guaranteed by a two-phase locking protocol?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Growing and shrinking phases
+
+B. Absence of deadlock
+
+C. Conflict serializability
+
+D. Lock-based concurrency control
+
+Answer: B. Absence of deadlock
+
+97. In TCP congestion control, the congestion window generally grows exponentially during:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Persistent retransmission timeout
+
+B. Slow start
+
+C. Fast recovery only
+
+D. Congestion avoidance
+
+Answer: B. Slow start
+
+98. Which data structure is most suitable for implementing a priority queue with efficient insertion and deletion of the highest-priority element?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Stack
+
+B. Binary heap
+
+C. Circular queue
+
+D. Singly linked list without sorting
+
+Answer: B. Binary heap
+
+99. What is the time complexity of building a binary heap from an unordered array using the bottom-up heap construction method?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(n)
+
+B. O(n log n)
+
+C. O(log n)
+
+D. O(n²)
+
+Answer: A. O(n)
+
+100. Which automaton recognizes exactly the class of regular languages?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Finite automaton
+
+B. Pushdown automaton
+
+C. Linear bounded automaton
+
+D. Turing machine only
+
+Answer: A. Finite automaton
+
+101. The language is:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Context-free but not regular
+
+B. Regular
+
+C. Not recursively enumerable
+
+D. Context-sensitive but not context-free
+
+Answer: A. Context-free but not regular
+
+102. Which consistency model guarantees that all processes observe write operations in the same order?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Sequential consistency
+
+B. Weak consistency
+
+C. Eventual consistency
+
+D. Causal consistency
+
+Answer: A. Sequential consistency
+
+103. In operating systems, the Banker’s algorithm is used for:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Deadlock detection only
+
+B. Deadlock recovery only
+
+C. CPU scheduling
+
+D. Deadlock avoidance
+
+Answer: D. Deadlock avoidance
+
+104. Which cryptographic property ensures that finding two different inputs producing the same hash is computationally difficult?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Collision resistance
+
+B. Perfect secrecy
+
+C. Preimage resistance
+
+D. Forward secrecy
+
+Answer: A. Collision resistance
+
+105. In virtual memory, a Translation Lookaside Buffer is used to cache:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Page table entries
+
+B. CPU instructions only
+
+C. Disk blocks
+
+D. Page contents
+
+Answer: A. Page table entries
+
+106. Which graph traversal algorithm is generally used to find the shortest path in an unweighted graph?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Prim’s algorithm
+
+B. Breadth-First Search
+
+C. Kruskal’s algorithm
+
+D. Depth-First Search
+
+Answer: B. Breadth-First Search
+
+107. Which normal form eliminates transitive dependencies of non-prime attributes on candidate keys?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. First Normal Form
+
+B. Second Normal Form
+
+C. Domain-Key Normal Form only
+
+D. Third Normal Form
+
+Answer: D. Third Normal Form
+
+108. For a continuous-time LTI system, BIBO stability requires the impulse response to satisfy:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A.
+
+B. must be periodic
+
+C. must have finite duration
+
+D. must be differentiable
+
+Answer: A.
+
+109. According to the Nyquist sampling theorem, a band-limited signal with maximum frequency must be sampled at a rate:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Greater than
+
+B. Equal to
+
+C. Less than
+
+D. At least
+
+Answer: A. Greater than
+
+110. In an ideal op-amp operating in the linear region with negative feedback, the voltage difference between its input terminals is approximately:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Equal to the output voltage
+
+B. Zero
+
+C. Equal to the supply voltage
+
+D. Infinite
+
+Answer: B. Zero
+
+111. The slew rate of an operational amplifier limits its:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Common-mode rejection ratio
+
+B. Input resistance
+
+C. Maximum rate of change of output voltage
+
+D. Output resistance at DC only
+
+Answer: C. Maximum rate of change of output voltage
+
+112. In a class-B push-pull amplifier, the theoretical maximum conversion efficiency is approximately:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. 25%
+
+B. 50%
+
+C. 78.5%
+
+D. 100%
+
+Answer: C. 78.5%
+
+113. Which modulation technique varies the phase of the carrier according to the instantaneous amplitude of the message signal?
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Pulse-code modulation
+
+B. Frequency modulation
+
+C. Amplitude modulation
+
+D. Phase modulation
+
+Answer: D. Phase modulation
+
+114. In frequency modulation, Carson’s rule estimates the transmission bandwidth as:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A.
+
+B.
+
+C.
+
+D.
+
+Answer: A.
+
+115. A flip-flop that changes its state whenever its clock is triggered and its input is high is typically a:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. T flip-flop
+
+B. Master-slave register only
+
+C. SR latch only
+
+D. D flip-flop
+
+Answer: A. T flip-flop
+
+116. In a JK flip-flop, when J = 1 and K = 1, the output:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Remains unchanged
+
+B. Resets
+
+C. Toggles
+
+D. Sets
+
+Answer: C. Toggles
+
+117. Which logic family generally offers the lowest static power dissipation?
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Standard TTL
+
+B. CMOS
+
+C. RTL
+
+D. ECL
+
+Answer: B. CMOS
+
+118. The primary function of a phase-locked loop is to:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Eliminate all harmonic distortion
+
+B. Convert AC into DC
+
+C. Amplify only high-frequency signals
+
+D. Synchronize the phase of an oscillator with an input signal
+
+Answer: D. Synchronize the phase of an oscillator with an input signal
+
+119. In a superheterodyne receiver, the intermediate frequency is used mainly to:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Convert analog signals directly into digital signals
+
+B. Eliminate the need for an antenna
+
+C. Provide fixed-frequency amplification and filtering
+
+D. Increase the noise figure intentionally
+
+Answer: C. Provide fixed-frequency amplification and filtering
+
+120. The characteristic impedance of a transmission line is the ratio of:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Resistance to capacitance
+
+B. Input power to output power
+
+C. Voltage to current of a single travelling wave
+
+D. Electric field to magnetic field at any point
+
+Answer: C. Voltage to current of a single travelling wave
+
+121. In a p-type semiconductor, the majority charge carriers are:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Electrons
+
+B. Ions
+
+C. Photons
+
+D. Holes
+
+Answer: D. Holes
+
+122. The stability factor of a transistor biasing circuit indicates the sensitivity of collector current to changes in:
+
+Category: Section C: Hard ECE — 15 Questions
+
+A. Load capacitance only
+
+B. Signal frequency only
+
+C. Collector resistance only
+
+D. Reverse saturation current and transistor parameters
+
+Answer: D. Reverse saturation current and transistor parameters
+
+123. The concept of “constitutional morality” in India is most closely associated with which constitutional value?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Federal supremacy
+
+B. Rule of law and constitutional principles
+
+C. Judicial activism only
+
+D. Parliamentary supremacy
+
+Answer: B. Rule of law and constitutional principles
+
+124. Which ancient Indian text is primarily associated with statecraft, economics, diplomacy, and political administration?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Charaka Samhita
+
+B. Arthashastra
+
+C. Natyashastra
+
+D. Manusmriti
+
+Answer: B. Arthashastra
+
+125. The “Great Oxidation Event” was primarily caused by the accumulation of which gas in Earth’s atmosphere?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Nitrogen
+
+B. Carbon dioxide
+
+C. Oxygen
+
+D. Methane
+
+Answer: C. Oxygen
+
+126. Which of the following correctly describes the Coriolis effect?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Change in ocean salinity due to evaporation
+
+B. Deflection of moving objects due to Earth’s rotation
+
+C. Movement of tectonic plates due to tides
+
+D. Heating of Earth due to solar radiation
+
+Answer: B. Deflection of moving objects due to Earth’s rotation
+
+127. The Treaty of Westphalia of 1648 is historically significant because it is associated with the development of the modern concept of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Universal suffrage
+
+B. Collective security
+
+C. Nation-state sovereignty
+
+D. International criminal law
+
+Answer: C. Nation-state sovereignty
+
+128. Which particle mediates the strong nuclear force?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Photon
+
+B. W boson
+
+C. Gluon
+
+D. Neutrino
+
+Answer: C. Gluon
+
+129. The Chandrasekhar limit is associated with the maximum stable mass of a:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Red giant
+
+B. Black hole
+
+C. White dwarf
+
+D. Neutron star
+
+Answer: C. White dwarf
+
+130. Which Indian classical dance form originated primarily in Kerala and traditionally involves elaborate facial expressions and makeup?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Bharatanatyam
+
+B. Manipuri
+
+C. Kathak
+
+D. Kathakali
+
+Answer: D. Kathakali
+
+131. The term “Blue Economy” primarily refers to the sustainable use of:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Mineral resources
+
+B. Ocean and marine resources
+
+C. Atmospheric resources
+
+D. Forest resources
+
+Answer: B. Ocean and marine resources
+
+132. Which of the following is an example of a Ramsar wetland site in India?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Bandhavgarh National Park
+
+B. Keoladeo National Park
+
+C. Kanha National Park
+
+D. Gir National Park
+
+Answer: B. Keoladeo National Park
+
+133. In economics, the “Giffen good” contradicts the usual law of demand because its demand:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Remains constant regardless of price
+
+B. Increases when its price increases under specific conditions
+
+C. Is unrelated to consumer preferences
+
+D. Falls when income increases
+
+Answer: B. Increases when its price increases under specific conditions
+
+134. Which mathematical constant is the base of natural logarithms?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. π
+
+B. φ
+
+C. γ
+
+D. e
+
+Answer: D. e
+
+135. The “Doppler effect” describes a change in the observed:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Amplitude due to reflection
+
+B. Speed due to temperature
+
+C. Frequency due to relative motion
+
+D. Wavelength due to refraction only
+
+Answer: C. Frequency due to relative motion
+
+136. Which civilization is credited with the development of the earliest known form of democracy in ancient Greece?
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Athens
+
+B. Sparta
+
+C. Thebes
+
+D. Corinth
+
+Answer: A. Athens
+
+137. The term “anthropocene” is generally used to describe a proposed geological epoch characterized by:
+
+Category: Section A: Hard General Knowledge — 15 Questions
+
+A. Significant human influence on Earth’s systems
+
+B. The formation of the first oceans
+
+C. The extinction of dinosaurs
+
+D. Dominance of volcanic activity
+
+Answer: A. Significant human influence on Earth’s systems
+
+138. What is the worst-case time complexity of Dijkstra’s algorithm using an adjacency matrix and a linear search for the minimum-distance vertex?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(E log V)
+
+B. O(V²)
+
+C. O(V)
+
+D. O(log V)
+
+Answer: B. O(V²)
+
+139. Which problem is a classic example of an NP-complete problem?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Boolean satisfiability problem
+
+B. Binary search
+
+C. Minimum spanning tree
+
+D. Single-source shortest path with non-negative weights
+
+Answer: A. Boolean satisfiability problem
+
+140. In a B+ tree, actual data records or record pointers are generally stored in:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Root node only
+
+B. Hash buckets
+
+C. Leaf nodes
+
+D. Internal nodes only
+
+Answer: C. Leaf nodes
+
+141. Which scheduling algorithm can result in starvation if priorities are not dynamically adjusted?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Shortest Remaining Time with aging
+
+B. Priority Scheduling
+
+C. First Come First Serve
+
+D. Round Robin
+
+Answer: B. Priority Scheduling
+
+142. In compiler design, which parsing technique can handle a larger class of grammars than LL(1) parsing?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Operator precedence only
+
+B. Finite automata parsing
+
+C. Recursive descent without backtracking
+
+D. LR parsing
+
+Answer: D. LR parsing
+
+143. What is the primary purpose of Static Single Assignment form in compiler optimization?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Eliminate all loops
+
+B. Remove the need for registers
+
+C. Convert machine code into assembly
+
+D. Ensure every variable is assigned exactly once
+
+Answer: D. Ensure every variable is assigned exactly once
+
+144. Which page replacement algorithm can exhibit Belady’s anomaly?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Most Recently Used
+
+B. LRU
+
+C. Optimal
+
+D. FIFO
+
+Answer: D. FIFO
+
+145. In a relational database, a decomposition is dependency-preserving if:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Functional dependencies can be enforced without joining relations
+
+B. No foreign keys are required
+
+C. All relations have the same number of attributes
+
+D. The decomposition always produces 2NF
+
+Answer: A. Functional dependencies can be enforced without joining relations
+
+146. Which of the following is not guaranteed by a two-phase locking protocol?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Absence of deadlock
+
+B. Growing and shrinking phases
+
+C. Lock-based concurrency control
+
+D. Conflict serializability
+
+Answer: A. Absence of deadlock
+
+147. In TCP congestion control, the congestion window generally grows exponentially during:
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Persistent retransmission timeout
+
+B. Congestion avoidance
+
+C. Slow start
+
+D. Fast recovery only
+
+Answer: C. Slow start
+
+148. Which data structure is most suitable for implementing a priority queue with efficient insertion and deletion of the highest-priority element?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Singly linked list without sorting
+
+B. Stack
+
+C. Circular queue
+
+D. Binary heap
+
+Answer: D. Binary heap
+
+149. What is the time complexity of building a binary heap from an unordered array using the bottom-up heap construction method?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. O(n log n)
+
+B. O(n²)
+
+C. O(log n)
+
+D. O(n)
+
+Answer: D. O(n)
+
+150. Which automaton recognizes exactly the class of regular languages?
+
+Category: Section B: Hard Computer Science — 20 Questions
+
+A. Linear bounded automaton
+
+B. Turing machine only
+
+C. Pushdown automaton
+
+D. Finite automaton
+
+Answer: D. Finite automaton
+
+Hard
+
+1. Consider a graph with nonnegative edge weights. You run Dijkstra's algorithm but mark a vertex permanently visited when it is first inserted into the priority queue rather than when its minimum-distance entry is extracted. What can fail?
+
+Category: Data Structures & Algorithms
+
+A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+B. Only memory usage can increase; distances remain correct
+
+C. The graph must become cyclic
+
+D. Nothing; insertion always proves optimality
+
+Answer: A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+2. For union-find with union by rank and path compression, the amortized time per operation is bounded by:
+
+Category: Data Structures & Algorithms
+
+A. O(α(n)), where α is the inverse Ackermann function
+
+B. O(log² n)
+
+C. O(√n)
+
+D. O(n)
+
+Answer: A. O(α(n)), where α is the inverse Ackermann function
+
+3. An algorithm performs n/2 operations at cost log n, n/4 at cost 2log n, n/8 at cost 3log n, and so on. What is the asymptotic total?
+
+Category: Data Structures & Algorithms
+
+A. Θ(log² n)
+
+B. Θ(n² log n)
+
+C. Θ(n log n)
+
+D. Θ(n)
+
+Answer: C. Θ(n log n)
+
+4. A system uses a 48-bit virtual address, 4 KiB pages, and a four-level page table with 9 index bits per level. How many offset bits and total index bits are used?
+
+Category: Operating Systems
+
+A. 12 offset bits and 36 index bits
+
+B. 12 offset bits and 27 index bits
+
+C. 16 offset bits and 32 index bits
+
+D. 9 offset bits and 39 index bits
+
+Answer: A. 12 offset bits and 36 index bits
+
+5. In the Banker's algorithm, a state is safe when:
+
+Category: Operating Systems
+
+A. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+B. No process has ever requested a resource
+
+C. Every process has zero remaining need
+
+D. All resources are permanently allocated
+
+Answer: A. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+6. A TCP sender receives three duplicate ACKs. Under classic TCP Reno behavior, this event typically triggers:
+
+Category: Networks
+
+A. A DNS query
+
+B. An ARP broadcast
+
+C. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+D. A complete connection teardown
+
+Answer: C. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+7. For a subnet 10.20.32.0/20, which address is in the same subnet?
+
+Category: Networks
+
+A. 10.20.63.1
+
+B. 10.20.47.200
+
+C. 10.20.16.9
+
+D. 10.20.48.1
+
+Answer: B. 10.20.47.200
+
+8. Under strict two-phase locking, exclusive locks are held until commit or abort. Which property does this primarily help guarantee?
+
+Category: DBMS & SQL
+
+A. Conflict serializability and recoverability without cascading aborts
+
+B. Elimination of all deadlocks
+
+C. Constant-time queries
+
+D. Read uncommitted behavior
+
+Answer: A. Conflict serializability and recoverability without cascading aborts
+
+9. A B+ tree stores search keys in leaves linked in sorted order. Why is this structure especially effective for range queries?
+
+Category: DBMS & SQL
+
+A. Every range query becomes O(1)
+
+B. Leaves are deliberately stored in random order
+
+C. Internal nodes store complete table rows
+
+D. A range can be located once and then scanned sequentially through linked leaves
+
+Answer: D. A range can be located once and then scanned sequentially through linked leaves
+
+10. In a TLS 1.3-style handshake using ephemeral Diffie-Hellman, compromise of the server's long-term authentication key after a completed session does not by itself reveal past session keys. This property is:
+
+Category: Cybersecurity
+
+A. Non-repudiation
+
+B. Forward secrecy
+
+C. Replay amplification
+
+D. Data compression
+
+Answer: B. Forward secrecy
+
+11. A digital signature verifies that a message was signed by the holder of a private key and was not altered. Which statement is NOT a normal property of a signature?
+
+Category: Cybersecurity
+
+A. It can support non-repudiation depending on the system
+
+B. It supports integrity
+
+C. It provides confidentiality of the signed plaintext by itself
+
+D. It supports origin authentication in the cryptographic sense
+
+Answer: C. It provides confidentiality of the signed plaintext by itself
+
+12. In SSA form, a φ-function is needed at a control-flow merge when:
+
+Category: Programming & Compilers
+
+A. A function has no return statement
+
+B. A variable may have different reaching definitions from predecessor blocks
+
+C. The program contains no branches
+
+D. A variable is always a compile-time constant
+
+Answer: B. A variable may have different reaching definitions from predecessor blocks
+
+13. A grammar is ambiguous if:
+
+Category: Programming & Compilers
+
+A. It contains at least two nonterminals
+
+B. It has an epsilon production
+
+C. It contains left recursion
+
+D. Some string in its language has more than one distinct parse tree
+
+Answer: D. Some string in its language has more than one distinct parse tree
+
+14. A five-stage pipeline has a branch resolved in the fourth stage. With no prediction and no delayed branching, a taken branch can cause multiple younger instructions to be squashed. The primary performance cost is:
+
+Category: Computer Architecture
+
+A. Control hazard penalty
+
+B. Structural hazard only
+
+C. TLB capacity
+
+D. Cache coherence
+
+Answer: A. Control hazard penalty
+
+15. Suppose a branch predictor has 90% accuracy, and a misprediction costs 12 cycles. If branches constitute 20% of instructions, the average penalty per instruction due only to mispredictions is:
+
+Category: Computer Architecture
+
+A. 2.4 cycles
+
+B. 0.024 cycles
+
+C. 0.24 cycles
+
+D. 1.2 cycles
+
+Answer: C. 0.24 cycles
+
+16. An ideal op-amp integrator has R=10 kΩ and C=0.1 μF. Its magnitude of gain at angular frequency ω is 1/(ωRC). At ω=1000 rad/s, the magnitude is:
+
+Category: Circuit Analysis
+
+A. 100
+
+B. 1
+
+C. 0.1
+
+D. 10
+
+Answer: B. 1
+
+17. A synchronous finite-state machine uses D flip-flops. If the next-state equation for one bit is D = A XOR Q, then on the active clock edge the new state is:
+
+Category: Digital Electronics
+
+A. Q_next = A XOR Q
+
+B. Q_next = NOT A
+
+C. Q_next = A OR Q
+
+D. Q_next = A AND Q
+
+Answer: A. Q_next = A XOR Q
+
+18. For a common-emitter BJT stage, increasing emitter degeneration resistance without bypassing it generally:
+
+Category: Analog Electronics
+
+A. Makes gain infinite
+
+B. Always reverses transistor polarity
+
+C. Reduces gain magnitude but improves bias stability and linearity
+
+D. Eliminates all collector current
+
+Answer: C. Reduces gain magnitude but improves bias stability and linearity
+
+19. A continuous-time LTI system has transfer function H(s)=1/(s²+2ζω_ns+ω_n²). For 0<ζ<1, the natural response is:
+
+Category: Signals & Systems
+
+A. A pure growing exponential
+
+B. An impulse train
+
+C. A constant for every initial condition
+
+D. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+Answer: D. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+20. An FM transmitter has peak frequency deviation 75 kHz and highest modulating frequency 15 kHz. Using Carson's rule, the approximate occupied bandwidth is:
+
+Category: Communication Systems
+
+A. 75 kHz
+
+B. 180 kHz
+
+C. 150 kHz
+
+D. 90 kHz
+
+Answer: B. 180 kHz
+
+21. An RTOS has a high-priority task blocked by a mutex held by a low-priority task, while a medium-priority task repeatedly preempts the low-priority task. This is:
+
+Category: Microprocessors & Embedded
+
+A. Priority inversion; priority inheritance can mitigate it
+
+B. A page fault; paging can mitigate it
+
+C. Aliasing; oversampling can mitigate it
+
+D. Dead code; compiler optimization can remove it
+
+Answer: A. Priority inversion; priority inheritance can mitigate it
+
+22. For a unity-feedback type-1 system, what is the steady-state error to a unit step under the usual finite-gain assumptions?
+
+Category: Control Systems & Instrumentation
+
+A. A finite nonzero constant
+
+B. Zero
+
+C. Undefined because type-1 systems cannot track steps
+
+D. Infinity
+
+Answer: B. Zero
+
+23. Consider a graph with nonnegative edge weights. You run Dijkstra's algorithm but mark a vertex permanently visited when it is first inserted into the priority queue rather than when its minimum-distance entry is extracted. What can fail?
+
+Category: Data Structures & Algorithms
+
+A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+B. The graph must become cyclic
+
+C. Only memory usage can increase; distances remain correct
+
+D. Nothing; insertion always proves optimality
+
+Answer: A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+24. For union-find with union by rank and path compression, the amortized time per operation is bounded by:
+
+Category: Data Structures & Algorithms
+
+A. O(α(n)), where α is the inverse Ackermann function
+
+B. O(n)
+
+C. O(log² n)
+
+D. O(√n)
+
+Answer: A. O(α(n)), where α is the inverse Ackermann function
+
+25. An algorithm performs n/2 operations at cost log n, n/4 at cost 2log n, n/8 at cost 3log n, and so on. What is the asymptotic total?
+
+Category: Data Structures & Algorithms
+
+A. Θ(n log n)
+
+B. Θ(n)
+
+C. Θ(log² n)
+
+D. Θ(n² log n)
+
+Answer: A. Θ(n log n)
+
+26. A system uses a 48-bit virtual address, 4 KiB pages, and a four-level page table with 9 index bits per level. How many offset bits and total index bits are used?
+
+Category: Operating Systems
+
+A. 12 offset bits and 27 index bits
+
+B. 9 offset bits and 39 index bits
+
+C. 12 offset bits and 36 index bits
+
+D. 16 offset bits and 32 index bits
+
+Answer: C. 12 offset bits and 36 index bits
+
+27. In the Banker's algorithm, a state is safe when:
+
+Category: Operating Systems
+
+A. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+B. No process has ever requested a resource
+
+C. All resources are permanently allocated
+
+D. Every process has zero remaining need
+
+Answer: A. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+28. A TCP sender receives three duplicate ACKs. Under classic TCP Reno behavior, this event typically triggers:
+
+Category: Networks
+
+A. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+B. An ARP broadcast
+
+C. A DNS query
+
+D. A complete connection teardown
+
+Answer: A. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+29. For a subnet 10.20.32.0/20, which address is in the same subnet?
+
+Category: Networks
+
+A. 10.20.16.9
+
+B. 10.20.63.1
+
+C. 10.20.48.1
+
+D. 10.20.47.200
+
+Answer: D. 10.20.47.200
+
+30. Under strict two-phase locking, exclusive locks are held until commit or abort. Which property does this primarily help guarantee?
+
+Category: DBMS & SQL
+
+A. Conflict serializability and recoverability without cascading aborts
+
+B. Elimination of all deadlocks
+
+C. Constant-time queries
+
+D. Read uncommitted behavior
+
+Answer: A. Conflict serializability and recoverability without cascading aborts
+
+31. A B+ tree stores search keys in leaves linked in sorted order. Why is this structure especially effective for range queries?
+
+Category: DBMS & SQL
+
+A. Every range query becomes O(1)
+
+B. A range can be located once and then scanned sequentially through linked leaves
+
+C. Leaves are deliberately stored in random order
+
+D. Internal nodes store complete table rows
+
+Answer: B. A range can be located once and then scanned sequentially through linked leaves
+
+32. In a TLS 1.3-style handshake using ephemeral Diffie-Hellman, compromise of the server's long-term authentication key after a completed session does not by itself reveal past session keys. This property is:
+
+Category: Cybersecurity
+
+A. Data compression
+
+B. Non-repudiation
+
+C. Forward secrecy
+
+D. Replay amplification
+
+Answer: C. Forward secrecy
+
+33. A digital signature verifies that a message was signed by the holder of a private key and was not altered. Which statement is NOT a normal property of a signature?
+
+Category: Cybersecurity
+
+A. It provides confidentiality of the signed plaintext by itself
+
+B. It supports origin authentication in the cryptographic sense
+
+C. It can support non-repudiation depending on the system
+
+D. It supports integrity
+
+Answer: A. It provides confidentiality of the signed plaintext by itself
+
+34. In SSA form, a φ-function is needed at a control-flow merge when:
+
+Category: Programming & Compilers
+
+A. A variable may have different reaching definitions from predecessor blocks
+
+B. A variable is always a compile-time constant
+
+C. A function has no return statement
+
+D. The program contains no branches
+
+Answer: A. A variable may have different reaching definitions from predecessor blocks
+
+35. A grammar is ambiguous if:
+
+Category: Programming & Compilers
+
+A. It contains left recursion
+
+B. It contains at least two nonterminals
+
+C. Some string in its language has more than one distinct parse tree
+
+D. It has an epsilon production
+
+Answer: C. Some string in its language has more than one distinct parse tree
+
+36. A five-stage pipeline has a branch resolved in the fourth stage. With no prediction and no delayed branching, a taken branch can cause multiple younger instructions to be squashed. The primary performance cost is:
+
+Category: Computer Architecture
+
+A. Cache coherence
+
+B. TLB capacity
+
+C. Structural hazard only
+
+D. Control hazard penalty
+
+Answer: D. Control hazard penalty
+
+37. Suppose a branch predictor has 90% accuracy, and a misprediction costs 12 cycles. If branches constitute 20% of instructions, the average penalty per instruction due only to mispredictions is:
+
+Category: Computer Architecture
+
+A. 1.2 cycles
+
+B. 2.4 cycles
+
+C. 0.024 cycles
+
+D. 0.24 cycles
+
+Answer: D. 0.24 cycles
+
+38. An ideal op-amp integrator has R=10 kΩ and C=0.1 μF. Its magnitude of gain at angular frequency ω is 1/(ωRC). At ω=1000 rad/s, the magnitude is:
+
+Category: Circuit Analysis
+
+A. 10
+
+B. 1
+
+C. 100
+
+D. 0.1
+
+Answer: B. 1
+
+39. A synchronous finite-state machine uses D flip-flops. If the next-state equation for one bit is D = A XOR Q, then on the active clock edge the new state is:
+
+Category: Digital Electronics
+
+A. Q_next = NOT A
+
+B. Q_next = A OR Q
+
+C. Q_next = A AND Q
+
+D. Q_next = A XOR Q
+
+Answer: D. Q_next = A XOR Q
+
+40. For a common-emitter BJT stage, increasing emitter degeneration resistance without bypassing it generally:
+
+Category: Analog Electronics
+
+A. Makes gain infinite
+
+B. Eliminates all collector current
+
+C. Always reverses transistor polarity
+
+D. Reduces gain magnitude but improves bias stability and linearity
+
+Answer: D. Reduces gain magnitude but improves bias stability and linearity
+
+41. A continuous-time LTI system has transfer function H(s)=1/(s²+2ζω_ns+ω_n²). For 0<ζ<1, the natural response is:
+
+Category: Signals & Systems
+
+A. A constant for every initial condition
+
+B. An impulse train
+
+C. A pure growing exponential
+
+D. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+Answer: D. An exponentially decaying sinusoid when the poles are in the left half-plane
+
+42. An FM transmitter has peak frequency deviation 75 kHz and highest modulating frequency 15 kHz. Using Carson's rule, the approximate occupied bandwidth is:
+
+Category: Communication Systems
+
+A. 180 kHz
+
+B. 75 kHz
+
+C. 90 kHz
+
+D. 150 kHz
+
+Answer: A. 180 kHz
+
+43. An RTOS has a high-priority task blocked by a mutex held by a low-priority task, while a medium-priority task repeatedly preempts the low-priority task. This is:
+
+Category: Microprocessors & Embedded
+
+A. Dead code; compiler optimization can remove it
+
+B. Priority inversion; priority inheritance can mitigate it
+
+C. Aliasing; oversampling can mitigate it
+
+D. A page fault; paging can mitigate it
+
+Answer: B. Priority inversion; priority inheritance can mitigate it
+
+44. For a unity-feedback type-1 system, what is the steady-state error to a unit step under the usual finite-gain assumptions?
+
+Category: Control Systems & Instrumentation
+
+A. Undefined because type-1 systems cannot track steps
+
+B. Zero
+
+C. A finite nonzero constant
+
+D. Infinity
+
+Answer: B. Zero
+
+45. Consider a graph with nonnegative edge weights. You run Dijkstra's algorithm but mark a vertex permanently visited when it is first inserted into the priority queue rather than when its minimum-distance entry is extracted. What can fail?
+
+Category: Data Structures & Algorithms
+
+A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+B. The graph must become cyclic
+
+C. Only memory usage can increase; distances remain correct
+
+D. Nothing; insertion always proves optimality
+
+Answer: A. A later shorter path may be discovered, so the prematurely finalized distance can be wrong
+
+46. For union-find with union by rank and path compression, the amortized time per operation is bounded by:
+
+Category: Data Structures & Algorithms
+
+A. O(√n)
+
+B. O(n)
+
+C. O(α(n)), where α is the inverse Ackermann function
+
+D. O(log² n)
+
+Answer: C. O(α(n)), where α is the inverse Ackermann function
+
+47. An algorithm performs n/2 operations at cost log n, n/4 at cost 2log n, n/8 at cost 3log n, and so on. What is the asymptotic total?
+
+Category: Data Structures & Algorithms
+
+A. Θ(n)
+
+B. Θ(log² n)
+
+C. Θ(n² log n)
+
+D. Θ(n log n)
+
+Answer: D. Θ(n log n)
+
+48. A system uses a 48-bit virtual address, 4 KiB pages, and a four-level page table with 9 index bits per level. How many offset bits and total index bits are used?
+
+Category: Operating Systems
+
+A. 12 offset bits and 36 index bits
+
+B. 12 offset bits and 27 index bits
+
+C. 16 offset bits and 32 index bits
+
+D. 9 offset bits and 39 index bits
+
+Answer: A. 12 offset bits and 36 index bits
+
+49. In the Banker's algorithm, a state is safe when:
+
+Category: Operating Systems
+
+A. Every process has zero remaining need
+
+B. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+C. No process has ever requested a resource
+
+D. All resources are permanently allocated
+
+Answer: B. There exists an ordering in which every process can obtain its remaining maximum needs and finish using currently available resources plus released resources
+
+50. A TCP sender receives three duplicate ACKs. Under classic TCP Reno behavior, this event typically triggers:
+
+Category: Networks
+
+A. A DNS query
+
+B. An ARP broadcast
+
+C. A complete connection teardown
+
+D. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
+
+Answer: D. Fast retransmit, followed by a congestion-window reduction associated with fast recovery
