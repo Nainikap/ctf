@@ -574,6 +574,7 @@ export default function CoordinatorPortal({ onClose }) {
       {inspectQuestions && (
         <div className="fixed inset-0 z-60 flex items-center justify-center p-4 bg-gray-900 bg-opacity-70">
           <div className="bg-white border-2 border-gray-300 rounded-lg max-w-2xl w-full max-h-[85vh] flex flex-col overflow-hidden shadow-2xl">
+            {/* Header */}
             <div className="p-4 bg-gray-100 border-b border-gray-300 flex items-center justify-between">
               <h4 className="text-sm font-bold text-gray-900">
                 Questions for {inspectQuestions.candidate} ({inspectQuestions.code})
@@ -585,21 +586,118 @@ export default function CoordinatorPortal({ onClose }) {
                 <X className="w-5 h-5" />
               </button>
             </div>
+
+            {/* Score banner — only shown after submission */}
+            {inspectQuestions.score && (
+              <div className={`px-4 py-2 text-xs font-semibold flex items-center gap-3 border-b ${
+                inspectQuestions.score.percentage >= 60
+                  ? 'bg-green-50 border-green-200 text-green-800'
+                  : 'bg-red-50 border-red-200 text-red-800'
+              }`}>
+                <span>Score: {inspectQuestions.score.correct} / {inspectQuestions.score.total}</span>
+                <span className="text-lg font-bold">{inspectQuestions.score.percentage}%</span>
+                <span className={`ml-auto px-2 py-0.5 rounded font-bold ${
+                  inspectQuestions.score.percentage >= 60
+                    ? 'bg-green-200 text-green-900'
+                    : 'bg-red-200 text-red-900'
+                }`}>
+                  {inspectQuestions.score.percentage >= 60 ? 'PASS' : 'FAIL'}
+                </span>
+              </div>
+            )}
+
+            {/* Question list */}
             <div className="p-4 overflow-y-auto space-y-3">
-              {inspectQuestions.assignedQuestions?.map((q, idx) => (
-                <div key={idx} className="p-3 rounded bg-gray-50 border border-gray-200 text-xs">
-                  <div className="flex items-center justify-between mb-1">
-                    <span className="font-bold text-gray-900">Q{idx + 1} ({q.difficulty.toUpperCase()})</span>
-                    <span className="text-red-700 font-bold">Ans: {q.answer}</span>
+              {inspectQuestions.assignedQuestions?.map((q, idx) => {
+                const submittedAnswers = inspectQuestions.submittedAnswers || {};
+                const userAnswer = submittedAnswers[q.id];
+                const hasAnswer = !!userAnswer;
+                const userLetter = hasAnswer ? userAnswer.trim().charAt(0).toUpperCase() : null;
+                const correctLetter = (q.answer || '').trim().charAt(0).toUpperCase();
+                const isCorrect = hasAnswer && userLetter === correctLetter;
+
+                return (
+                  <div
+                    key={idx}
+                    className={`p-3 rounded border text-xs ${
+                      !hasAnswer
+                        ? 'bg-gray-50 border-gray-200'
+                        : isCorrect
+                        ? 'bg-green-50 border-green-300'
+                        : 'bg-red-50 border-red-300'
+                    }`}
+                  >
+                    {/* Question header */}
+                    <div className="flex items-center justify-between mb-1 gap-2 flex-wrap">
+                      <span className="font-bold text-gray-900">Q{idx + 1} ({q.difficulty.toUpperCase()})</span>
+                      <div className="flex items-center gap-2 ml-auto">
+                        {hasAnswer ? (
+                          <span className={`px-1.5 py-0.5 rounded font-bold ${
+                            isCorrect ? 'bg-green-200 text-green-900' : 'bg-red-200 text-red-900'
+                          }`}>
+                            {isCorrect ? '✓ Correct' : '✗ Wrong'}
+                          </span>
+                        ) : (
+                          inspectQuestions.status === 'COMPLETED' && (
+                            <span className="px-1.5 py-0.5 rounded bg-gray-200 text-gray-600 font-bold">
+                              — Skipped
+                            </span>
+                          )
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Question text */}
+                    <p className="text-gray-800 font-medium mb-1.5">{q.question}</p>
+
+                    {/* Options with highlights */}
+                    <ul className="space-y-0.5">
+                      {q.options.map((opt, i) => {
+                        const optLetter = opt.trim().charAt(0).toUpperCase();
+                        const isCorrectOpt = optLetter === correctLetter;
+                        const isUserOpt = hasAnswer && optLetter === userLetter;
+                        return (
+                          <li
+                            key={i}
+                            className={`px-1.5 py-0.5 rounded ${
+                              isCorrectOpt && isUserOpt
+                                ? 'bg-green-200 text-green-900 font-bold'
+                                : isCorrectOpt
+                                ? 'bg-green-100 text-green-800 font-semibold'
+                                : isUserOpt
+                                ? 'bg-red-200 text-red-900 font-bold line-through'
+                                : 'text-gray-600'
+                            }`}
+                          >
+                            {opt}
+                            {isCorrectOpt && !isUserOpt && (
+                              <span className="ml-1 text-green-700">← correct</span>
+                            )}
+                            {isUserOpt && !isCorrectOpt && (
+                              <span className="ml-1 text-red-700">← selected</span>
+                            )}
+                            {isCorrectOpt && isUserOpt && (
+                              <span className="ml-1 text-green-700">← selected ✓</span>
+                            )}
+                          </li>
+                        );
+                      })}
+                    </ul>
+
+                    {/* Correct answer label always shown */}
+                    <div className="mt-1.5 text-gray-500">
+                      Correct answer: <span className="font-bold text-green-700">{q.answer}</span>
+                    </div>
                   </div>
-                  <p className="text-gray-800 font-medium mb-1.5">{q.question}</p>
-                  <ul className="space-y-0.5 text-gray-600">
-                    {q.options.map((opt, i) => (
-                      <li key={i}>{opt}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
+                );
+              })}
+
+              {/* No submission notice */}
+              {!inspectQuestions.submittedAnswers && (
+                <p className="text-xs text-gray-500 italic text-center py-2">
+                  No answers submitted yet — test is still in progress or not started.
+                </p>
+              )}
             </div>
           </div>
         </div>
