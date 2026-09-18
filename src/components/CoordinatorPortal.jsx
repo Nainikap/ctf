@@ -308,25 +308,7 @@ export default function CoordinatorPortal({ onClose }) {
           </div>
         )}
 
-        {/* Cross-Device Connection Info Banner */}
-        <div className="px-6 py-2.5 bg-blue-50 border-b border-blue-200 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-blue-950">
-          <div className="flex items-center gap-2">
-            <Globe className="w-4 h-4 text-blue-600 shrink-0" />
-            <span>
-              <strong>Cross-Device Portal URL:</strong> Access on candidates' phones or other devices via:{' '}
-              <code className="bg-white px-2 py-0.5 rounded border border-blue-300 font-mono font-bold text-blue-900">
-                {candidateUrl}
-              </code>
-            </span>
-          </div>
-          <button
-            onClick={() => handleCopyUrl(candidateUrl)}
-            className="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-white hover:bg-blue-100 border border-blue-300 font-bold text-[11px] text-blue-800 shadow-sm"
-          >
-            {copiedUrl ? <Check className="w-3.5 h-3.5 text-green-600" /> : <Copy className="w-3.5 h-3.5 text-blue-600" />}
-            <span>{copiedUrl ? 'Copied URL!' : 'Copy Portal URL'}</span>
-          </button>
-        </div>
+      
 
         {/* Stats Strip */}
         <div className="grid grid-cols-2 sm:grid-cols-5 gap-2 p-4 bg-gray-50 border-b border-gray-200 text-xs">
